@@ -2,7 +2,7 @@
 layout: default
 title: Equations
 permalink: /equations/
-description: Equations
+description: Quadratic Equations And Linear Equations
 ---
 
 # Roots of Equations
