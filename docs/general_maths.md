@@ -2,7 +2,7 @@
 layout: default
 title: General Maths
 permalink: /general_maths/
-description: General Maths
+description: Various Basic Maths Tools
 ---
 
 In This Section there are total 5 tools which can be used to solve basic math problems and they are :
