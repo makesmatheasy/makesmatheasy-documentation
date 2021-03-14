@@ -2,7 +2,7 @@
 layout: default
 title: Graphs and Shapes
 permalink: /graphs_shapes/
-description: Graphs And Shapes
+description: Plotting Graphs And 2D/3D Shapes 
 ---
 
 # Graph Plotting
