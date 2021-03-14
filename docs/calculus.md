@@ -2,7 +2,7 @@
 layout: default
 title: Calculus
 permalink: /calculus/
-description: Integration, Defferensiation
+description: Integration, Differentiation, Partial Derivative, Laplace Transform, Inverse Laplace Transform
 ---
 
 
