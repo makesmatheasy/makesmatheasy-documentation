@@ -2,7 +2,7 @@
 layout: default
 title: Linear Algebra
 permalink: /linear_algebra/
-description: Matrix and Equations
+description: Matrices
 ---
 
 
