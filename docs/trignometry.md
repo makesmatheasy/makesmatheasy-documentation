@@ -2,7 +2,7 @@
 layout: default
 title: Trignometry
 permalink: /trignometry/
-description: Trignometry
+description: Trignometry Formulas And Identities
 ---
 
 # Trignometry
