@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css"
+      integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw"
+      crossorigin="anonymous"
+    />
+
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js"
+      integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
+      integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {
+              left: "\\begin{equation}",
+              right: "\\end{equation}",
+              display: true,
+            },
+            { left: "$$", right: "$$", display: true },
+
+            { left: "$", right: "$", display: false },
+            { left: "\\(", right: "\\)", display: false },
+          ],
+        });
+      });
+    </script>
+    <title>MakesMathEasy</title>
+  </head>
+  <body>
+    {% include sidebar.html %}
+
+    <!-- Page content holder -->
+    <div class="page-content p-5 text-white" id="content">
+      <!-- Toggle button -->
+      <button
+        id="sidebarCollapse"
+        type="button"
+        class="btn btn-light bg-white rounded-pill shadow-sm px-3 mb-4"
+      >
+        <i class="fa fa-bars fa-lg"></i>
+      </button>
+      <h2 class="display-4">{{page.title}}</h2>
+      <p class="lead mb-0">{{page.description}}</p>
+
+      <div class="theme-switcher outer-shadow">
+        <div class="style-toggler s-icon outer-shadow hover-in-shadow">
+          <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+        </div>
+
+        <iframe
+          src="https://sairish2001.github.io/makesmatheasy.github.io/"
+          width="100%"
+          height="350"
+          title="MakesMathEasy"
+        ></iframe>
+      </div>
+      <div class="separator"></div>
+      {{content}}
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../public/js/script.js"></script>
+  </body>
+</html>
