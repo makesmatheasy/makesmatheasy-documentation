@@ -271,4 +271,65 @@ nav ul.nav .nav-link:hover {
 	border-radius: 99px;
 }
 
+/* Form */
+form.nav_search {
+	height: 46px;
+	width: 720px;
+	background: hsl(210, 31%, 80%);
+	border: 1px hsl(210, 31%, 80%);
+	border-radius: 6px;
+	justify-content: space-between;
+	outline: none;
+	margin-left: 2.5rem;
+}
+form.nav_search button {
+	border: none;
+	border-radius: 6px;
+	padding: 0 5px;
+	height: 46px;
+	background: hsl(210, 31%, 80%);
+	outline: none;
+
+}
+form.nav_search svg {
+	box-sizing: content-box;
+	margin: 3px;
+	padding: 8px;
+	outline: none;
+	fill: hsl(211, 39%, 23%);
+	cursor: pointer;
+}
+form.nav_search svg:hover {
+	background: hsl(211, 27%, 70%);
+	border-radius: 50%;
+}
+form.nav_search button:nth-of-type(2) {
+	margin-right: 0;
+	padding-right: 0;
+	outline: none;
+
+}
+form.nav_search button:nth-of-type(2) {
+	margin-left: 0;
+	padding-left: 0;
+	outline: none;
+
+}
+
+form.nav_search input {
+	width: 100%;
+	height: 100%;
+	border: none;
+	padding: none;
+	background: hsl(210, 31%, 80%);
+	outline: none;
+}
+form.nav_search input::placeholder {
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	outline: none;
+}
+
+
 /*----- Nav Bar Ends -----*/
