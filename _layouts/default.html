@@ -54,18 +54,13 @@
     <title>MakesMathEasy</title>
   </head>
   <body>
+    {% include navbar.html %}
+
     {% include sidebar.html %}
 
     <!-- Page content holder -->
     <div class="page-content p-5 text-white" id="content">
       <!-- Toggle button -->
-      <button
-        id="sidebarCollapse"
-        type="button"
-        class="btn btn-light bg-white rounded-pill shadow-sm px-3 mb-4"
-      >
-        <i class="fa fa-bars fa-lg"></i>
-      </button>
       <h2 class="display-4">{{page.title}}</h2>
       <p class="lead mb-0">{{page.description}}</p>
 
