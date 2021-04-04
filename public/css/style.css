@@ -1,169 +1,274 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body {
-  background: #232a36;
-  min-height: 100vh;
-  overflow-x: hidden;
-  font-family: "Ubuntu", sans-serif;
+	background: #232a36;
+	min-height: 100vh;
+	overflow-x: hidden;
+	font-family: 'Ubuntu', sans-serif;
 }
 .vertical-nav {
-  min-width: 17rem;
-  width: 17rem;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-  transition: all 0.4s;
-  overflow-y: scroll;
+	position: fixed;
+	min-width: 18.5rem;
+	width: 18.5rem;
+	height: 100%;
+	top: 64px;
+	left: 0;
+	background-color: hsl(212, 33%, 89%);
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.4s;
+	overflow-y: scroll;
 }
 
 /* hiding scrollbar but keeing functionality */
 .vertical-nav::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
 .vertical-nav {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 /*end hiding scrollbar but keeing functionality */
 
 .page-content {
-  width: calc(100% - 17rem);
-  margin-left: 17rem;
-  transition: all 0.4s;
+	width: calc(100% - 18.5rem);
+	margin-left: 18.5rem;
+	margin-top: 64px;
+	transition: all 0.4s;
 }
 
 #sidebar.active {
-  margin-left: -17rem;
+	margin-left: -18.5rem;
 }
 
 #content.active {
-  width: 100%;
-  margin: 0;
+	width: 100%;
+	margin: 0;
+	margin-top: 64px;
 }
 
 .separator {
-  margin: 3rem 0;
-  border-bottom: 1px dashed #fff;
+	margin: 3rem 0;
+	border-bottom: 1px dashed #fff;
 }
 
 .text-uppercase {
-  letter-spacing: 0.1em;
+	letter-spacing: 0.1em;
 }
 .text-gray {
-  color: #232a36;
+	color: #232a36;
 }
 .nav-link {
-  text-transform: capitalize;
-  color: #232a36;
+	text-transform: capitalize;
+	color: #232a36;
 }
 .nav-link:hover {
-  background: #232a36;
-  color: white;
-  border-radius: 99px 0 0 99px;
+	background: #232a36;
+	color: white;
+	border-radius: 99px 0 0 99px;
 }
 .text-primary {
-  color: #7579e7 !important;
+	color: #7579e7 !important;
 }
 @media (max-width: 768px) {
-  #sidebar {
-    margin-left: -17rem;
-  }
-  #sidebar.active {
-    margin-left: 0;
-  }
-  #content {
-    width: 100%;
-    margin: 0;
-  }
-  #content.active {
-    margin-left: 17rem;
-    width: calc(100% - 17rem);
-  }
+	#sidebar {
+		margin-left: -17rem;
+	}
+	#sidebar.active {
+		margin-left: 0;
+	}
+	#content {
+		width: 100%;
+		margin: 0;
+	}
+	#content.active {
+		margin-left: 17rem;
+		width: calc(100% - 17rem);
+	}
 }
 
 #sidebarCollapse {
-  position: fixed;
-  top: 0;
-  right: 0;
+	position: fixed;
+	top: 0;
+	right: 0;
 }
 
 /* theme styler */
 
 .theme-switcher {
-  position: fixed;
-  right: 0;
-  padding: 10px;
-  top: 130px;
-  padding-top: 10px;
-  width: 80%;
-  z-index: 999;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-  transform: translateX(100%);
+	position: fixed;
+	right: 0;
+	padding: 10px;
+	top: 130px;
+	padding-top: 10px;
+	width: 80%;
+	z-index: 999;
+	border-radius: 5px;
+	transition: all 0.3s ease;
+	transform: translateX(100%);
 }
 
 .theme-switcher.open {
-  transform: translateX(-15px);
+	transform: translateX(-15px);
 }
 
 .theme-switcher .s-icon {
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  font-size: 15px;
-  text-align: center;
-  background-color: #232a36;
-  color: white;
-  cursor: pointer;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-  margin-right: 15px;
-  right: 100%;
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	font-size: 15px;
+	text-align: center;
+	background-color: #232a36;
+	color: white;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+	margin-right: 15px;
+	right: 100%;
 }
 .theme-switcher .s-icon::after {
-  border-radius: 50%;
+	border-radius: 50%;
 }
 .theme-switcher .s-icon i {
-  font-size: 20px;
-  line-height: 40px;
+	font-size: 20px;
+	line-height: 40px;
 }
 
 .theme-switcher .style-toggler {
-  top: 0;
+	top: 0;
 }
 
 /* theme styler end */
 
 /* carousel */
 .tools_screenshot {
-  border: 2px white solid;
-  transition: all ease-in-out 0.3s;
+	border: 2px white solid;
+	transition: all ease-in-out 0.3s;
 }
 
 .tools_screenshot:hover {
-  transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .sidebar__logo {
-  display: flex;
-  align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 .sidebar__logo > a > img {
-  width: 40px;
-  height: 40px;
+	width: 40px;
+	height: 40px;
 }
 
 .sidebar__footer {
-  align-items: center !important;
+	align-items: center !important;
 }
 
 .sidebar__footer > a > i {
-  font-size: 40px;
-  text-decoration: none;
-  color: black !important;
+	font-size: 40px;
+	text-decoration: none;
+	color: black !important;
 }
 .sidebar__footer > p {
-  font-size: 10px;
+	font-size: 10px;
 }
+
+/*------- Nav Bar -------*/
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 8px;
+	height: 64px;
+	width: 100vw;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* Burger Menu */
+
+.burger-menu {
+	height: 48px;
+	width: 48px;
+	margin: 0 4px;
+}
+.burger-menu:hover {
+	background: hsl(212, 33%, 89%);
+	border-radius: 50%;
+}
+
+.menu-btn {
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+.menu-btn .burger {
+	width: 18px;
+	height: 3px;
+	background: hsl(209, 34%, 30%);
+	border-radius: 1px;
+	transition: all 0.5s ease-in-out;
+}
+.menu-btn .burger::before,
+.menu-btn .burger::after {
+	content: '';
+	position: absolute;
+	width: 18px;
+	height: 3px;
+	background: hsl(209, 34%, 30%);
+	border-radius: 1px;
+	transition: all 0.5s ease-in-out;
+}
+.menu-btn .burger::before {
+	transform: translateY(-5px);
+}
+.menu-btn .burger::after {
+	transform: translateY(5px);
+}
+
+/* animation */
+
+.menu-btn.show .burger {
+	transform: translateX(-50px);
+	background: transparent;
+	box-shadow: none;
+}
+.menu-btn.show .burger::before {
+	transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.show .burger::after {
+	transform: rotate(-45deg) translate(35px, 35px);
+}
+
+/*  Burger Menu Ends  */
+
+/* Logo */
+
+.sidebar__logo {
+	margin-left: 30px;
+}
+
+/* Logo End */
+
+nav ul.nav {
+	position: absolute;
+	right: 64px;
+	top: 12px;
+}
+
+nav ul.nav .nav-link:hover {
+	background: #232a36;
+	color: white;
+	border-radius: 99px;
+}
+
+/*----- Nav Bar Ends -----*/
