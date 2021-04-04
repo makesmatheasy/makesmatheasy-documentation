@@ -38,3 +38,27 @@ menuBtn.addEventListener('click', function () {
 	}
 });
 // SideBar Toggle Ends
+
+// Search Focus
+var navSearch = document.querySelector('.nav_search');
+var navSearchInput = document.querySelector('.nav_search input');
+var navSearchBtns = document.querySelectorAll('.nav_search button');
+navSearchInput.addEventListener("focus", function () {
+    navSearch.style.background = "hsl(210, 36%, 96%)";
+    navSearch.style.transition = ".25s";
+    navSearchInput.style.background = "hsl(210, 36%, 96%)";
+    navSearchBtns.forEach(function (btn) {
+        var button = btn;
+        button.style.background = "hsl(210, 36%, 96%)";
+    });
+    navSearch.style.boxShadow = " 0 5px 15px rgba(0, 0, 0, 0.2)";
+}, true);
+navSearchInput.addEventListener("blur", function () {
+    navSearch.style.background = "hsl(210, 31%, 80%)";
+    navSearchInput.style.background = "hsl(210, 31%, 80%)";
+    navSearchBtns.forEach(function (btn) {
+        var button = btn;
+        button.style.background = "hsl(210, 31%, 80%)";
+    });
+    navSearch.style.boxShadow = "";
+}, true);
