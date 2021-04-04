@@ -3,3 +3,6 @@ Documentation for Makes Math Easy
 
 Main Project:
 [Makes Math Easy](https://github.com/sairish2001/makesmatheasy.github.io/)
+
+## Want To Contribute
+- Read [CONTRIBUTING.md](/CONTRIBUTING.md)
