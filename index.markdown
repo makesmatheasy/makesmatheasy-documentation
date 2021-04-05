@@ -1,6 +1,7 @@
 ---
 layout: default
 title: MakesMathEasy
+permalink: /home/
 description: Documentation
 ---
 
