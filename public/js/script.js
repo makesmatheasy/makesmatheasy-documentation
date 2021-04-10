@@ -62,3 +62,7 @@ navSearchInput.addEventListener("blur", function () {
     });
     navSearch.style.boxShadow = "";
 }, true);
+
+
+// Searchbar Functionality 
+
