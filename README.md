@@ -8,7 +8,7 @@ Main Project:
 [Makes Math Easy](https://github.com/sairish2001/makesmatheasy.github.io/)
 
 ## Table Of Contents
-- [Introduction]
+- [Introduction](#Introduction)
 - [Programming-languages-and technologies used](#Programming-languages-and-technologies-used)
 - [How to get started with Open Source ?](#Resources)
 - [Contributing guidelines](#Contributing-guidelines)  
@@ -25,11 +25,11 @@ Main Project:
 
 ## How to get started with Open Source?
 
--[Here is a video with a complete guide to Open Source](https://www.youtube.com/watch?v=yzeVMecydCE)
--[Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
--[Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
--[How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
--[Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+- [Here is a video with a complete guide to Open Source](https://www.youtube.com/watch?v=yzeVMecydCE)
+- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
 ### Contributing guidelines 
   * Feel free to open an issue to report a bug or request a new feature.
