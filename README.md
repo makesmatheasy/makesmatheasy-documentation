@@ -2,7 +2,7 @@
 Documentation for Makes Math Easy
 
 ## Introduction
-Makesmatheasy is a website that aims to provide stepwise solutions with clear explanations to various math problems. Unlike other websites that have solution files to only one particular book or a specific set of books, this website contains solutions to math problems from a wide range of books and contains solutions to a vast number of problems all under one roof. The best aspect of this website is that it does not have any server side interaction. It only has client side processing thereby providing solutions in very quickly.   
+Makesmatheasy is a website that aims to provide stepwise solutions with clear explanations to various math problems. It contains solutions to a vast number of problems all under one roof. The best aspect of this website is that it does not have any server side interaction. It only has client side processing thereby providing solutions in very quickly.   
 
 Main Project:
 [Makes Math Easy](https://github.com/sairish2001/makesmatheasy.github.io/)
