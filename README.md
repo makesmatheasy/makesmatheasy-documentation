@@ -42,7 +42,13 @@ Main Project:
 - Read [CONTRIBUTING.md](/CONTRIBUTING.md)
 
 ## Makesmatheasy-Documentation is a part of these Open Source Programs:
-[![GSSOC](https://gssoc.girlscript.tech/images/favicon/favicon.png)](https://gssoc.girlscript.tech/)
+<p align="center">
+ <a>
+ <img  width="70%" height="30%" src="https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png">
+
+</p>
+
+</br>
 
 ## 📜 LICENSE
 
