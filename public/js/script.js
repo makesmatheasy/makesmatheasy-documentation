@@ -62,3 +62,14 @@ navSearchInput.addEventListener("blur", function () {
     });
     navSearch.style.boxShadow = "";
 }, true);
+$( ".change" ).on("click", function() {
+	if( $( "body" ).hasClass( "dark" )) {
+		$( "body" ).removeClass( "dark" );
+		$("#sidebar").removeClass("dark-side");
+		$( ".change" ).text( "OFF" );
+	} else {
+		$( "body" ).addClass( "dark" );
+		$("#sidebar").addClass("dark-side");
+		$( ".change" ).text( "ON" );
+	}
+});
