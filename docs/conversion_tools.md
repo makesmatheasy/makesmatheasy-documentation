@@ -5,7 +5,7 @@ permalink: /conversion_tool/
 description: Various Conversion Tools
 ---
 
-In this Section there are total 5 tools, and they are the following : 
+In this Section there are total 7 tools, and they are the following : 
 - Currency Converter  
 <div class="container my-3 row">
 <div class="col-md-6" >
@@ -22,6 +22,12 @@ In this Section there are total 5 tools, and they are the following :
   - Area
   - Volume
   - Speed
+  - Mass
+  - Pressure
+  - Energy
+  - Angle
+  - Data
+  - Power
 <div class="container my-3 row">
 <div class="col-md-6" >
 <img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/unit_conversion.png" >
@@ -51,4 +57,15 @@ In this Section there are total 5 tools, and they are the following :
 <img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/ascending_descending.png" >
 </div>
 </div>
-
+- Date : This conversion gives us the difference between two given days.
+<div class="container my-3 row">
+<div class="col-md-6" >
+<img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/date.png" >
+</div>
+</div>
+- SPI/CGPA convertor : This convertor provides a facility to convert our CGPA to percentage and vice-versa.
+<div class="container my-3 row">
+<div class="col-md-6" >
+<img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/cgpa_convertor.png" >
+</div>
+</div>
