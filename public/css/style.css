@@ -384,3 +384,13 @@ form.nav_search input::placeholder {
 		font-size: 0.4rem;
 	}
 }
+#trigo-edit{
+	width: 100%;
+	max-width: 700px;
+	margin: 0.5rem;
+}
+.trigo{
+	height:auto;
+    width:100%;
+	max-width:540px;
+}

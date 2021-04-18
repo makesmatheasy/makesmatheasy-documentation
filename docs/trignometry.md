@@ -101,8 +101,7 @@ The  trigоnоmetriс  rаtiоs  оf  а  triаngle  аre  аlsо  саlled  the
 <div class="col" >
 <iframe
         src="https://www.mathsisfun.com/algebra/icircle-triangle.html"
-        height="540px"
-        width="440px"
+        class="trigo"
         title="Interactive circle-triangle"
 ></iframe>
 </div>
@@ -147,4 +146,4 @@ $$ a^2 = b^2 + c^2 - 2bc cosA $$
 </p>
 
 - this tool can be used to find any side of triangle provided with atleast any two sides, follow the below example 
-![trigo](../public/gifs/Trigo.gif)
+![trigo](../public/gifs/Trigo.gif){:#trigo-edit}
