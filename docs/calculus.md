@@ -58,7 +58,7 @@ $$ \int (5x^3-8x) dx $$
 - To work with this tool you'll have to only enter the function for example : $$\int 5x^2-8x+5 dx $$ for this problem you have to enter 5x to the power 3 using this __^__ symbol and then simply write the following part -8x + 5
 - You can also use this tool to find definte integral where you can enter start value and end value to get the desired result along with the steps. 
 
-![Integration](../public/gifs/Integration.gif)
+![Integration](../public/gifs/Integration.gif){:#calc-edit}
 
 
 
@@ -66,7 +66,7 @@ $$ \int (5x^3-8x) dx $$
 - Differentiаtiоn  аllоws  us  tо  find  rаtes  оf  сhаnge.  Fоr  eg,  it  аllоws  us  tо  find  the  rаte  оf  сhаnge  оf  velосity  with  resрeсt  tо  time  (whiсh  is  ассelerаtiоn).
 - If y = some function of x (in simple words if y is equal to an expression containing numbers and x's), then the derivative of y w.r.t x  is written as $$\dfrac{dy}{dx}$$
 - Some basic formulas
-<p>
+<p class="small-1">
 $$Power\enspace Rule: \dfrac{d}{dx} (xn ) = nxn-1$$
 $$Derivative\enspace of\enspace a\enspace constant, a:  \dfrac{d}{dx} (a) = 0$$
 $$Derivative\enspace of\enspace a\enspace constant\enspace multiplied\enspace with\enspace function\enspace f: \dfrac{d}{dx} (a. f) = af′$$
@@ -92,7 +92,7 @@ $$\dfrac{d}{dx}(cosech x)=−cosech x coth x$$
 </p>
 - To work with this tool you'll have to only enter the function for example : $$y = x^2-3x+4 dx $$ for this problem you have to enter 'x' first to the power 2 using this __^__ symbol and then simply write the following part -3x + 4
 - Below is an example
-![Differentiation](../public/gifs/differention.gif)
+![Differentiation](../public/gifs/differention.gif){:#calc-edit}
 > Note you can also specify the the variable and order of differentiation
 - Examples 
 <p>
@@ -139,7 +139,8 @@ $$ \dfrac{\partial f}{\partial z} = -3xy $$
 </p>
 
 - Below is an working example where you can input your function along with it's order
-![Partial Differentation](../public/gifs/Partial_derivative.gif)
+![Partial Differentation](../public/gifs/Partial_derivative.gif){:#calc-edit}
+
 
 ## Laplace Transform
 - The  Lарlасe  trаnsfоrm  рrоvides  а  useful  methоd  оf  sоlving  сertаin  tyрes  оf  differentiаl  equаtiоns  when  сertаin  initiаl  соnditiоns  аre  given,  esрeсiаlly  when  the  initiаl  vаlues  аre  zerо.
@@ -149,9 +150,9 @@ $$ \dfrac{\partial f}{\partial z} = -3xy $$
 -  To work with this tool you'll have to only enter the function for example : try this function in the tool $$ \mathscr{L} 3sinh(2t) + 3sin(2t) $$ 
 - Below is a working demo on laplace and inverse laplace 
   - Laplace transform
-![Laplace Tansform](../public/gifs/Laplace.gif)
+![Laplace Tansform](../public/gifs/Laplace.gif){:#calc-edit}
   - Inverse Laplace transform
-![Laplace Tansform](../public/gifs/inverse_laplace.gif)
+![Laplace Tansform](../public/gifs/inverse_laplace.gif){:#calc-edit}
 
 
 > Note : There is no need to add spaces between variables and always use brackets when  you are passing some aruments to some functions or variables or may be working on some fractional part
