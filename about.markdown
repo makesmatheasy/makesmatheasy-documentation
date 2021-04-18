@@ -6,7 +6,7 @@ description: About MakesMathEasy
 ---
 
 
-<img src="../public/images/makesmatheasylogo.png" width="300" height="300" />
+<img src="../public/images/makesmatheasylogo.png" class="edit"/>
 
 Solves various Math Problems along with Steps
 
@@ -16,10 +16,10 @@ Solves various Math Problems along with Steps
 - Complex Calculations within a few ms(milliseconds)
 
 ### Tech Used
-<div class="container-fluid row" >
-<img class="col-md-4 img-fluid" src="../public/images/html.png" width="270" height="270" />
-<img class="col-md-4 img-fluid" src="../public/images/css.png" width="300" height="300" />
-<img class="col-md-4 img-fluid" src="../public/images/js.png" width="270" height="270" />
+<div class="container-fluid row p-2" >
+<img class="col-4 img-fluid" src="../public/images/html.png" width="270" height="270" />
+<img class="col-4 img-fluid" src="../public/images/css.png" width="300" height="300" />
+<img class="col-4 img-fluid" src="../public/images/js.png" width="270" height="270" />
 </div>
 
 
