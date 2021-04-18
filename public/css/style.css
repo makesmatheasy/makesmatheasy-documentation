@@ -372,7 +372,7 @@ form.nav_search input::placeholder {
 	max-width: 700px;
 	margin: 1rem;
 }
-.small-1{
+.small-1 , .small-2{
 	font-size: 0.6rem;
 }
 @media only screen and (max-width:445px) {
@@ -380,7 +380,17 @@ form.nav_search input::placeholder {
 		padding: 1rem;
 		font-size: 0.7rem;
 	}
-	.small-1{
+	.small-1 , .small-2{
 		font-size: 0.4rem;
+	}
+}
+#graphs-edit{
+	width: 100%;
+	max-width: 700px;
+	margin: 0.5rem;
+}
+@media only screen and (min-width:768px) {
+	.small-2{
+		font-size: 0.9rem;
 	}
 }
