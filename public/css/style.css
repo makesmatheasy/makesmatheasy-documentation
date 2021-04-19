@@ -31,6 +31,23 @@ body {
 }
 /*end hiding scrollbar but keeing functionality */
 
+/* Custom Scrollbar */
+body::-webkit-scrollbar
+{
+	width: 13px;
+	background-color: #fff;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #5e749b;	
+}
+body::-webkit-scrollbar-thumb:hover
+{
+	background-color: #343a40;	
+}
+
 .page-content {
 	width: calc(100% - 18.5rem);
 	margin-left: 18.5rem;
