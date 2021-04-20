@@ -8,6 +8,23 @@ body {
 	overflow-x: hidden;
 	font-family: 'Ubuntu', sans-serif;
 }
+
+
+a:link {
+	color:#85a3e0;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  a:hover {
+	color:#d6e0f5;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  a:visited {
+	color: #000099;
+	background-color: transparent;
+	text-decoration: none;
+  }
 .vertical-nav {
 	position: fixed;
 	min-width: 18.5rem;
@@ -80,6 +97,12 @@ body::-webkit-scrollbar-thumb:hover
 	text-transform: capitalize;
 	color: #232a36;
 }
+@media only screen and (max-width: 800px) {
+	.nav flex-row li{
+		padding:0px;
+		margin:0px;
+	}
+  }
 .nav-link:hover {
 	background: #232a36;
 	color: white;
