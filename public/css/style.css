@@ -97,12 +97,10 @@ body::-webkit-scrollbar-thumb:hover
 	text-transform: capitalize;
 	color: #232a36;
 }
-@media only screen and (max-width: 800px) {
-	.nav flex-row li{
-		padding:0px;
-		margin:0px;
-	}
-  }
+.nav flex-column mb-2 active{
+	display: none;
+}
+
 .nav-link:hover {
 	background: #232a36;
 	color: white;
@@ -111,7 +109,7 @@ body::-webkit-scrollbar-thumb:hover
 .text-primary {
 	color: #7579e7 !important;
 }
-@media (max-width: 768px) {
+@media (max-width: 1008px) {
 	#sidebar {
 		margin-left: -17rem;
 	}
@@ -127,8 +125,19 @@ body::-webkit-scrollbar-thumb:hover
 		margin-left: 17rem;
 		width: calc(100% - 17rem);
 	}
+	#nav-bar{
+		display: none;
+	}
+	#side-bar{
+		display: block;
+	}
+	
 }
-
+@media (min-width: 1008px){
+	#side-bar{
+		display: none;
+	}
+}
 #sidebarCollapse {
 	position: fixed;
 	top: 0;
