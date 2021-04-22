@@ -25,7 +25,7 @@ $$ (α, β) = \dfrac{-b\pm\sqrt{b^2-4ac}}{2a} $$ where (α, β) are roots such t
   - Where co-efficient of $$ x^2 $$ is a which can't be 0
   - Similarly co-efficient of $$ x $$ is b and last constant is c which we will use to get the roots of quadratic equation after putting values of this 3 value $$ a,b,c $$ in $$ \dfrac{-b\pm\sqrt{b^2-4ac}}{2a} $$
 - Consider following working demo where you only have to enter the values of a,b and c and thats said you'll find your equation roots along with all the steps
-![Quadratic Equation](../public/gifs/Roots_of_equation.gif)
+![Quadratic Equation](../public/gifs/Roots_of_equation.gif){:#eqn-edit}
 
 
 # Play With Equations
@@ -40,5 +40,5 @@ $$ (α, β) = \dfrac{-b\pm\sqrt{b^2-4ac}}{2a} $$ where (α, β) are roots such t
 - Refer [this](https://byjus.com/maths/linear-equations/) article of linear equations
 - Consider the following demo to use this tool for any number of equations and variables and following tool can also be used to reduce any equation of any order but remember to not put = sign just transfer RHS to LHS or vice-versa with correct sign.
   
-![Linear Equations](../public/gifs/Solve+varibalies.gif)
+![Linear Equations](../public/gifs/Solve+varibalies.gif){:#eqn-edit}
 
