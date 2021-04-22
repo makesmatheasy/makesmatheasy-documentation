@@ -8,6 +8,23 @@ body {
 	overflow-x: hidden;
 	font-family: 'Ubuntu', sans-serif;
 }
+
+
+a:link {
+	color:#85a3e0;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  a:hover {
+	color:#d6e0f5;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  a:visited {
+	color: #000099;
+	background-color: transparent;
+	text-decoration: none;
+  }
 .vertical-nav {
 	position: fixed;
 	min-width: 18.5rem;
@@ -80,6 +97,10 @@ body::-webkit-scrollbar-thumb:hover
 	text-transform: capitalize;
 	color: #232a36;
 }
+.nav flex-column mb-2 active{
+	display: none;
+}
+
 .nav-link:hover {
 	background: #232a36;
 	color: white;
@@ -88,7 +109,7 @@ body::-webkit-scrollbar-thumb:hover
 .text-primary {
 	color: #7579e7 !important;
 }
-@media (max-width: 768px) {
+@media (max-width: 1008px) {
 	#sidebar {
 		margin-left: -17rem;
 	}
@@ -104,8 +125,19 @@ body::-webkit-scrollbar-thumb:hover
 		margin-left: 17rem;
 		width: calc(100% - 17rem);
 	}
+	#nav-bar{
+		display: none;
+	}
+	#side-bar{
+		display: block;
+	}
+	
 }
-
+@media (min-width: 1008px){
+	#side-bar{
+		display: none;
+	}
+}
 #sidebarCollapse {
 	position: fixed;
 	top: 0;
