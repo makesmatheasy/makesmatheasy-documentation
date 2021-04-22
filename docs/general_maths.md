@@ -292,5 +292,65 @@ $$ \log_b (y\sqrt{x}) = \dfrac{\log_b (x)}{y} $$
 $$ c*\log_b (x) + d*\log_b (y) = \log_b (x^c*y^d) $$
 </p>
 - Consider the following working example for AP and Logorithm value genrator tool
+
 <br>
 ![Conversion 2.2](../public/gifs/Genral%20Math%20Part%202.2.gif){:#gmaths-edit}
+=======
+
+![Conversion 2.2](../public/gifs/Genral%20Math%20Part%202.2.gif)
+
+# Solve for exponents
+- This tool takes 2 numbers `x` and `y`, and return its exponent value `n` with explanation, such that `x^n = y`.
+
+
+![Exponent](../public/images/general math/exponent.png)
+
+# Percentage Calculator
+- As the name suggests, it calculates the percentage.
+
+![Percentage](../public/images/general math/percentage.png)
+
+# Profit Loss Calculator
+- This tool help us with calculating Profit/Loss when
+        1) `cost` and `selling price` is given Or
+        2) `discount` and `cost\selling price` is given
+
+![Profit](../public/images/general math/profit.png)
+
+![Profit](../public/images/general math/profit2.png)
+
+# Leap Year
+- This takes an year as an input and results in stating whether or not the given year is leap year or not.
+
+![leap](../public/images/general math/leap.png)
+
+# Standard Deviation
+- This takes the numbers as input and ouputs its `Sum`, `Mean`, `Variance`, `Sample standard Deviation`, `Population Standard Deviation` and `Confidence Interval`
+- The standard deviation is a measure of the amount of variation or dispersion of a set of values
+
+![deviation](../public/images/general math/deviation.png)
+
+# Strain Calculator
+- This takes two parameters as input, first one is `change in length` and other one is `original length` and results out its strain.
+- Strain is simply the measure of how much an object is stretched or deformed. Strain occurs when force is applied to an object. Strain deals mostly with the change in length of the object.
+
+![strain](../public/images/general math/strain.png)
+
+# Stress Calculator
+- This calculator takes area and Force, gives stress as the output.
+- Stress is the force acting on the unit area of a material.
+
+![stress](../public/images/general math/stress.png)
+
+# Mean Calculator
+- The mean is the average of the numbers. It is easy to calculate: add up all the numbers, then divide by how many numbers there are. In other words it is the sum divided by the count.
+- This calculator takes first term and last term and gives us the `Arithmetic mean`, `Geometric mean` and `Harmonic mean`.
+
+![mean](../public/images/general math/mean.png)
+
+# Prime Numbers
+- A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.
+- This function checks whether the given input is prime or not. Additionally it provides the feature to output the prime number till the entered number.
+
+![prime](../public/images/general math/prime.png)
+
