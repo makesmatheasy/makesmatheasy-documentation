@@ -18,12 +18,12 @@ description: Plotting Graphs And 2D/3D Shapes
  </p> 
 > Note :  Don't use Capital X and use space between function and the variable.
 
-![Plot Graph](../public/gifs/Plot_graph.gif)
+![Plot Graph](../public/gifs/Plot_graph.gif){:#graphs-edit}
 
 
 # Shapes Calculator
 - Formulas for 2D Shapes
-<table style="width:100%">
+<table style="width:100%" class="small-2">
   <tr>
     <th>$$Shapes$$</th>
     <th>$$Area$$</th>
@@ -82,7 +82,7 @@ description: Plotting Graphs And 2D/3D Shapes
 </table>
 
 - Formulas for 3D Shapes
-<table style="width:100%">
+<table style="width:100%" class="small-2">
   <tr>
     <th>$$Shapes$$</th>
     <th>$$Volume$$</th>
@@ -129,4 +129,4 @@ description: Plotting Graphs And 2D/3D Shapes
 
 - This tool can be used to find all the necessary values of any shape, below is a working demo.
 
-![Shapes](../public/gifs/Shapes_cal.gif)
+![Shapes](../public/gifs/Shapes_cal.gif){:#graphs-edit}
