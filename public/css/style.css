@@ -448,3 +448,22 @@ form.nav_search input::placeholder {
 		font-size: 0.9rem;
 	}
 }
+#myBtn {
+	display: none; 
+	position: fixed;
+	bottom: 20px; 
+	right: 30px; 
+	z-index: 99; 
+	border: none; 
+	outline: none; 
+	background-color: #5e749b;
+	color: white; 
+	cursor: pointer; 
+	padding: 10px; 
+	border-radius: 10px;
+	font-size: 15px; 
+  }
+  
+  #myBtn:hover {
+	background-color: #555; 
+  }
