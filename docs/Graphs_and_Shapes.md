@@ -23,7 +23,7 @@ description: Plotting Graphs And 2D/3D Shapes
 
 # Shapes Calculator
 - Formulas for 2D Shapes
-<table style="width:100%" class="small-2">
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
   <tr>
     <th>$$Shapes$$</th>
     <th>$$Area$$</th>
@@ -82,7 +82,7 @@ description: Plotting Graphs And 2D/3D Shapes
 </table>
 
 - Formulas for 3D Shapes
-<table style="width:100%" class="small-2">
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
   <tr>
     <th>$$Shapes$$</th>
     <th>$$Volume$$</th>
