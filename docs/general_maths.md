@@ -217,7 +217,7 @@ $$  T = time $$
     $$ а,  а  +  d,  а  +  2d,  а  +  3d,  а  +  4d,  ……….  ,а  +  (n  –  1)  d $$
     </p>
 - General Form of an A. P
-    <table style="width:100%" class="small">
+    <table style="width:100%" border="2"  bordercolor="white" class="small">
     <tr>
         <th>Position of term</th>
         <th>Representation of Terms</th>

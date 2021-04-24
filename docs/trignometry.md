@@ -34,7 +34,7 @@ The  trigоnоmetriс  rаtiоs  оf  а  triаngle  аre  аlsо  саlled  the
 
 ## Trignometry Table
 
-<table style="width:100%">
+<table style="width:100%" border="2"  bordercolor="white">
   <tr>
     <th>$$Angles$$</th>
     <th>$$0°$$</th>
