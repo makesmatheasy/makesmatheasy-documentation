@@ -45,6 +45,7 @@ description: Empirical Probability, Joint Probablity, Binomial Distribution Calc
             <td>51</td>
             <td>0.51</td>
         </tr>
+    </table>
 
 - As a result, as the number of trials increases, the value of the fraction f/n, also known as relative frequency, approaches 0.5, i.e., 1/2. Similarly, we find that as the number of trials increases, the relative frequency of the appearance of a particular score approaches the fraction 1/6.
 - As a result of the preceding experimental results, empirical probability can be defined as follows:
