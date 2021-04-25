@@ -14,7 +14,7 @@ description: Empirical Probability, Joint Probablity, Binomial Distribution Calc
 - If n trials are carried out in a random experiment and the favourable outcome for the event appears f times, the ratio $$ \dfrac{f}{n} $$ approaches a specific value p and n becomes very large. The empirical probability is denoted by the number p.
 - Allow a coin to be tossed a few times. The number of times the head appears in each of the 20 trials is listed cumulatively in the table below:
   
-    <table style="width:100%">
+    <table style="width:100%" border="2"  bordercolor="white" >
         <tr>
             <th>Number Of Trials (n)</th>
             <th>Total Number of Heads (f)</th>

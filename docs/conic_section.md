@@ -57,7 +57,15 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
 - Some useful properties related to circle
 
 #### Different type of equations for circle
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white"  class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation </th>
     <th>Graph</th>
@@ -85,7 +93,15 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
 </table>
 
 #### Equations of tangent of all the circles
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white"  class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation of Circle </th>
     <th>Pont/Line of contact </th>
@@ -114,7 +130,15 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
 </table>
 
 #### Equations of Normal of all the circles
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation of Circle </th>
     <th>Pont/Line of contact </th>
@@ -143,7 +167,15 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
 </table>
 
 #### Director circle of all circles
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white"  class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation of Circle </th>
     <th>Equation of director circle </th>
@@ -184,7 +216,15 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
 - Some usefull properties and formulas of ellipse
 - 
 #### Ellipse parameters formula
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation</th>
     <th>Graph </th>
@@ -214,7 +254,15 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
 <br>
 <br>
 #### Equation of tangent of ellipse
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation</th>
     <th>Parametric Coordinate </th>
@@ -239,7 +287,15 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
 <br>
 
 #### Equations of normal of ellipse
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white"  class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation</th>
     <th>Parametric Coordinate </th>
@@ -265,7 +321,15 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
 <br>
 
 #### Equation of director circle of ellipse
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white"  class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation</th>
     <th>Equation of director circle </th>
@@ -301,7 +365,15 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
 
 - Some Usefull Properties and Formulas
 #### Parabola Parameters
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white"  class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation</th>
     <th>Graph </th>
@@ -348,7 +420,15 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
 <br>
 
 #### Equations of tangents of all parabolas in slope form
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation of parabola</th>
     <th>Point of contact in terms of slope </th>
@@ -386,7 +466,15 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
 <br>
 
 #### Equatons of normal of all parabolas in slope form
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation of parabola</th>
     <th>Point of contact in terms of slope </th>
@@ -424,7 +512,15 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
 <br>
 
 #### Director cirles of all parabolas
+<<<<<<< HEAD
 <table style="width:100%" class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+<table style="width:100%" class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation of parabola</th>
     <th>Equation of director circle </th>
@@ -467,7 +563,15 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
 
 - Some usefull properties and formulas
 #### Hyperbola Parameters
+<<<<<<< HEAD
 <table style="width:100%" class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+<table style="width:100%" class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation</th>
     <th>Graph </th>
@@ -506,7 +610,15 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
 <br>
 
 #### Equations of tangent of hyperbola
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation</th>
     <th>Parametric Co-ordinate </th>
@@ -537,7 +649,15 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
 <br>
 
 #### Equations of normal of hyperbola 
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation</th>
     <th>Parametric Co-ordinate </th>
@@ -568,7 +688,15 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
 <br>
 
 #### Equation of director circle of hyperbola
+<<<<<<< HEAD
 <table style="width:100%"  class="small-2">
+=======
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+<table style="width:100%"  class="small-2">
+
+>>>>>>> f94d2b38b8c51d836369313828f841bd2306f7a5
   <tr>
     <th>Equation</th>
     <th>Equation of director circle </th>
