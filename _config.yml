@@ -28,7 +28,7 @@ twitter_username:
 github_username: sairishi2001
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

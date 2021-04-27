@@ -60,7 +60,6 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
 
 <table style="width:100%" border="2"  bordercolor="white"  class="small-2">
 
-<table style="width:100%"  class="small-2">
 
   <tr>
     <th>Equation </th>
@@ -92,7 +91,7 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
 
 <table style="width:100%" border="2"  bordercolor="white"  class="small-2">
 
-<table style="width:100%"  class="small-2">
+
 
   <tr>
     <th>Equation of Circle </th>
@@ -125,7 +124,6 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
-<table style="width:100%"  class="small-2">
 
   <tr>
     <th>Equation of Circle </th>
@@ -158,7 +156,7 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
 
 <table style="width:100%" border="2"  bordercolor="white"  class="small-2">
 
-<table style="width:100%"  class="small-2">
+
 
   <tr>
     <th>Equation of Circle </th>
@@ -203,7 +201,7 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
-<table style="width:100%"  class="small-2">
+
 
   <tr>
     <th>Equation</th>
@@ -237,7 +235,7 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
-<table style="width:100%"  class="small-2">
+
 
   <tr>
     <th>Equation</th>
@@ -266,7 +264,6 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
 
 <table style="width:100%" border="2"  bordercolor="white"  class="small-2">
 
-<table style="width:100%"  class="small-2">
 
   <tr>
     <th>Equation</th>
@@ -296,7 +293,7 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
 
 <table style="width:100%" border="2"  bordercolor="white"  class="small-2">
 
-<table style="width:100%"  class="small-2">
+
 
   <tr>
     <th>Equation</th>
@@ -336,7 +333,7 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
 
 <table style="width:100%" border="2"  bordercolor="white"  class="small-2">
 
-<table style="width:100%"  class="small-2">
+
 
   <tr>
     <th>Equation</th>
@@ -387,7 +384,7 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
-<table style="width:100%"  class="small-2">
+
 
   <tr>
     <th>Equation of parabola</th>
@@ -429,7 +426,7 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
-<table style="width:100%"  class="small-2">
+
 
   <tr>
     <th>Equation of parabola</th>
@@ -470,8 +467,6 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
 #### Director cirles of all parabolas
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
-
-<table style="width:100%" class="small-2">
 
   <tr>
     <th>Equation of parabola</th>
@@ -518,7 +513,7 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
-<table style="width:100%" class="small-2">
+
 
   <tr>
     <th>Equation</th>
@@ -561,7 +556,7 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
-<table style="width:100%"  class="small-2">
+
 
   <tr>
     <th>Equation</th>
@@ -596,7 +591,7 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
-<table style="width:100%"  class="small-2">
+
 
   <tr>
     <th>Equation</th>
@@ -631,7 +626,7 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
-<table style="width:100%"  class="small-2">
+
 
   <tr>
     <th>Equation</th>
