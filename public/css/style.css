@@ -306,6 +306,10 @@ nav {
   margin-left: 30px;
 }
 
+.sidebar__logo h4:hover {
+    color:black;
+}
+
 /* Logo End */
 
 nav ul.nav {
@@ -520,21 +524,21 @@ form.nav_search input::placeholder {
 >>>>>>> 3800febdcce5ed870a58315206c79c3411db6f10
 }
 #myBtn {
-	display: none; 
+	display: none;
 	position: fixed;
-	bottom: 20px; 
-	right: 30px; 
-	z-index: 99; 
-	border: none; 
-	outline: none; 
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
 	background-color: #5e749b;
-	color: white; 
-	cursor: pointer; 
-	padding: 10px; 
+	color: white;
+	cursor: pointer;
+	padding: 10px;
 	border-radius: 10px;
-	font-size: 15px; 
+	font-size: 15px;
   }
-  
+
   #myBtn:hover {
-	background-color: #555; 
+	background-color: #555;
   }
