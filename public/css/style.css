@@ -386,11 +386,6 @@ form.nav_search input::placeholder {
   float: right;
 }
 .change {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 3800febdcce5ed870a58315206c79c3411db6f10
   cursor: pointer;
   border: 1px solid #555;
   border-radius: 40%;
@@ -455,11 +450,6 @@ form.nav_search input::placeholder {
 .tabel-pics {
   height: 200px;
   width: 200px;
-<<<<<<< HEAD
-=======
-=======
-
->>>>>>> 3800febdcce5ed870a58315206c79c3411db6f10
     cursor: pointer;
     border: 1px solid #555;
     border-radius: 40%;
@@ -517,11 +507,6 @@ form.nav_search input::placeholder {
 	.small-2{
 		font-size: 0.9rem;
 	}
-<<<<<<< HEAD
->>>>>>> upstream/main
-=======
-
->>>>>>> 3800febdcce5ed870a58315206c79c3411db6f10
 }
 #myBtn {
 	display: none;
