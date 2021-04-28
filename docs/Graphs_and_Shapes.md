@@ -22,15 +22,11 @@ description: Plotting Graphs And 2D/3D Shapes
 
 
 # Shapes Calculator
-
-- Formulas for 2D Shapes
-<table style="width:100%" border="2"  bordercolor="white" class="small-2">
-
 <br>
 
 #### Formulas for 2D Shapes
 
-<table style="width:100%" class="small-2">
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
   <tr>
     <th>$$SHAPES$$</th>
@@ -137,15 +133,11 @@ description: Plotting Graphs And 2D/3D Shapes
 
 #### Formulas for 3D Shapes
 
-
-- Formulas for 3D Shapes
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
-<table style="width:100%" class="small-2">
-
   <tr>
-    <th>$$Shapes$$</th>
-    <th>$$Volume$$</th>
+    <th>$$SHAPES$$</th>
+    <th>$$VOLUME$$</th>
     <th>$$LSA\enspace or \enspace CSA$$</th>
     <th>$$TSA$$</th>
   </tr>
@@ -162,18 +154,6 @@ description: Plotting Graphs And 2D/3D Shapes
     <td>$$ 2(lb + bh + bh)$$</td>
   </tr>
   <tr>
-    <td>$$Sphere$$</td>
-    <td>$$ \dfrac{4}{3}\pi r^3$$</td>
-    <td>$$ 4 \pi r^2 $$</td>
-    <td>$$ 4 \pi r^2 $$</td>
-  </tr>
-  <tr>
-    <td>$$Hemisphere$$</td>
-    <td>$$ \dfrac{2}{3}\pi r^3 $$</td>
-    <td>$$ 2 \pi r^2 $$</td>
-    <td>$$ 3 \pi r^2 $$</td>
-  </tr>
-  <tr>
     <td>$$Cylinder$$</td>
     <td>$$ \pi r^2 h $$</td>
     <td>$$ 2\pi r h$$</td>
@@ -184,6 +164,144 @@ description: Plotting Graphs And 2D/3D Shapes
     <td>$$ \dfrac{1}{3}\pi r^2 h $$</td>
     <td>$$ \pi r l $$</td>
     <td>$$ \pi r (r+l) $$</td>
+  </tr>
+  <tr>
+    <td>$$Sphere$$</td>
+    <td>$$ \dfrac{4}{3}\pi r^3$$</td>
+    <td>$$ 4 \pi r^2 $$</td>
+    <td>$$ 4 \pi r^2 $$</td>
+  </tr>
+  <tr>
+    <td>$$Hollow \enspace Cylinder$$</td>
+    <td>$$ \pi (r_1^{2}-r_2^{2}) h $$</td>
+    <td>$$ 2 \pi (r_1+r_2) h  $$</td>
+    <td>$$ 2 \pi (r_1+r_2)(r_1-r_2) + 2 \pi h(r_1+r_2) $$</td>
+  </tr>
+  <tr>
+    <td>$$Hollow \enspace Sphere$$</td>
+    <td>$$ 4 \pi (r_1^3-r_2^3) /3 $$</td>
+    <td>$$ - $$</td>
+    <td>$$ 4 \pi (r_1^2-r_2^2) $$</td>
+  </tr>
+  <tr>
+    <td>$$Hemisphere$$</td>
+    <td>$$ \dfrac{2}{3}\pi r^3 $$</td>
+    <td>$$ 2 \pi r^2 $$</td>
+    <td>$$ 3 \pi r^2 $$</td>
+  </tr>
+  <tr>
+    <td>$$Torus$$</td>
+    <td>$$ (\pi r^2)(2  \pi  R) $$</td>
+    <td>$$ - $$</td>
+    <td>$$ (2 \times \pi \times R)(2 \times \pi  \times r) $$</td>
+  </tr>
+  <tr>
+    <td>$$Conical \enspace Frustum$$</td>
+    <td>$$ \frac{1}{3} \times \pi \times h \times (r1^2 \space + r2^2 \space + (r1 \times r2)) $$</td>
+    <td>$$ \pi \times ( r1 + r2) \times s $$</td>
+    <td>$$ \pi \times (r1^2+r2^2+(r1+r2) \times s) $$</td>
+  </tr>
+  <tr>
+    <td>$$Ellipsoid$$</td>
+    <td>$$ \frac{4}{3}\pi a b c $$</td>
+    <td>$$ - $$</td>
+    <td>$$ 4\pi\Big(\frac{(ab)^{1.6} + (ac)^{1.6} + (bc)^{1.6}}{3}\Big)^{\frac{1}{1.6}} $$</td>
+  </tr>
+  <tr>
+    <td>$$Square \enspace Prism$$</td>
+    <td>$$ a^2 h $$</td>
+    <td>$$ - $$</td>
+    <td>$$ 2 a^2 + 4 a h $$</td>
+  </tr>
+  <tr>
+    <td>$$Triangular \enspace Prism$$</td>
+    <td>$$ (l \times b \times h) / 2 $$</td>
+    <td>$$ - $$</td>
+    <td>$$ b(h+l) \space + \space 2 \times l \times s $$</td>
+  </tr>
+  <tr>
+    <td>$$Pentagonal \enspace Prism$$</td>
+    <td>$$ \frac{1}{4}\sqrt{5(5+2\sqrt{5})}a^2h $$</td>
+    <td>$$ - $$</td>
+    <td>$$ 5ah \space + \space \frac{1}{2}\sqrt{5(5+2\sqrt{5})}a^2 $$</td>
+  </tr>
+  <tr>
+    <td>$$Hexagonal \enspace Prism$$</td>
+    <td>$$ \frac{3 \sqrt{3}}{2} \times a^2h $$</td>
+    <td>$$ - $$</td>
+    <td>$$ 6ah + 3\sqrt{3}a^2$$</td>
+  </tr>
+  <tr>
+    <td>$$Octagonal \enspace Prism$$</td>
+    <td>$$ 2 (1 + \sqrt{2}) a^2h $$</td>
+    <td>$$ - $$</td>
+    <td>$$ 8ah + 4 (1 + \sqrt{2})a^2 $$</td>
+  </tr>
+  <tr>
+    <td>$$Square \enspace Pyramid$$</td>
+    <td>$$ \frac{a^2 h}{3} $$</td>
+    <td>$$ a\sqrt{4h^2+a^2} $$</td>
+    <td>$$ F +a^2 $$</td>
+  </tr>
+   <tr>
+    <td>$$Triangular \enspace Pyramid$$</td>
+    <td>$$ \frac{Base Area \times Slant Height}{3} $$</td>
+    <td>$$ \frac{1}{2}(Perimeter \times Slant Height) $$</td>
+    <td>$$ A+ \frac{1}{2}(Perimeter \times Slant Height) $$</td>
+  </tr>
+   <tr>
+    <td>$$Rectangular \enspace Pyramid$$</td>
+    <td>$$ \frac{lwh}{3} $$</td>
+    <td>$$ l \sqrt{ (\frac{w}{2})^2 + h^2} + w \sqrt{ (\frac{l}{2})^2 + h^2 } $$</td>
+    <td>$$ lw + l \sqrt{ (\frac{w}{2})^2 + h^2} + w \sqrt{ (\frac{l}{2})^2 + h^2 } $$</td>
+  </tr>
+   <tr>
+    <td>$$Pentagonal \enspace Pyramid$$</td>
+    <td>$$ \frac{5}{12} \space tan(54 \degree) \space ha^2 $$</td>
+    <td>$$ - $$</td>
+    <td>$$ \frac{5}{4} \space tan(54 \degree) \space a^2 \space + 5 \frac{a}{2} \sqrt(h^2 \space + \space (\frac{a \times tan(54 \degree)}{2})^2) $$</td>
+  </tr>
+   <tr>
+    <td>$$Hexagonal \enspace Pyramid$$</td>
+    <td>$$ abh $$</td>
+    <td>$$  \frac{1}{2}(Perimeter \times s) $$</td>
+    <td>$$ 3b(a + s) $$</td>
+  </tr>
+   <tr>
+    <td>$$Octagonal \enspace Pyramid$$</td>
+    <td>$$ \frac{2}{3} \space hs^2 \space cot(22.5 \degree)  $$</td>
+    <td>$$ 2s \sqrt{4h^2 + s^2 \space cot^2(22.5 \degree)} $$</td>
+    <td>$$ 2s \space (\sqrt{4h^2 + s^2 \space cot^2(22.5 \degree)} \space + \space cot(22.5 \degree)\space) $$</td>
+  </tr>
+  <tr>
+    <td>$$Octahedron$$</td>
+    <td>$$ \frac{\sqrt{2}a^3}{3} $$</td>
+    <td>$$ - $$</td>
+    <td>$$  2 \sqrt{3} a^2 $$</td>
+  </tr>
+  <tr>
+    <td>$$Tetrahedron$$</td>
+    <td>$$ \frac{a^3}{6 \sqrt{2}} $$</td>
+    <td>$$ - $$</td>
+    <td>$$ \sqrt{3} a^2 $$</td>
+  </tr>
+  <tr>
+    <td>$$Icosahedron$$</td>
+    <td>$$ \frac{5}{12} (3 + \sqrt{5}) a^3  $$</td>
+    <td>$$ - $$</td>
+    <td>$$ 5 \sqrt{3} a^2 $$</td>
+  </tr>
+  <tr>
+    <td>$$Parallelepiped$$</td>
+    <td>$$ abc $$</td>
+    <td>$$  - $$</td>
+    <td>$$ 2(ab + bc + ca) $$</td>
+  </tr>
+  <tr>
+    <td>$$Hyperboloid$$</td>
+    <td>$$ \frac{2\pi h a^{2}}{b^{2}}(b^{2}+\frac{h^{2}}{3}) $$</td>
+    <td>$$ - $$</td>
+    <td>$$ - $$</td>
   </tr>
 </table>
 

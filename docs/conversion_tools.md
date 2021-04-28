@@ -8,10 +8,10 @@ description: Various Conversion Tools
 In this Section there are total 7 tools, and they are the following : 
 - Currency Converter  
 <div class="container my-3 row">
-<div class="col-md-6 pb-2" >
+<div class="col-md-6" >
 <img alt="currency converter" class="tools_screenshot img-fluid" src="../public/images/conversions/currency_1.png" >
 </div>
-<div class="col-md-6 pb-2" >
+<div class="col-md-6" >
 <img alt="currency converter" class="tools_screenshot img-fluid" src="../public/images/conversions/currency_2.png" >
 </div>
 </div>
@@ -29,10 +29,10 @@ In this Section there are total 7 tools, and they are the following :
   - Data
   - Power
 <div class="container my-3 row">
-<div class="col-md-6 pb-2" >
+<div class="col-md-6" >
 <img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/unit_conversion.png" >
 </div>
-<div class="col-md-6 pb-2" >
+<div class="col-md-6" >
 <img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/unit_conversion_2.png" >
 </div>
 <div class="col-md-6" >
