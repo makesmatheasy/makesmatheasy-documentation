@@ -10,20 +10,23 @@ body {
 }
 
 a:link {
-  color: #85a3e0;
+  color: #232a36;
   background-color: transparent;
   text-decoration: none;
 }
+
+a:active {
+  color: #d6e0f5;
+  background-color: #232a36;
+  text-decoration: underline;
+}
+
 a:hover {
   color: #d6e0f5;
   background-color: transparent;
   text-decoration: underline;
 }
-a:visited {
-  color: #000099;
-  background-color: transparent;
-  text-decoration: none;
-}
+
 .vertical-nav {
   position: fixed;
   min-width: 18.5rem;
