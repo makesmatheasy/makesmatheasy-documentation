@@ -6,7 +6,9 @@ description: Various Conversion Tools
 ---
 
 In this Section there are total 7 tools, and they are the following : 
-- Currency Converter  
+
+## Currency Converter  
+
 <div class="container my-3 row">
 <div class="col-md-6" >
 <img alt="currency converter" class="tools_screenshot img-fluid" src="../public/images/conversions/currency_1.png" >
@@ -15,7 +17,11 @@ In this Section there are total 7 tools, and they are the following :
 <img alt="currency converter" class="tools_screenshot img-fluid" src="../public/images/conversions/currency_2.png" >
 </div>
 </div>
-- Unit Converter : A Simple unit converter which can be used to convert any unit from the following:
+
+## Unit Converter 
+
+- A Simple unit converter which can be used to convert any unit from the following:
+
   - Time
   - Temeprature
   - Length
@@ -28,6 +34,7 @@ In this Section there are total 7 tools, and they are the following :
   - Angle
   - Data
   - Power
+
 <div class="container my-3 row">
 <div class="col-md-6" >
 <img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/unit_conversion.png" >
@@ -39,31 +46,51 @@ In this Section there are total 7 tools, and they are the following :
 <img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/unit_conversion_3.png" >
 </div>
 </div>
-- Conversion to Words : Used to convert the number into words
+
+## Conversion to Words 
+
+- Used to convert the number into words
+
 <div class="container my-3 row">
 <div class="col-md-6" >
 <img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/numer_to_word.png" >
 </div>
 </div>
-- Roman Arabic Conversion : Used to convert any number from Arabic to Roman and vice-versa
+
+## Roman Arabic Conversion 
+
+- Used to convert any number from Arabic to Roman and vice-versa
+
 <div class="container my-3 row">
 <div class="col-md-6" >
 <img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/roman_arabic.png" >
 </div>
 </div>
-- Asscending/Descending : As the name says, it can be used to sort many numbers in there asscending and descending order.
+
+## Ascending/Descending 
+
+- As the name says, it can be used to sort many numbers in there ascending and descending order.
+
 <div class="container my-3 row">
 <div class="col-md-6" >
 <img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/ascending_descending.png" >
 </div>
 </div>
-- Date : This conversion gives us the difference between two given days.
+
+## Date 
+
+- This conversion gives us the difference between two given days.
+
 <div class="container my-3 row">
 <div class="col-md-6" >
 <img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/date.png" >
 </div>
 </div>
-- SPI/CGPA convertor : This convertor provides a facility to convert our CGPA to percentage and vice-versa.
+
+## SPI/CGPA convertor 
+
+- This convertor provides a facility to convert our CGPA to percentage and vice-versa.
+
 <div class="container my-3 row">
 <div class="col-md-6" >
 <img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/conversions/cgpa_convertor.png" >
