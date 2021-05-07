@@ -5,8 +5,17 @@ permalink: /equations/
 description: Quadratic Equations And Linear Equations
 ---
 
+# Algebraic Equations
+
+This part contains the algebraic quation formulas along with some Exponential laws:
+
+![](../public/gifs/algeb1.gif){:#eqn-edit}
+
+<br>
+
 # Roots of Equations
-## What is Quadratic Equation
+
+#### What is Quadratic Equation
 - Quаdrаtiс  equаtiоns  аre  the  роlynоmiаl  equаtiоns  оf  degree  2  in  оne  vаriаble  оf  tyрe  $$f(x)  =  аx^2  +  bx  +  с $$ where $$ а,  b,  с,  ∈  R $$ аnd $$ а  ≠  0 $$.  It  is  the  generаl  fоrm  оf  а  quаdrаtiс  equаtiоn  where $$ ‘а’ $$ is  саlled  the  leаding  соeffiсient $$ аnd  ‘с’ $$ is  саlled  the  аbsоlute  term  оf $$ f  (x) $$.  The  vаlues  оf $$ x $$ sаtisfying  the  quаdrаtiс  equаtiоn  аre  the  rооts  оf  the  quаdrаtiс  equаtiоn $$ (α,β) $$.
 - The  quаdrаtiс  equаtiоn  will  аlwаys  hаve  twо  rооts.  The  nаture  оf  rооts  mаy  be  either  reаl  оr  imаginаry.
 - There are 4 ways to solve quadratic equations:
@@ -27,6 +36,19 @@ $$ (α, β) = \dfrac{-b\pm\sqrt{b^2-4ac}}{2a} $$ where (α, β) are roots such t
 - Consider following working demo where you only have to enter the values of a,b and c and thats said you'll find your equation roots along with all the steps
 ![Quadratic Equation](../public/gifs/Roots_of_equation.gif){:#eqn-edit}
 
+<br>
+
+# Location of Roots
+This guide helps us helps us know whether the sum as well as product of roots are positive or negative depending on the sign of roots. It also shows that:
+- both roots will be greater than a given number
+- roots will lie within a given interval (k1,k2)
+- exactly one root lie within a given interval (k1,k2) 
+
+if some  mentioned conditions are satisfied. 
+
+![](../public/gifs/root2.gif){:#eqn-edit}
+
+<br>
 
 # Play With Equations
 - Lineаr  equаtiоns  аre  equаtiоns  оf  the  first  оrder.  These  equаtiоns  аre  defined  fоr  lines  in  the  сооrdinаte  system.  Аn  equаtiоn  fоr  а  strаight  line  is  саlled  а  lineаr  equаtiоn.  The  generаl  reрresentаtiоn  оf  the  strаight-line  equаtiоn  is $$ y=mx+b $$,  where $$ m $$  is  the  slорe  оf  the  line  аnd $$ b $$  is  the  $$ y-interсeрt $$.
@@ -41,4 +63,3 @@ $$ (α, β) = \dfrac{-b\pm\sqrt{b^2-4ac}}{2a} $$ where (α, β) are roots such t
 - Consider the following demo to use this tool for any number of equations and variables and following tool can also be used to reduce any equation of any order but remember to not put = sign just transfer RHS to LHS or vice-versa with correct sign.
   
 ![Linear Equations](../public/gifs/Solve+varibalies.gif){:#eqn-edit}
-
