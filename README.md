@@ -3,8 +3,10 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/sairish2001/makesmatheasy-documentation)](https://github.com/sairish2001/makesmatheasy-documentation/graphs/contributors/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr-raw/sairish2001/makesmatheasy-documentation?color=blue)](https://github.com/sairish2001/makesmatheasy-documentation/pulls/)
 [![GitHub issues](https://img.shields.io/github/issues/sairish2001/makesmatheasy-documentation)](https://github.com/sairish2001/makesmatheasy-documentation/issues/)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/sairish2001/makesmatheasy-documentation?color=orange)](https://github.com/sairish2001/makesmatheasy-documentation/pulls)
 [![GitHub forks](https://img.shields.io/github/forks/sairish2001/makesmatheasy-documentation?style=social)](https://github.com/sairish2001/makesmatheasy-documentation/network/members/)
 [![GitHub stars](https://img.shields.io/github/stars/sairish2001/makesmatheasy-documentation?style=social)](https://github.com/sairish2001/makesmatheasy-documentation/stargazers/)
+
 
 Documentation for Makes Math Easy
 
