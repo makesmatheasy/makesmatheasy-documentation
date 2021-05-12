@@ -8,7 +8,7 @@ description: Circle, Parabola, Ellipse, Hyperbola, Paraboloid
 # Conic Sections
 One of the most important subjects of Geometry is conic parts. In mathematics, there are various types of conic sections that can be specified based on the angle created between the plane and the intersection of the right circular cone with it.
 
-## What are Conic Sections
+## What are Conic Sections?
 - A curve that creates a right circular cone intersection with the plane is called "conic." The Euclidean geometry has distinctive characteristics. It is divided into two nappies called the upper and lower nappes by the vertex of the cone.
 - The cone is intersected by a plane in the following figures, and the resulting segment is known as a conic section. Different forms of conic sections are obtained depending on the location of the plane that intersects the cone and the angle of intersection. Specifically,
     - Circle
@@ -16,13 +16,19 @@ One of the most important subjects of Geometry is conic parts. In mathematics, t
     - Parabola
     - Hyperbola
 
+<br>
+
 <div class="container my-3 row">
 <div class="col-md-6" >
 <img alt="conic" class="tools_screenshot img-fluid" src="../public/images/conic-section/conic-section.gif" >
 </div>
 </div>
- 
+
+ <br>
+
 - ![conic](../public/gifs/conic.gif)
+
+<br>
 
 ## Focus, Eccentricity and Directrix of Conic
 - A conic section is also defined as the locus of a point P moving in the plane of a fixed point F known as focus (F) and a fixed line d known as directrix (with the focus not on d) such that the ratio of point P's distance from focus F to its distance from d is a constant e known as eccentricity. Right now,
@@ -35,6 +41,8 @@ One of the most important subjects of Geometry is conic parts. In mathematics, t
 $$ e = \dfrac{ cos α}{cos β} $$
 </p>
 
+<br>
+
 ## Parameters of Conic
 - Aside from focus, eccentricity, and directrix, conic sections define a few more parameters.
   - __Principal Axis__ : The line connecting the two focal points or foci of an ellipse or hyperbola is known as the principal axis. Its midpoint is the curve's centre.
@@ -44,9 +52,10 @@ $$ e = \dfrac{ cos α}{cos β} $$
   - __Major axis__: Chord joining the two vertices. It is the longest chord of an ellipse.
   - __Minor axis__: Shortest chord of an ellipse.
 
+<br>
 
 ### Conic Section Circle
-If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
+If $$ β= 90^o $$ , the conic section formed is a circle as shown below.
 
 <div class="container my-3 row">
 <div class="col-md-6" >
@@ -54,12 +63,11 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
 </div>
 </div>
 
-- Some useful properties related to circle
+### Some useful properties and formulas :
 
 #### Different type of equations for circle
 
 <table style="width:100%" border="2"  bordercolor="white"  class="small-2">
-
 
   <tr>
     <th>Equation </th>
@@ -83,19 +91,19 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
     <td>$$ x^2 + y^2 + 2gx + 2fy = 0 $$</td>
     <td><img alt="conic"  class="tabel-pics img-fluid" src="../public/images/conic-section/circle/circle3.png" ></td>
     <td>$$ (-g,-f) $$</td>
-    <td>$$ \sqrt{g^+f^2-c} $$</td>
+    <td>$$ \sqrt{g^2+f^2-c} $$</td>
   </tr>
 </table>
+
+<br>
 
 #### Equations of tangent of all the circles
 
 <table style="width:100%" border="2"  bordercolor="white"  class="small-2">
 
-
-
   <tr>
     <th>Equation of Circle </th>
-    <th>Pont/Line of contact </th>
+    <th>Point/Line of contact </th>
     <th>Equation of tangent</th>
   </tr>
   <tr>
@@ -105,8 +113,8 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
   </tr>
   <tr>
     <td>$$ x^2 + y^2 = a^2 $$</td>
-    <td>$$ (acos\theta,b sine\theta) $$</td>
-    <td>$$ x cos\theta + y sine\theta = a $$</td>
+    <td>$$ (acos\theta,b sin\theta) $$</td>
+    <td>$$ x cos\theta + y sin\theta = a $$</td>
   </tr>
   <tr>
     <td>$$ x^2 + y^2 = a^2 $$</td>
@@ -120,14 +128,15 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
   </tr>
 </table>
 
+<br>
+
 #### Equations of Normal of all the circles
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
-
   <tr>
     <th>Equation of Circle </th>
-    <th>Pont/Line of contact </th>
+    <th>Point/Line of contact </th>
     <th>Equation of normal</th>
   </tr>
   <tr>
@@ -152,11 +161,11 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
   </tr>
 </table>
 
+<br>
+
 #### Director circle of all circles
 
 <table style="width:100%" border="2"  bordercolor="white"  class="small-2">
-
-
 
   <tr>
     <th>Equation of Circle </th>
@@ -178,7 +187,6 @@ If $$ β= 90\deg $$ , the conic section formed is a circle as shown below.
 
 <br>
 <br>
-<br>
 
 ### Conic Section Ellipse
 If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the figure below.  
@@ -195,24 +203,22 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
 </div>
 </div>
 
-- Some usefull properties and formulas of ellipse
-- 
+### Some useful properties and formulas :
+
 #### Ellipse parameters formula
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
-
-
 
   <tr>
     <th>Equation</th>
     <th>Graph </th>
     <th>Focus </th>
     <th>Length of LR </th>
-    <th>Diretrix </th>
+    <th>Directrix </th>
     <th>Length of major axis </th>
   </tr>
   <tr>
-    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  $$ where a>b </th>
+    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  \enspace where \enspace a>b $$ </th>
     <th><img alt="conic"  class="tabel-pics img-fluid" src="../public/images/conic-section/ellipse/Ellipse1.png" > </th>
     <th>$$ (\plusmn ae,0) $$ </th>
     <th> $$ \dfrac{2b^2}{a} $$ </th>
@@ -220,7 +226,7 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
     <th> $$ 2a $$ </th>
   </tr>
   <tr>
-    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  $$ where a < b </th>
+    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  \enspace where \enspace a<b $$ </th>
     <th><img alt="conic"  class="tabel-pics img-fluid" src="../public/images/conic-section/ellipse/Ellipse2.png" > </th>
     <th>$$ (0,\plusmn be) $$ </th>
     <th> $$ \dfrac{2a^2}{b} $$ </th>
@@ -228,14 +234,12 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
     <th> $$ 2b $$ </th>
   </tr>
 </table>
+
 <br>
-<br>
-<br>
+
 #### Equation of tangent of ellipse
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
-
-
 
   <tr>
     <th>Equation</th>
@@ -244,26 +248,24 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
     <th>Condition of tangency </th>
   </tr>
   <tr>
-    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  $$ where a>b </th>
+    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  \enspace where \enspace a>b $$ </th>
     <th>$$ (acos\theta,bsin\theta) $$ </th>
     <th> $$ y = mx \plusmn \sqrt{am^2+b^2} $$ <br> $$ \dfrac{xcos\theta}{a} + \dfrac{ysin\theta}{b}= 1 $$ </th>
     <th> $$ c =  \plusmn \sqrt{am^2+b^2} $$ </th>
   </tr>
   <tr>
-    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  $$ where a>b </th>
+    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  \enspace where \enspace a<b $$ </th>
     <th>$$ (bcos\theta,asin\theta) $$ </th>
     <th> $$ y = mx \plusmn \sqrt{bm^2+a^2} $$ <br> $$ \dfrac{xcos\theta}{b} + \dfrac{ysin\theta}{a}= 1 $$ </th>
     <th> $$ c =  \plusmn \sqrt{bm^2+a^2} $$  </th>
   </tr>
 </table>
-<br>
-<br>
+
 <br>
 
 #### Equations of normal of ellipse
 
 <table style="width:100%" border="2"  bordercolor="white"  class="small-2">
-
 
   <tr>
     <th>Equation</th>
@@ -272,13 +274,13 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
     <th>Condition of tangency </th>
   </tr>
   <tr>
-    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  $$ where a>b </th>
+    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  \enspace where \enspace a>b $$ </th>
     <th>$$ (acos\theta,bsin\theta) $$ </th>
     <th> $$ \dfrac{ax}{cos\theta} - \dfrac{by}{sin\theta}= a^2-b^2 $$ </th>
     <th> $$c =  \plusmn \dfrac{m(a^2-b^2)}{\sqrt{a^2+b^2m^2}} $$ </th>
   </tr>
   <tr>
-    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  $$ where a>b </th>
+    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  \enspace where \enspace a<b $$ </th>
     <th>$$ (bcos\theta,asin\theta) $$ </th>
     <th> $$ \dfrac{bx}{cos\theta} - \dfrac{ay}{sin\theta}= b^2-a^2 $$ </th>
     <th> $$ c =  \plusmn \dfrac{m(b^2-a^2)}{\sqrt{b^2+a^2m^2}} $$  </th>
@@ -287,28 +289,25 @@ If $$ α<β<90^o $$, the conic section so formed is an ellipse as shown in the f
 
 <br>
 <br>
-<br>
 
 #### Equation of director circle of ellipse
 
 <table style="width:100%" border="2"  bordercolor="white"  class="small-2">
-
-
 
   <tr>
     <th>Equation</th>
     <th>Equation of director circle </th>
   </tr>
   <tr>
-    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  $$ where a>b </th>
+    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  \enspace where \enspace a>b $$ </th>
     <th>$$ x^2+y^2=a^2+b^2 $$ </th>
   </tr>
   <tr>
-    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  $$ where a>b </th>
+    <th> $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1  \enspace where \enspace a<b $$ </th>
     <th>$$ x^2+y^2=a^2+b^2 $$ </th>
   </tr>
 </table>
-<br>
+
 <br>
 <br>
 
@@ -328,12 +327,11 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
 </div>
 </div>
 
-- Some Usefull Properties and Formulas
+### Some useful properties and formulas :
+
 #### Parabola Parameters
 
 <table style="width:100%" border="2"  bordercolor="white"  class="small-2">
-
-
 
   <tr>
     <th>Equation</th>
@@ -376,15 +374,13 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
     <th> $$ x=0 $$ </th>
   </tr>
 </table>
-<br>
+
 <br>
 <br>
 
 #### Equations of tangents of all parabolas in slope form
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
-
-
 
   <tr>
     <th>Equation of parabola</th>
@@ -420,13 +416,10 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
 
 <br>
 <br>
-<br>
 
 #### Equatons of normal of all parabolas in slope form
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
-
-
 
   <tr>
     <th>Equation of parabola</th>
@@ -462,9 +455,8 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
 
 <br>
 <br>
-<br>
 
-#### Director cirles of all parabolas
+#### Director circles of all parabolas
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
@@ -489,7 +481,7 @@ If $$ α=β $$, the conic section formed is a parabola (represented by the orang
     <th> $$ y-a=0 $$ </th>
   </tr>
 </table>
-<br>
+
 <br>
 <br>
 
@@ -508,19 +500,18 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
 </div>
 </div>
 
-- Some usefull properties and formulas
+### Some useful properties and formulas :
+
 #### Hyperbola Parameters
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
-
-
 
   <tr>
     <th>Equation</th>
     <th>Graph </th>
     <th>Focus </th>
     <th>Length of LR </th>
-    <th>Diretrix </th>
+    <th>Directrix </th>
     <th>Length of major axis </th>
   </tr>
   <tr>
@@ -548,15 +539,13 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
     <th> $$ 2a $$ </th>
   </tr>
 </table>
-<br>
+
 <br>
 <br>
 
 #### Equations of tangent of hyperbola
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
-
-
 
   <tr>
     <th>Equation</th>
@@ -583,15 +572,13 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
     <th> $$ c = \plusmn \sqrt{am^2-a^2} $$ </th>
   </tr>
 </table>
-<br>
+
 <br>
 <br>
 
-#### Equations of normal of hyperbola 
+#### Equations of normal of hyperbola
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
-
-
 
   <tr>
     <th>Equation</th>
@@ -618,15 +605,13 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
     <th> $$ c = \dfrac{2am}{\sqrt{1-m^2}} $$ </th>
   </tr>
 </table>
-<br>
+
 <br>
 <br>
 
 #### Equation of director circle of hyperbola
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
-
-
 
   <tr>
     <th>Equation</th>
@@ -641,7 +626,7 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
     <th>$$ x^2+y^2 = b^2-a^2 $$ </th>
   </tr>
 </table>
-<br>
+
 <br>
 <br>
 
@@ -653,7 +638,7 @@ If $$ 0≤β<α $$, then the plane intersects both nappes and the conic section 
 </div>
 </div>
 
-- The general equation for this type of paraboloid is $$ \dfrac{x2}{a2} + \dfrac{y2}{b2} = z $$.
+- The general equation for this type of paraboloid is $$ \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = z $$.
 - Use this tool to find volume and geometric centroid of paraboloid
 <div class="container my-3 row">
 <div class="col-md-6" >
