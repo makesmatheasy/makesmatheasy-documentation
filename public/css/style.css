@@ -530,3 +530,37 @@ form.nav_search input::placeholder {
   #myBtn:hover {
 	background-color: #555;
   }
+/* social media icons */
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.icons a{
+  color: #4f73b1;
+}
+.icon:hover{
+  opacity: 0.8;
+  font-size: 1.4em;
+}
+
+.fa-instagram:hover {
+  /* color: #bc2a8d; */
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  border-radius: 10%;
+}
+
+.fa-linkedin:hover {
+  color:#0077b5;
+}
+
+.fa-envelope:hover {
+  color: #d34836;
+}
+
+.fa-discord:hover {
+  color: #7289da;
+}
