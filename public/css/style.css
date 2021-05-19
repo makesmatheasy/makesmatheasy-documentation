@@ -459,7 +459,7 @@ form.nav_search input::placeholder {
     margin-left: 8px;
 	color: black;
 }
-th{
+th, td{
     text-align: center;
 }
 .dark{
