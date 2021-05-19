@@ -564,3 +564,14 @@ th, td{
 .fa-discord:hover {
   color: #7289da;
 }
+
+/* About section - Html/css/js logo */
+.e-block{
+    margin-left: -10px;
+}
+.f-block{
+    margin-left: -25px;
+}
+.g-block{
+    margin-left: -5px;
+}
