@@ -383,3 +383,20 @@ $$ c*\log_b (x) + d*\log_b (y) = \log_b (x^c*y^d) $$
 - This function checks whether the given input is prime or not. Additionally it provides the feature to output the prime number till the entered number.
 
 ![prime](../public/images/general math/prime.png)
+
+# Sum of Divisors
+- The sum of divisors $$\sigma(n)$$ id given by :
+    $$\sigma(n) = (1+p_1+p_1^2+...+p_1^{e_1})(1+p_2+p_2^2+...+p_2^{e_2})....(1+p_k+p_k^2+...+p_k^{e_k})$$
+where $$p_1, p_2, ...., p_k$$ are the prime factors of $$n$$.
+- In general, if you have the prime factorization of the number $$n$$, then to calculate the sum of its divisors, you take each different prime factor and add together all its powers up to the one that appears in the prime factorization, and then multiply all these sums together!
+- Let's understand this with the help of an example:
+        Let $$ n = 144 $$ then, the prime factorization of $$144$$ is $$2^4 . 3^2$$.<br>
+        Therefore its sum of divisors, $$\sigma(144)$$  will be :<br>
+    <p>
+        $$\sum_{n=1}^{n=4}(2^k) . \sum_{n=1}^{n=2}(3^k)$$
+        $$(1+2+4+8+16). (1+3+9)$$
+        $$(31) . (13)$$
+        $$403$$
+    </p>
+- This tool just takes the number and returns its sum of divisors.<br>
+![sumDiv](../public/images/general math/sumDiv.png)
