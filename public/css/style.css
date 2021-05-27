@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.1.1/css/fontawesome.min.css');
 html {
   overflow-x: hidden;
 }
@@ -532,23 +534,11 @@ th, td{
   }
 /* social media icons */
 
-.icons{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  overflow: hidden;
-}
-.icons a{
-  color: #4f73b1;
-}
-.icon:hover{
-  opacity: 0.8;
-  font-size: 1.4em;
-}
 
+/* 
 .fa-instagram:hover {
   /* color: #bc2a8d; */
-  background: #d6249f;
+  /* background: #d6249f;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
   border-radius: 10%;
 }
@@ -563,7 +553,124 @@ th, td{
 
 .fa-discord:hover {
   color: #7289da;
+} */ 
+
+#social-media-icons {
+  position: relative;
+  /* top: 50%; */
+  /* left: 50%; */
+  transform: translate(-50%, -50%);
+  margin-left: 120px;
+  padding: 0;
+  display: flex;
 }
+#social-media-icons li {
+  position: relative;
+  list-style: none;
+  margin: 0 2px;
+}
+#social-media-icons li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 40px;
+  height: 8px;
+  background: #000;
+  border-radius: 50%;
+  transition: 0.5s;
+  opacity: 0;
+  filter: blur(2px);
+  transform: scale(0.8);
+}
+#social-media-icons li:hover::before {
+  transition-delay: 0.2s;
+  opacity: 0.2;
+  transform: scale(1);
+}
+#social-media-icons li a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  transition: 0.5s;
+}
+#social-media-icons li:hover a {
+  transform: translateY(-10px);
+}
+#social-media-icons li a span  {
+  width: 100%;
+  height: 100%;
+}
+#social-media-icons li a span::before {
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  color: #262626;
+  transform-origin: top;
+  transition: transform 0.5s;
+}
+#social-media-icons li:hover a span::before {
+  transform: rotateX(90deg) translateY(-50%);
+}
+#social-media-icons li a span::after {
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: #fff;
+  color: #262626; */
+  transform-origin: bottom;
+  transition: transform 0.5s;
+  transform: rotateX(90deg) translateY(50%);
+}
+#social-media-icons li:hover a span::after {
+  transform: rotateX(0deg) translateY(0);
+}
+#social-media-icons li:nth-child(1) a span::before,
+#social-media-icons li:nth-child(1) a span::after {
+  content: '\f16d';
+}
+#social-media-icons li:nth-child(2) a span::before,
+#social-media-icons li:nth-child(2) a span::after {
+  content: '\f392';
+}
+#social-media-icons li:nth-child(3) a span::before,
+#social-media-icons li:nth-child(3) a span::after {
+  content: '\f0d5';
+}
+#social-media-icons li:nth-child(4) a span::before,
+#social-media-icons li:nth-child(4) a span::after {
+  content: '\f0e1';
+}
+#social-media-icons li:nth-child(1) a span::after {
+  background: #d6249f;
+  color: #fff;
+}
+#social-media-icons li:nth-child(2) a span::after {
+  background: #7289da;
+  color: #fff;
+}
+#social-media-icons li:nth-child(3) a span::after {
+  background: #dd4b39;
+  color: #fff;
+}
+#social-media-icons li:nth-child(4) a span::after {
+  background: #0077b5;
+  color: #fff;
+}
+
+
+/* Social media icons end */
 
 /* About section - Html/css/js logo */
 .e-block{
