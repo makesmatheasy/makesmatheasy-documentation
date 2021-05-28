@@ -208,6 +208,198 @@ $$ \dfrac{\partial f}{\partial z} = -3xy $$
   - Inverse Laplace transform
   <br>
 ![Laplace Tansform](../public/gifs/inverse_laplace.gif){:#calc-edit}
+ 
+
+Note : There is no need to add spaces between variables and always use brackets when  you are passing some aruments to some functions or variables or may be working on some fractional part                
+
+### Vector Calculus Theorems
+#### Gauss Divergence Theorem
+- The divergence theorem states that the surface integral of the normal component of a vector function "F" over a closed surface "S" is equal to the volume integral of the divergernce of F, taken over the volume "V" enclosed by the surface S
+
+<p>
+$$ \int\int F.n dS = \int\int\int div F dV $$
+
+</p>
+
+#### Stokes Theorem
+- Let S be an oriented smooth surface that us bounded by a simple, closed, smooth boundary curve C with positive orientation. Also let F be a vector field then,
+
+<p>
+$$ \int F dr = \int \int curl F dS $$
+</p>
+
+![vector](../public/images/calculus/vector-1.png)
 
 
-Note : There is no need to add spaces between variables and always use brackets when  you are passing some aruments to some functions or variables or may be working on some fractional part
+#### Greens Theorem
+- Let C be a positively oriented, piecewise smooth, simple closed curve and let D be the region enclosed by the curve. If P and Q have continous first order partial derivatives on D then,
+
+<p>
+$$ \int P dx + Q dy = \int \int (\dfrac{\partial Q }{\partial x} - \dfrac{\partial P}{\partial y})dA $$
+</p>
+
+![vector](../public/images/calculus/vector-2.png)
+
+
+### Vector Calculator
+- Enter values into Magnitude  ... or i, j and k.
+- It will do the following conversions :
+- Mono Vector Calculator
+![vector](../public/images/calculus/vc-1.png)
+
+- Vetor Addition,Subtraction and Product Calculator
+![vector](../public/images/calculus/vc-2.png)
+
+- Angle Calculator (2D and 3D vector)
+![vector](../public/images/calculus/vc-3.png)
+
+- Paraller Vector  
+![vector](../public/images/calculus/vc-4.png)
+
+- Projection calculator
+![vector](../public/images/calculus/vc-5.png)
+
+- Section Formula
+![vector](../public/images/calculus/vc-6.png)
+
+- Co-planar and Non-Co-planar calculator
+![vector](../public/images/calculus/vc-7.png)
+
+- Vector Joining Two Points and Shortest Distance
+![vector](../public/images/calculus/vc-8.png)
+
+- tetrahedron Calculator and Area of triangle calculator
+![vector](../public/images/calculus/vc-9.png)
+
+- Volume of parallelopiped and triple product of vector
+![vector](../public/images/calculus/vc-10.png)
+
+### Vector Algebra
+
+#### Magnitude of a vector
+- The magnitude of a vector is shown by vertical lines on both the sides of the given vector "|a|"
+- It reprsents the length of the vector. Mathematically, the magnintude of a vector is calculated by the help of "pythagoras Theorem" i.e 
+<p>
+$$ |a| = \sqrt(x^2+y^2) $$
+</p>
+
+#### Unit Vector
+- A unit vector has a length equal to one, which is basically used to show the direction of any vector. A unit vector is equal to the ratio of a vector and its magnitude.
+- Symbolically , it is represented by a cap or hat
+
+<p>
+$$ \hat{a} = \dfrac{a}{|a|} $$
+</p>
+
+#### Zero Vector
+- A vector with zero magnitude is called a zero vector. The coordninates of zero vecotr are given by (0,0,0) and it is uusually represneted by 0 with an arrow -> at the top or just 0.
+
+#### Characterstics of vecotr Math Adition
+- Commutative Law - The order of addition does not matter, i.e, a+b = b+a
+- Associative law - The sum of the 3 vectors has nothing to do with which pair of the vector are added at the beginning
+
+#### Scalar Multiplication
+- Only the magnitude of a vector is changed not the direction
+
+<p>
+$$ S(a+b) = Sa+Sb $$
+$$ a.1 = a $$
+$$ a.0 = 0 $$
+$$ a(-1) = -a $$
+</p>
+
+#### Scalar triple Product 
+- The scalar triple product, also called as box product or mixed triple product of the tree say a , b nad c is given by  (a X b) * c
+- It is also denoted by (abc)
+<p>
+
+$$ (abc) = (a X b) * c $$
+
+</p>
+
+#### Cross product
+ - the cross product of the two vectors reskts in a vector quantity.
+ - It is represented by a cross sign between two vectors.
+<p>
+$$ axb = |a||b|sin\theta $$
+
+</p>
+
+#### Properties of cross product
+<p>
+$$ \overrightarrow{a} X \overrightarrow{b} = \overrightarrow{-b} X \overrightarrow{a} $$
+$$ \overrightarrow{a} X \overrightarrow{a} = 0 $$
+$$ \overrightarrow{a} X (\overrightarrow{b} + \overrightarrow{c}) = \overrightarrow{a} X \overrightarrow{b} + \overrightarrow{a} X \overrightarrow{c} $$
+$$ \hat{i} X \hat{i} = \hat{j} X \hat{j} = \hat{k} X \hat{k} = 0 and \hat{i} X \hat{j} = \hat{k}, \hat{j} X \hat{k} = \hat{i}, \hat{k} X \hat{i} = \hat{j} $$
+$$ Two \enspace non-zero \enspace vectors \overrightarrow{a} and \overrightarrow{b} are \enspace collinear \enspace if and \enspace only \enspace  if \overrightarrow{a} X \overrightarrow{b} = 0  $$
+</p>
+
+
+####  Dot Product 
+- The dot product of two vecotrs always results in saclar quantity, i.e it has only magnitude and no direction. it is represented by a dot(.) in between two vectors.
+<p>
+$$ a.b = |a||b|cos\theta $$
+</p>
+
+### Fourier Series
+- Fourier series is and infinite series representation of periodic function in terms of trignometric functions sine and cosine.
+- Fourier series make use of the orthogonality relationships of the sine and cosine functions
+  
+<p>
+$$ The \enspace fourier \enspace series \enspace of \enspace the \enspace function \enspace is \enspace given \enspace by $$
+$$ f(x) = \dfrac{a_{0}}{2} +  \sum_{n=1}^{+\infty} (a_{n} cos nx + b_{n} sin nx) $$
+$$ where \enspace the \enspace coefficients \enspace are \enspace defined \enspace by \enspace integrals: $$
+$$ a_{0} = \dfrac{1}{\pi} \int_{-\pi}^{\pi} f(x) cos nx dx , bn = \dfrac{1}{\pi} \int_{-\pi}^{\pi} f(x) sin nx dx $$
+$$ Fourier \enspace series \enspace of \enspace of \enspace even \enspace function $$
+
+</p>
+
+- The fourier series expansion of an even function f(X) with the period o does not involve the terms with sines and has the form:
+
+<p>
+$$ f(x) = \dfrac{a_{0}}{2} +  \sum_{n=1}^{+\infty} a_{n} cos nx  $$
+$$ where \enspace the \enspace fourier \enspace coefficients \enspace are \enspace given \enspace by \ensp the \enspace formula $$
+$$ a_{0} = \dfrac{2}{\pi} \int_{0}^{\pi} f(x) dx, a_{n} = \dfrac{2}{\pi} \int_{0}^{\pi} f(x) cos nx dx  $$
+</p
+
+#### Fourier Series of odd function
+- Accord
+
+
+
+ngly, the fourier series expansion of an odd 2pi-periodic function f(x) consists of sine terms only and has the form:
+
+<p>
+$$  f(x) =  \sum_{n=1}^{+\infty} b_{n} sinx nx$$
+$$  where \enspace the coefficients \enspace are \enspace given \enspace by \enspace the \enspace formula $$
+$$  b_{n} = \dfrac{2}{\pi} \int_{0}^{\pi} f(x) sin nx dx $$
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
