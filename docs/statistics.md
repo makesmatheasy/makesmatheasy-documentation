@@ -41,7 +41,7 @@ $$ \dfrac{Larger \enspace Sample }{Smaller \enspace Sample \enspace Variance} $$
 
 </p>
 
-=======
+
 ## Some Usefull Formulas
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
@@ -140,9 +140,16 @@ $$ where \enspace \\ x \enspace is \enspace repeating \enspace value \\ w \enspa
 </p>
 
 - Use Following calculator to calculate weighted mean 
-<br>
 
-![wm](../public/images/statistics/wm-1.png)
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="![wm](../public/images/statistics/wm-1.png)
+" >
+</div>
+</div>
 
 
 # Mean Median and Mode
@@ -185,7 +192,13 @@ $$ S = \sigma = \sqrt \dfrac{\sum(x-\bar x)^2}{n} $$
 </p>
 
 - Use following calculator to calculate mean, median , mode , varinace and standard deviation on provided give data set
-- ![w1](../public/images/statistics/m3-1.png)
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/m3-1.png" >
+</div>
+</div>
+
 <br>
 
 
@@ -198,7 +211,13 @@ $$ S = \sigma = \sqrt \dfrac{\sum(x-\bar x)^2}{n} $$
 
 - use follwoing tool to find sensitivity and specificity
 
-![se](../public/images/statistics/ss-1.png)
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/ss-1.png" >
+</div>
+</div>
 
 </br>
 
@@ -216,27 +235,13 @@ $$ x = observations \enspace given \\ \bar x = mean \\ n = total \enspace number
 - Use following tool to calculate S.D
 <br> 
 
-![images](../public/images/statistics/ss-1.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/ss-1.png" >
+</div>
+</div>
 
 
 ## Z test
@@ -247,14 +252,7 @@ $$ x = observations \enspace given \\ \bar x = mean \\ n = total \enspace number
 - A z-statistic, or z-score, is a number representing the result from the z-test.
 - Z-tests are closely related to t-tests, but t-tests are best performed when an experiment has a small sample size.
 - Z-tests assume the standard deviation is known, while t-tests assume it is unknown.
-
-
-
-
-
-
-
-
+- 
 
 ## Z Score Calculator
 - A Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. 
@@ -271,11 +269,6 @@ $$ x = observations \enspace given \\ \bar x = mean \\ n = total \enspace number
 - A Z-score can reveal to a trader if a value is typical for a specified data set or if it is atypical.
 - In general, a Z-score below 1.8 suggests a company might be headed for bankruptcy, while a score closer to 3 suggests a company is in solid financial positioning.
 
-
-
-
-
-
 ## Negative Binomial Distribution 
 - A negative binomial distribution (also called the Pascal Distribution) is a discrete probability distribution for random variables in a negative binomial experiment.
 
@@ -290,25 +283,162 @@ $$  Where \\ n \enspace is \enspace the \enspace total \enspace number \enspace 
 
 
 
+# Linear Regression
+- Linear Regression is a model of the relationship between a dependent variable y and independent variable x by linear prediction function y = a + box
+- Linear functions are used to model in linear regression and the unknown model parameters are estimated from thee data.
+- Such method of modeling data is known as kinear models. TheFor more two or more variables, this modeling is called multiple linear regression
+- Linear regression models are often fitted using the least square regression linear.
+- Types of Linear Regression
+  - Simple linear regression
+    - 1 dependent variable (interval or ratio), 1 independent variable (interval or ratio or dichotomous)
+
+  - Multiple linear regression
+    - 1 dependent variable (interval or ratio) , 2+ independent variables (interval or ratio or dichotomous)
+
+  - Logistic regression
+    - 1 dependent variable (dichotomous), 2+ independent variable(s) (interval or ratio or dichotomous)
+
+  - Ordinal regression
+    - 1 dependent variable (ordinal), 1+ independent variable(s) (nominal or dichotomous)
+
+  - Multinomial regression
+    - 1 dependent variable (nominal), 1+ independent variable(s) (interval or ratio or dichotomous)
+
+  - Discriminant analysis
+    - 1 dependent variable (nominal), 1+ independent variable(s) (interval or ratio)
+- Formula for linear regression is given by $$ y = a + bx $$
+
+
+<p>
+
+$$ where \enspace a(intercept) = \dfrac{\sum y \sum x^2 - \sum x \sum xy}{(\sum x^2) - (\sum x )^2}  $$
+$$ where \enspace b (slope) = \dfrac{n \sum xy - (\sum x ) (\sum y))} {n \sum x^2 - (\sum x)^2}  $$
+$$ where \enspace x \enspace and \enspace y \enspace are \enspace two \enspace variables \enspace on \enspace the \enspace regression \enspace line. $$
+$$ b = Slope \enspace of \enspace the \enspace line. $$
+$$ a = y-intercept \enspace of \enspace the \enspace line. $$
+$$ x = Values \enspace of \enspace the \enspace first \enspace data \enspace set. $$
+$$ y = Values \enspace of \enspace the \enspace second \enspace data \enspace set.  $$
+
+<p>
 
 
 
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/linear.png" >
+</div>
+</div>
+
+
+# Chi- Square Test
+- A chi-square $$ (x^2) $$ statistic is a test that measures how a model compares to actual observed data.
+- The data used in calculating a chi-square statistic must be random, raw,mutually exclusive, drawn from independent variable and drawn from a large enough sample
+- There are two types of chi-square tests. Both use the chi-square statistic and distribution for different purposes:
+
+  - A chi-square goodness of fit test determines if sample data matches a population. For more details on this type, see: Goodness of Fit Test.
+  - A chi-square test for independence compares two variables in a contingency table to see if they are related. In a more general sense, it tests to see whether distributions of categorical variables differ from each another.
+
+- Formula for chi-square test:
+
+<p>
+
+$$ x_{c}^{2} = \sum \dfrac{(O_{i} - E_{i})^2}{E_{i}} $$
+
+</p>
+
+
+- Use following Tool to calculate the chi-square test
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/chi.png" >
+</div>
+</div>
+
+
+# Margin of Error
+- A margin of error tells you how many percentage points your results will differ from the real population value. 
+- For example, a 95% confidence interval with a 4 percent margin of error means that your statistic will be within 4 percentage points of the real population value 95% of the time.
+- More technically, the margin of error is the range of values below and above the sample statistic in a confidence interval. 
+- The confidence interval is a way to show what the uncertainty is with a certain statistic (i.e. from a poll or survey).
+- For example, a poll might state that there is a 98% confidence interval of 4.88 and 5.26. 
+- That means if the poll is repeated using the same techniques, 98% of the time the true population parameter (parameter vs. statistic) will fall within the interval estimates (i.e. between 4.88 and 5.26) 98% of the time.
+- Formula :
+
+<p>
+
+$$ the \enspace margin \enspace of \enspace error \enspace (MOE) \enspace calculator \enspace uses \enspace the \enspacefollowing \enspace formulas: $$
+$$ MOE = z * \dfrac{sqrt{(p!(1-p))}}{\sqrt{n}} $$
+$$ Where \enspace MOE \enspace is \enspace the \enspace margin \enspace of \enspace error $$
+$$ z \enspace is \enspace the \enspace score \enspace associated \enspace with \enspace a \enspace level \enspace of \enspace confidence $$
+$$ p \enspace is \enspace the \enspace proportion \enspace , \enspace expressed \enspace as \enspace a \enspace decimal $$
+$$ n \enspace is \enspace the \enspace sample \enspace size $$
+
+</p>
+
+- Use the following tool to calculate Margin of Error:
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/MOE.png" >
+</div>
+</div>
+
+
+# Correlation Coefficient 
+- Correlation coefficient is used to find how strong a relationship is between data
+- The formulas return a value between -1 and 1,where
+  - 1 indicates a strong positive relationship
+  - -1 indicates a strong negative relationship
+  - A result of zero indicates no relationship at all.
+- Formula :
+
+
+<p>
+
+$$  r_{x,y} = \dfrac{\sum_{i=1}^n (X_{i} - M_{x}( Y_{i} - M_{y}))}{ \sqrt{  \sum_{i=1}^{n} (X_{i} - M_{y})^2  \sum_{i=1}^{n} (Y_{i} - M_{y})^2}}  $$
+
+</p>
+
+
+- Use following tool to solve correlation coefficient problems
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/correlaton.png" >
+</div>
+</div>
 
 
 
+# Covariance 
+- Covariance indicates whether two variable X and Y are related by measuring how the variables change in relation to each other.
+- It tells us if there is a relationship between two variables and which direction that relationship is in.
+- A positive covariance means that the two variables are positively related  and they have the same direction.
+- A negative covariance means that the variables are negatively related and they have the opposite directions.
+- Formula
+
+<p>
 
 
+$$ Cov(X,Y) =  \dfrac{ \sum E ((X - \mu ) E(Y-v) ) }{n-1}  $$
+$$ X \enspace is \enspace a \enspace random \enspace variable $$
+$$ E(X) = μ \enspace is \enspace the \enspace expected \enspace value \enspace (the mean) \enspace of \enspace the \enspace random \enspace variable \enspace X \enspace and $$
+$$ E(Y) = ν \enspace is \enspace the \enspace expected \enspace value \enspace (the mean) \enspace of \enspace the \enspace random \enspace variable \enspace Y $$
+$$ n = the \enspace number \enspace of \enspace items \enspace in \enspace the \enspace data \enspace set $$
+
+</p>
+
+- Use the following tool to calculate covariance
 
 
-
-
-
-
-
-
-
-
-
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/cov.png" >
+</div>
+</div>
 
 
 
