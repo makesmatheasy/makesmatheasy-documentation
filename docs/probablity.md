@@ -92,16 +92,104 @@ $$ P(E) = \dfrac{f}{n} $$
 </div>
 
 
+# Geometric Probability Distribution
+- The geometric distribution is a special case of the negative binomial distribution. 
+- It deals with the number of trials required for a single success. 
+- Thus, the geometric distribution is a negative binomial distribution where the number of successes (r) is equal to 1.
+- Formula is : 
+  
+<p>
+$$ P(X=x) = p * Q^{x-1}  $$
+$$ p = probability \enspace of \enspace success \enspace for \enspace single \enspace trial.  $$
+
+$$ q = probability  \enspace of \enspace failure \enspace for \enspace a \enspace single \enspace trial \enspace (1-p) $$
+
+$$ x = the \enspace number \enspace of \enspace failures \enspace before \enspace a  \enspace success. $$
+
+$$ P(X−x) = Probability \enspace of \enspace x \enspace successes \enspace in  \enspace n  \enspace trials. $$
+</p>
+
+- use the foll tool to calculate geometric distribution
+  
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/geometric.png" >
+</div>
+</div>
+
+
+
+
+# Conditional Probablity
+- Conditional probability is defined as the likelihood of an event or outcome occurring, based on the occurrence of a previous event or outcome. 
+- Conditional probability is calculated by multiplying the probability of the preceding event by the updated probability of the succeeding, or conditional, event. 
+- For example:
+    - Event A is that an individual applying for college will be accepted. 
+    - There is an 80% chance that this individual will be accepted to college.
+    - Event B is that this individual will be given dormitory housing. 
+    - Dormitory housing will only be provided for 60% of all of the accepted students.
+    - P (Accepted and dormitory housing) = P (Dormitory Housing | Accepted) P (Accepted) = (0.60)*(0.80) = 0.48.
+- A conditional probability would look at these two events in relationship with one another, such as the probability that you are both accepted to college, and you are provided with dormitory housing.
+- Conditional probability can be contrasted with unconditional probability. 
+- Unconditional probability refers to the likelihood that an event will take place irrespective of whether any other events have taken place or any other conditions are present.
+- Conditional probability refers to the chances that some outcome occurs given that another event has also occurred.
+- It is often stated as the probability of B given A and is written as P(B|A), where the probability of B depends on that of A happening.
+- Conditional probability can be contrasted with unconditional probability.
+- Conditional Probablity Formula
+  
+<p>
+
+$$ P(\dfrac{B}{A}) = P \dfrac{ (A and B)}{ P(A)} $$
+$$ or $$
+$$ P(\dfrac{B}{A}) = P\dfrac{(A ∩ B)}{ P(A) } $$
+
+</p>
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/condi.png" >
+</div>
+</div>
+
+# Relative Risk Calculator
+- The relative risk (also called the risk ratio) of something happening is where you compare the odds for two groups against each other.
+- For example, you could have two groups of women: one group has a mother, sister or daughter who has had breast cancer. The other group does not have any close female relatives who have had the disease. 
+- The group with close family members who have had the disease are more likely to develop breast cancer (National Cancer Institute). 
+- Relative risk is usually reported as a percentage (i.e. 10% more likely) but you’ll also see it written as “x times more likely” (i.e. ten times more likely).
+- Although relative risk does provide some information about risk, it doesn’t say anything about the actual odds of something happening; on the other hand, absolute risk does.
+- Formula :
+
+<p>
+
+$$ \dfrac{\dfrac{a}{a+b}}{\dfrac{c}{c+d}} $$
+
+</p>
+
+-  Where "a" is the number of members of the exposed group who developed the disease
+- "b" is the nuber of members of the exposed group who didn't developed the disease
+- "c" is the number of members of the control group who developed the disease
+- "d" is the number of the control group who didn't developed the disease
+- Use following tool to calculate Relative Risk
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/relative.png" >
+</div>
+</div>
+
+
 # Joint Probablity
 - Probability is a mathematical branch that deals with the occurrence of a random event. In layman's terms, it is the likelihood of a specific event occurring. Joint probability is a statistical measure that calculates the likelihood of two events occurring simultaneously and at the same point in time.
 - Let A and B be the two events, and the joint probability is the likelihood of event B occurring at the same time as event A.
 - The notation used to represent the joint probability can take several forms. The joint probability of events with intersection is represented by the formula below.
 <p>
-$$ P (A⋂B) $$
+$$ P (A⋂B) = P(A) X P(B) $$
 </p>
 
 - in which, A, B denotes two events.
 - P(A and B), P(AB)=the combined probability of A and B
+- P (A) is the probability of event "A" occurring
+- P (B) is the probability of event "B" occurring
 - An intersection is the symbol "" in a joint probability. The probability of events A and B occurring is the same as the point at which A and B intersect. As a result, the joint probability is also referred to as the intersection of two or more events. This relationship can be represented using a Venn diagram, as shown below.
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
