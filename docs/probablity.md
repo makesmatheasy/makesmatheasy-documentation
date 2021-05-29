@@ -92,104 +92,16 @@ $$ P(E) = \dfrac{f}{n} $$
 </div>
 
 
-# Geometric Probability Distribution
-- The geometric distribution is a special case of the negative binomial distribution. 
-- It deals with the number of trials required for a single success. 
-- Thus, the geometric distribution is a negative binomial distribution where the number of successes (r) is equal to 1.
-- Formula is : 
-  
-<p>
-$$ P(X=x) = p * Q^{x-1}  $$
-$$ p = probability \enspace of \enspace success \enspace for \enspace single \enspace trial.  $$
-
-$$ q = probability  \enspace of \enspace failure \enspace for \enspace a \enspace single \enspace trial \enspace (1-p) $$
-
-$$ x = the \enspace number \enspace of \enspace failures \enspace before \enspace a  \enspace success. $$
-
-$$ P(X−x) = Probability \enspace of \enspace x \enspace successes \enspace in  \enspace n  \enspace trials. $$
-</p>
-
-- use the foll tool to calculate geometric distribution
-  
-<div class="container my-3 row">
-<div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/geometric.png" >
-</div>
-</div>
-
-
-
-
-# Conditional Probablity
-- Conditional probability is defined as the likelihood of an event or outcome occurring, based on the occurrence of a previous event or outcome. 
-- Conditional probability is calculated by multiplying the probability of the preceding event by the updated probability of the succeeding, or conditional, event. 
-- For example:
-    - Event A is that an individual applying for college will be accepted. 
-    - There is an 80% chance that this individual will be accepted to college.
-    - Event B is that this individual will be given dormitory housing. 
-    - Dormitory housing will only be provided for 60% of all of the accepted students.
-    - P (Accepted and dormitory housing) = P (Dormitory Housing | Accepted) P (Accepted) = (0.60)*(0.80) = 0.48.
-- A conditional probability would look at these two events in relationship with one another, such as the probability that you are both accepted to college, and you are provided with dormitory housing.
-- Conditional probability can be contrasted with unconditional probability. 
-- Unconditional probability refers to the likelihood that an event will take place irrespective of whether any other events have taken place or any other conditions are present.
-- Conditional probability refers to the chances that some outcome occurs given that another event has also occurred.
-- It is often stated as the probability of B given A and is written as P(B|A), where the probability of B depends on that of A happening.
-- Conditional probability can be contrasted with unconditional probability.
-- Conditional Probablity Formula
-  
-<p>
-
-$$ P(\dfrac{B}{A}) = P \dfrac{ (A and B)}{ P(A)} $$
-$$ or $$
-$$ P(\dfrac{B}{A}) = P\dfrac{(A ∩ B)}{ P(A) } $$
-
-</p>
-
-<div class="container my-3 row">
-<div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/condi.png" >
-</div>
-</div>
-
-# Relative Risk Calculator
-- The relative risk (also called the risk ratio) of something happening is where you compare the odds for two groups against each other.
-- For example, you could have two groups of women: one group has a mother, sister or daughter who has had breast cancer. The other group does not have any close female relatives who have had the disease. 
-- The group with close family members who have had the disease are more likely to develop breast cancer (National Cancer Institute). 
-- Relative risk is usually reported as a percentage (i.e. 10% more likely) but you’ll also see it written as “x times more likely” (i.e. ten times more likely).
-- Although relative risk does provide some information about risk, it doesn’t say anything about the actual odds of something happening; on the other hand, absolute risk does.
-- Formula :
-
-<p>
-
-$$ \dfrac{\dfrac{a}{a+b}}{\dfrac{c}{c+d}} $$
-
-</p>
-
--  Where "a" is the number of members of the exposed group who developed the disease
-- "b" is the nuber of members of the exposed group who didn't developed the disease
-- "c" is the number of members of the control group who developed the disease
-- "d" is the number of the control group who didn't developed the disease
-- Use following tool to calculate Relative Risk
-
-<div class="container my-3 row">
-<div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/relative.png" >
-</div>
-</div>
-
-
 # Joint Probablity
 - Probability is a mathematical branch that deals with the occurrence of a random event. In layman's terms, it is the likelihood of a specific event occurring. Joint probability is a statistical measure that calculates the likelihood of two events occurring simultaneously and at the same point in time.
 - Let A and B be the two events, and the joint probability is the likelihood of event B occurring at the same time as event A.
 - The notation used to represent the joint probability can take several forms. The joint probability of events with intersection is represented by the formula below.
 <p>
-$$ P (A⋂B) = P(A) X P(B) $$
+$$ P (A⋂B) $$
 </p>
 
 - in which, A, B denotes two events.
 - P(A and B), P(AB)=the combined probability of A and B
-- P (A) is the probability of event "A" occurring
-- P (B) is the probability of event "B" occurring
 - An intersection is the symbol "" in a joint probability. The probability of events A and B occurring is the same as the point at which A and B intersect. As a result, the joint probability is also referred to as the intersection of two or more events. This relationship can be represented using a Venn diagram, as shown below.
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
@@ -203,6 +115,72 @@ $$ P (A⋂B) = P(A) X P(B) $$
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/joint.png" >
 </div>
 </div>
+
+
+# Independent And Dependent Probablity
+## Dependent Probablity
+- When two events are dependent events, one event influences the probability of another event. 
+- A dependent event is an event that relies on another event to happen first. 
+- Dependent events in probability are no different from dependent events in real life: If you want to attend a concert, it might depend on whether you get overtime at work; if you want to visit family out of the country next month, it depends on whether or not you can get a passport in time. More formally, we say that when two events are dependent, the occurrence of one event influences the probability of another event.
+
+- Simple examples of dependent events:
+
+  - Robbing a bank and going to jail.
+  - Not paying your power bill on time and having your power cut off.
+  - Boarding a plane first and finding a good seat.
+  - Parking illegally and getting a parking ticket. Parking illegally increases your odds of getting a ticket.
+  - Buying ten lottery tickets and winning the lottery. The more tickets you buy, the greater your odds of winning.
+  - Driving a car and getting in a traffic accident
+- Formula
+<p>
+
+$$ P(A \enspace and \enspace B) = P(A) X P(\dfrac{B}{A}) $$
+
+</p>
+
+## Independent Probablity
+- An independent event is an event that has no connection to another event’s chances of happening (or not happening). 
+- In other words, the event has no effect on the probability of another event occurring. 
+- Independent events in probability are no different from independent events in real life. 
+- Where you work has no effect on what color car you drive. Buying a lottery ticket has no effect on having a child with blue eyes.
+- When two events are independent, one event does not influence the probability of another event.
+
+- Simple examples of independent events:
+
+  - Owning a dog and growing your own herb garden.
+  - Paying off your mortgage early and owning a Chevy Cavalier.
+  - Winning the lottery and running out of milk.
+  - Buying a lottery ticket and finding a penny on the floor (your odds of finding a penny does not depend on you buying a lottery ticket).
+  - Taking a cab home and finding your favorite movie on cable.
+  - Getting a parking ticket and playing craps at the casino.
+- Formula
+
+<p>
+
+$$ P(A \enspace and \enspace B) = P(A) X P(B) $$
+
+</p>
+
+- Use the following calculator to solve the problem on Independent and Dependent probability
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/independent.png" >
+</div>
+</div>
+
+
+# Binomial Distribution 
+
+- A binomial distribution can be thought of as simply the probability of a SUCCESS or FAILURE outcome in an experiment or survey that is repeated multiple times. 
+- The binomial is a type of distribution that has two possible outcomes (the prefix “bi” means two, or twice). 
+- For example, a coin toss has only two possible outcomes: heads or tails and taking a test could have two possible outcomes: pass or fail.
+- Binomial distributions must also meet the following three criteria:
+  - The number of observations or trials is fixed. In other words, you can only figure out the probability of something happening if you do it a certain number of times. This is common sense—if you toss a coin once, your probability of getting a tails is 50%. If you toss a coin a 20 times, your probability of getting a tails is very, very close to 100%.
+  - Each observation or trial is independent. In other words, none of your trials have an effect on the probability of the next trial.
+  - The probability of success (tails, heads, fail or pass) is exactly the same from one trial to another.
+
+i
 
 
 # Independent And Dependent Probablity
@@ -304,6 +282,143 @@ $$ y = probablity of not being sucessfull $$
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/PMF.png" >
 </div>
 </div>
+
+# PMF Of Poisson Distribution 
+- The poisson distribution is a discrete probablity distribution which results from poisson experiment.
+- It classifies the experiment into two different categories, such as sucess and failure.
+- Generally, the poisson random variable " X " defines the probablity of the sucess of the experiment. from the average rate of sucess, the poisson distribution probability can be easily calculated
+- Formula: 
+
+<p>
+
+$$ P.M.F =  P(X=k) = \dfrac{\lambda^k  e^{-\lambda}}{k!} $$ 
+$$  Where \enspace e = is \enspace euler's \enspace number (e = 2.71828...)  $$
+$$  k = the \enspace number \enspace of \enspace occurrences (k=0,1,2...) $$
+$$  \lambda = parameter \enspace such \enspace that \lambda > 0 $$
+
+</p>
+
+- Use the following tool to find PMF of Poisson Distribution
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/pmf-possion.png" >
+</div>
+</div>
+
+# Hypergeometric Distribution
+- The hypergeometric distribution is a probability distribution that’s very similar to the binomial distribution. 
+- In fact, the binomial distribution is a very good approximation of the hypergeometric distribution as long as you are sampling 5% or less of the population.
+- Therefore, in order to understand the hypergeometric distribution, you should be very familiar with the binomial distribution. Plus, you should be fairly comfortable with the combinations formula.
+- Binomial Formula:
+
+<p>
+
+$$  C(n,r) = \dfrac{n!}{r! (n-r)!}  $$
+
+</p>
+
+
+
+##  Hypergeometric Distribution PMF 
+
+- Formula 
+  
+<p>
+
+$$  P.M.F = P(X = k) = \dfrac{ (^K_k) (^{N-K}_{n-k}) }{ ^N_n}  $$
+
+</p>
+
+
+- Use the following tool to calculate PMF of geometric Distribution
+  
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/pmf-geometric.png" >
+</div>
+</div>
+
+
+# Exponential Distribution
+- The exponential distribution (also called the negative exponential distribution) is a probability distribution that describes time between events in a Poisson process.
+- There is a strong relationship between the Poisson distribution and the Exponential distribution. For example, let’s say a Poisson distribution models the number of births in a given time period. 
+- The exponential distribution is one of the widely used continuous distributions. It is often used to model the time elapsed between events.
+  
+## What is the Exponential Distribution used for
+- The exponential distribution is mostly used for testing product reliability. 
+- It’s also an important distribution for building continuous-time Markov chains. 
+- The exponential often models waiting times and can help you to answer questions like:
+  - “How much time will go by before a major hurricane hits the Atlantic Seaboard?” or
+  - “How long will the transmission in my car last before it breaks?”.
+- If you assume that the answer to these questions is unknown, you can think of the elapsed time as a random variable with an exponential distribution as long as the events occur continuously and independently at a constant rate
+- Formula : 
+
+
+<P>
+
+$$  P.M.F = f(x;\lambda) = {\lambda e^{\lambda x}.... where x \gvertneqq 0 }  $$
+$$  P.M.F = f(x;\lambda) = {0.... where x < 0 }  $$
+$$  Where \enspace \lambda = rate \enspace parameter \enspace x = random \enspace variable  $$
+
+
+</P>
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/expo-dist.png" >
+</div>
+</div>
+
+
+
+
+# Gamma Distribution
+- The gamma distribution term is mostly used as a distribution which is defined as two parameters – shape parameter and inverse scale parameter, having continuous probability distributions. 
+- It is related to the normal distribution,  exponential distribution, chi-squared distribution and Erlang distribution. ‘Γ’ denotes the gamma function.
+- Gamma distributions have two free parameters, named as alpha (α) and beta (β), where;
+  - α = Shape parameter
+  - β = Rate parameter (the reciprocal of the scale parameter)
+- It is characterized by mean µ=αβ and variance σ2=αβ2
+- The scale parameter β is used only to scale the distribution. This can be understood by remarking that wherever the random variable x appears in the probability density, then it is divided by β. 
+- Since the scale parameter provides the dimensional data, it is seldom useful to work with the “standard” gamma distribution, i.e., with β = 1.
+
+## Gamma Distribution Function 
+- The gamma function is represented by $$ Γ(y) $$ which is an extended form of factorial function to complex numbers(real). So, if $$ n∈{1,2,3,…}, $$ then $$ Γ(y)=(n-1)! $$
+
+- If $$ α  $$ is a positive real number, then $$ Γ(α) $$ is defined as
+
+  - If $$ Γ(α) = 0∫∞ ( ya-1e-y dy) , for α > 0. $$
+  - If $$ α = 1, Γ(1) =0∫∞ (e-y dy) = 1 $$
+  - If we change the variable to $$ y = λz $$ , we can use this definition for gamma distribution: $$  Γ(α) = 0∫∞ ya-1 eλy dy where α, λ >0. $$
+- Formula:
+
+<p>
+
+$$  P.M.F = f(x; \alpha, \beta ) = \dfrac{\beta ^{\alpha} x^{\alpha -1} e^{- \beta x} }{ \gamma(\alpha) }  $$ 
+$$  where \enspace \alpha = shape \enspace parameter  $$ 
+$$  x = random \alpha variable  $$ 
+$$  \beta = scale \enspace parameter  $$ 
+$$  \gamma (x) = gamma \enspace function  $$ 
+
+</p>
+
+
+- Use the following tool to calculate the gamma distribution
+  
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/gamma-dist.png" >
+</div>
+</div>
+
+
+
 
 # Bayes Theorem
 - The probability of an event occurring in relation to any condition is described by Bayes' theorem. It is also taken into account in the case of conditional probability. The Bayes theorem is also known as the probability formula for "causes." For example, suppose we need to calculate the probability of selecting a blue ball from the second bag of three different bags of balls, each of which contains three different colour balls, namely red, blue, and black. The probability of an event occurring based on other conditions is known as conditional probability in this case.
