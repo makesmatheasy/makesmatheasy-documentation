@@ -183,6 +183,72 @@ $$ P(A \enspace and \enspace B) = P(A) X P(B) $$
 i
 
 
+# Independent And Dependent Probablity
+## Dependent Probablity
+- When two events are dependent events, one event influences the probability of another event. 
+- A dependent event is an event that relies on another event to happen first. 
+- Dependent events in probability are no different from dependent events in real life: If you want to attend a concert, it might depend on whether you get overtime at work; if you want to visit family out of the country next month, it depends on whether or not you can get a passport in time. More formally, we say that when two events are dependent, the occurrence of one event influences the probability of another event.
+
+- Simple examples of dependent events:
+
+  - Robbing a bank and going to jail.
+  - Not paying your power bill on time and having your power cut off.
+  - Boarding a plane first and finding a good seat.
+  - Parking illegally and getting a parking ticket. Parking illegally increases your odds of getting a ticket.
+  - Buying ten lottery tickets and winning the lottery. The more tickets you buy, the greater your odds of winning.
+  - Driving a car and getting in a traffic accident
+- Formula
+<p>
+
+$$ P(A \enspace and \enspace B) = P(A) X P(\dfrac{B}{A}) $$
+
+</p>
+
+## Independent Probablity
+- An independent event is an event that has no connection to another event’s chances of happening (or not happening). 
+- In other words, the event has no effect on the probability of another event occurring. 
+- Independent events in probability are no different from independent events in real life. 
+- Where you work has no effect on what color car you drive. Buying a lottery ticket has no effect on having a child with blue eyes.
+- When two events are independent, one event does not influence the probability of another event.
+
+- Simple examples of independent events:
+
+  - Owning a dog and growing your own herb garden.
+  - Paying off your mortgage early and owning a Chevy Cavalier.
+  - Winning the lottery and running out of milk.
+  - Buying a lottery ticket and finding a penny on the floor (your odds of finding a penny does not depend on you buying a lottery ticket).
+  - Taking a cab home and finding your favorite movie on cable.
+  - Getting a parking ticket and playing craps at the casino.
+- Formula
+
+<p>
+
+$$ P(A \enspace and \enspace B) = P(A) X P(B) $$
+
+</p>
+
+- Use the following calculator to solve the problem on Independent and Dependent probability
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/probablity/independent.png" >
+</div>
+</div>
+
+
+# Binomial Distribution 
+
+- A binomial distribution can be thought of as simply the probability of a SUCCESS or FAILURE outcome in an experiment or survey that is repeated multiple times. 
+- The binomial is a type of distribution that has two possible outcomes (the prefix “bi” means two, or twice). 
+- For example, a coin toss has only two possible outcomes: heads or tails and taking a test could have two possible outcomes: pass or fail.
+- Binomial distributions must also meet the following three criteria:
+  - The number of observations or trials is fixed. In other words, you can only figure out the probability of something happening if you do it a certain number of times. This is common sense—if you toss a coin once, your probability of getting a tails is 50%. If you toss a coin a 20 times, your probability of getting a tails is very, very close to 100%.
+  - Each observation or trial is independent. In other words, none of your trials have an effect on the probability of the next trial.
+  - The probability of success (tails, heads, fail or pass) is exactly the same from one trial to another.
+
+
+
+
 ## PMF of Binomial Distribution Calculator
 - Full form of PMF is Probablity Mass Function
 - The Probability Mass Function (PMF), also known as a probability function or frequency function, is a statistical function that describes the distribution of a discrete random variable. If X is a discrete random variable of a function, then the probability mass function of X is given by
