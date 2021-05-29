@@ -20,6 +20,88 @@ description: Integration, Differentiation, Partial Derivative, Laplace Transform
 
 - This tool can be used to find solutions of integration, derivative, partial derivative and Laplace transform questions along with the steps
 
+## Inverse, Periodicity of Functions
+### What is a Period
+- The time interval between two waves is known as a Period whereas a function that repeats its values at regular intervals or periods is known as a Periodic Function. 
+- In other words, a periodic function is a function that repeats its values after every particular interval
+<p>
+$$ f(x+a) = f(x) \enspace for \enspace a > 0 $$
+</p>
+
+### How to find a period?
+- If a function repeats over at a constant period we say that is a periodic function.
+- It is represented like $$ f(x) = f(x + p), $$ p is the real number and this is the period of the function.
+- Period means the time interval between the two occurrences of the wave.
+![periodcity](../public/images/calculus/periodcity.png)
+
+<p>
+$$  if \enspace for \enspace f(x) \enspace period = T, \enspace then \enspace period \enspace for \enspace f(ax) \enspace = \dfrac{T}{a}  $$
+$$ Rest \enspace for \enspace all \enspace other \enspace cases of \enspace functions, \enspace the \enspace period \enspace remains \enspace same  $$
+
+</p>
+
+### What are inverse functions?
+- An inverse function or an anti function is defined as a function, which can reverse into another function. In simple words, if any function $$ “f” $$ takes $$ x $$ to $$ y $$ then, the inverse of “f” will take y to x.
+-  If the function is denoted by $$ ‘f’ $$ or $$ ‘F’ $$ , then the inverse function is denoted by f
+
+### How to find inverse?
+- The graph of the inverse of a function reflects two things, one is the function and second is the inverse of the function, over the line $$ y = x $$ .
+
+<p>
+$$ The \enspace inverse\enspace function \enspace returns \enspace the orignal \enspace value \enspace for \enspace which \enspace a \enspace function \enspace gave \enspace the \enspace out put $$
+</p>
+
+
+## Transformation of Functions
+
+<p>
+$$ if \enspace function \enspace f(X) \enspace changes \enspace to \enspace f(x) + b \enspace or \enspace f(x) - b - $$
+</p>
+
+![trans](../public/images/calculus/transformation-1.jpg)
+
+<p>
+$$ if  f(x) \enspace changes \enspace to \enspace |f(X)|-$$
+</p>
+
+- The graph of $$ f(X)  and  |f(X)| $$ would coincide if $$ f(X) > 0 $$ and the portions where $$ f(X) < 0 $$ would get inverted in the upwards direction 
+
+![trans](../public/images/calculus/transformation-2.jpg)
+
+<p>
+$$ if  f(x) \enspace changes \enspace to \enspace f(|X|)-$$
+</p>
+
+- The graph of $$ f(|X|)  and  f(x) $$ would be identical in the first and the fourth quadrants (as x > 0) and as such the graph of f(|x|) would be symmetrical about the y-axis
+  
+![trans](../public/images/calculus/transformation-3.jpg)
+
+<p>
+$$ if y =  f(x) \enspace changes \enspace to \enspace |y| =  f(x)$$
+</p>
+
+- Graph of |y| = f(x) would exist only in the regions where f(x) is non-negative and will be refeclted about the x-axis only in those regions
+
+![trans](../public/images/calculus/transformation-4.jpg)
+
+
+<p>
+$$ if  f(x) \enspace changes \enspace to \enspace af(x)$$
+</p>
+
+- No change in period of function, the maxima and minima gets increased
+
+![trans](../public/images/calculus/transformation-5.jpg)
+
+<p>
+$$ if  f(x) \enspace changes \enspace to \enspace f(ax)$$
+</p>
+
+- Nthe period of function changes from P to P/|a|
+
+![trans](../public/images/calculus/transformation-6.jpg)
+
+
 ## Integration
 - The integration is also called the anti-differentiation
 - Integration is the calculation of an integral. Integrals in math are used to find many useful quantities such as areas, volumes, displacement, etc.
