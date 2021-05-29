@@ -237,6 +237,93 @@ $$ If\enspace y = x^5 + 2x-3, \dfrac{dy}{dx} = 5x^4 + 2$$
 - Try above examples in the differentitaion tool
 - Refer [this](https://www.mathsisfun.com/calculus/derivatives-introduction.html) article for differentiation part.
 
+### Theorems on Differentitation
+ - If a function f is defined on the closed interval (a,b) satisfying the following conditions
+   - The function f is continuous on the closed interval (a,b) 
+   - The function f is differentiable on the open interval (a,b) 
+ - Then there exists a value x = c in such a way that $$ f^{'} = \dfrac{f(b)-f(a)}{b-a} $$ 
+
+#### Geometrical Interpretation of Lagrange's Mean Value Theorem 
+![Tod](../public/images/calculus/tod-1.png) 
+ 
+ 
+### Rolle's theorem 
+- A special case of lagrange mean value theorem is Rolle's theorem which states that 
+- If a funtion f is defined in the closed interval (a,b) in such a way that it satisfies the following : 
+  - The function f is continuous on the closed interval [a,b] 
+  - The function f is differentiable on the open interval (a,b) 
+  - Now if f(a) = f(b), then there exists at least one value of x,  
+- Let assume this value to be c. which lies between a and b i.e (a < c < b) such tha f' (c) = 0 
+- Precisely, if a fucntion is continuoius on the closed interval [a,b]  and differentiable on the open interval (a,b) then there exists a point x = c in (a,b) such that f'(c) = 0
+ 
+#### Geometric Interpretation of Rolle's Theorem 
+![Tod](../public/images/calculus/tod-2.png) 
+ 
+### Cauchy's Theorem 
+- Let the functions f(X) and g(x) be continuous on an interval [a,b], differentiable on (a,b) and g'(x) = 0 for all x belong (a,b).  
+- Then there is a point x = c in this interval such that  
+<P> 
+$$ \dfrac{f(b)-f(a)}{g(b)-g(a)} = \dfrac{f'(c)}{g'(c)}  $$
+</P> 
+
+
+### Critical Point
+- A function f which is continuous with x in its domian contains a critical point at point x if the following conditional hold good.
+  - f'(x) = 0
+  - f'(x) is undefined
+- A point of differentiable function f at which derivative is zero can be termed as criticla point
+- The types of critical points are as follows:
+  - A critical point is a local maximum if the funtion changes from increasing to decreasing at that point
+  - A critical point is a local minimum if the fucntion changes from decreasing to increasing at that point 
+  - A Critical point is an in flexion point if the concavity if the fucntion changes at that point.
+  - If a critical point is neither of the above , then it signidies a vertical tangent in the graph of a fucntion
+
+
+## Applications of derivative 
+### Rate of change of quantity
+- This is the general and most important and most important application to determine.
+- For example , to check the rate of change of the volume of a cube w.r.t its decreasing sides, we can use the derivative from as $$ \dfrac{dy}{dx} $$ where dy represnets the rate of change of volume of cube and dx represents the change of side of cube 
+![Tod](../public/images/calculus/AOD-1.jpg)
+
+### Increasing and Decreasing Functions
+- To find that a given function is increasing or decreasing or constant, say in a graph, we use derivatives. If f is a function which is continuous in [p,q] and differentiable in the open interval (p,q) then, 
+  - f is increasing at [p,q] if f'(x) > 0 for each x belongs (p,q)
+  - f is decreasing at [p,q] if f'(x) < 0 for each x belongs (p,q)
+  - f is constant function in [p,q], if f'(x) = 0 for each x belongs (p,q)
+
+### Monotonicity At a point
+- Functions are said to be montotonic if they are either increasing or decreasing in their domain
+  - A fucntion f(x) is called an increasing fucntion at point x = a,if in a sifficiently small neighbourhood of x = a; f(a-h) < f(a) < f(a+h)
+  ![Tod](../public/images/calculus/AOD-2.png)
+  - A Function is called a decreasing function at a point x = a if in a sifficiently small neighbour hood of x = a; f(a-h) > f(a) > f(a+h)
+  ![Tod](../public/images/calculus/AOD-3.png)
+  - f'(x) will be zero when the function is at its maxima or minima
+
+### Point of inflection
+- For continuous function $$ f(x) if f'(x_{0}) = 0 or f'''(x_{0})  $$ does not exits at points where $$ f'(x_{0}) $$ exists anf if f''(x) changes sign when passing through $$ x = x_{0}  then x_{0} $$ is called the point of inflection 
+  - if f''(x) < 0, x belongs (a,b) then the curve y = f(x) is concave downward
+  - if f''(x) > 0, x belongs (a,b) then the curve y = f(x) is concave upwards in a(a,b)
+  ![Tod](../public/images/calculus/AOD-4.png)
+
+<p>
+$$ Special \enspace Points $$
+$$ Critical \enspace Points : the \enspace points \enspace of \enspace domain \enspace for \enspace which \enspace f'(x) \enspace is \enspace equal \enspace to \enspace zero \enspace or \enspace doesn't \enspace exist \enspace are \enspace called \enspace critical \enspace points  $$
+
+$$ Stationary  \enspace Points : the \enspace stationary \enspace points \enspace are \enspace the \enspace points \enspace of \enspace the \enspace domain \enspace where \enspace f'(x) = 0, \enspace every \enspace stationary \enspace point \enspace is \enspace a \enspace critical \enspace point.  $$
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Partial Differentiation
 -  A  funсtiоn  f(x,y),  whiсh  deрends  оn  twо  vаriаbles  x  аnd  y,  where  x  аnd  y  аre  indeрendent  оf  eасh  оther.  Then  we  sаy  thаt  the  funсtiоn  f  раrtiаlly  deрends  оn  x  аnd  y.  Nоw,  if  we  саlсulаte  the  derivаtive  оf  f,  then  thаt  derivаtive  is  knоwn  аs  the  раrtiаl  derivаtive  оf  f.  If  we  differentiаte  funсtiоn  f  with  resрeсt  tо  x,  then  tаke  y  аs  а  соnstаnt  аnd  if  we  differentiаte  f  with  resрeсt  tо  y,  then  tаke  x  аs  а  соnstаnt.
@@ -276,6 +363,89 @@ $$ \dfrac{\partial f}{\partial z} = -3xy $$
 <br>
 ![Partial Differentation](../public/gifs/Partial_derivative.gif){:#calc-edit}
 
+
+## Maxima And Minima Functions
+A local maximum point on a function is a point (x,y) on the graph of the function whose y coordinate is a larger than all other y coordniates on the graph at points "close to"
+ (x,y). More precisely, (x,f(x)) is a local maximum if there is an interval (a,b) with (a < x < b) > f(z) for every z in (a,b) is a local minimum point if it has locally the smallest y coordinate . Again being more precise : (xf(x)) is a local minimum if there is an interval (a,b) with a < x < b and f(x) < f(z) for every z in (a,b). A local extremum is either a local minimum or a local maximum.
+
+
+### First Order Derivative Test
+- Find out first derivative of f(X)
+- Equats to o and find out values of x
+- Ploa a wavy curve
+- if at a point curve goes from -ve slope to +ve, minima at that point and vice versa for maxima
+
+### Second Order Derivative Tested 
+- Equats to 0 First order derivative and find values of x
+- Find out second derivative
+- Put values of x in second deriva 
+- If answer is +ve , minima and -ve maxima
+
+
+
+## Power Series
+- A power series abount a or just power series, is any series that can be written in the form
+- Where $$ a_{n}  $$ and $$ c_{n}n $$ are numbers. the c(n) are often called the coefficients of the series. the first thing to notice about a power series is that it is a function of x. That is different from any other kind of series what we've looked at to this point. In all the prior sections we've only allowed numbers inthe series and now we are allowing variables to be inthe series as well. this will not change how things how things work however. Everything that we know about series still holds.
+- The interval of convergence must then contain the interval a - R < x < a + R since we know that the power series will converge for these values. we also know that the ointerval of convergence can't contain x's inthe ranges x< a - R and x > a+R since we know the power series diverges for these value of x. Therefore to completley identify the interval if convergence all that we have to do is determine if the power series will converge for x = a-R or x = a+R.If the Power series converges for one one or both of these values then we'll need to include those in the interval of convergence
+
+### Analytic Function
+- A function f(x) containing the point $$ x=x_{0} $$ if its Taylor's series exists and converges to f(x) for all x 
+- All polynomial functions are analytic everywhere 
+- It is important to note that no matter what else is happening in the power series we are guranteed to get convergence for x = a
+- The Series may not converge for any other value of x, butit will always converge for x = a.
+
+ 
+
+
+
+
+
+
+
+
+
+
+## Beta and Gamma functions
+
+### What are beta functions
+ - the beta functions is a unique function where it is classified as the first kind of Euler's integrals.
+ - The beta function is defined in the domains of real numbers. 
+ - The notation to represent the beta function is $$ \beta $$
+ - The beta fucntion is meant by B(p,q), where the parameters p and q should be real numbers. 
+ <p>
+ $$ B(p,q) = \int_{0}^{1} t^{p-1} (1-t)^{q-1} dt $$
+ $$ Where \enspace p,q \enspace > 0 $$
+ </p>
+
+
+ #### Properties of Beta Fuctions
+ - This function is symmetric which means that the value of beta function is irrespective to the order of its parameters, i.e B(p,q) = B(q,p)
+ - B(p,q) = B(p,q+1) + B(p+1,q)  
+ - B(p,q+1) = B(p,q).q/(p+1q)
+ - B(p+1,q) = B(p,q).p/(p+q)
+ - B(p,q).B(p+q,1-q) = pi/p sin(pi q)
+ 
+<p>
+$$ B(p,q) = \int_{0}^{\infty} \dfrac{t^{p-1}}{(1+t)^{p+q}} dt $$
+$$ B(p,q) = 2 \int_{0}^{\dfrac{\pi}{2}} sin^{2p-1} \theta cos^{2q-1} \theta $$
+$$ B(p,q) = \int_{0}^{1} x^{m-1} (1-x)^{n-1} dx $$
+$$ B(p,q) = B(q,p) $$
+</p>
+ 
+#### What are gamma functions
+
+<p>
+$$ \gamma(x) = \int_{0}^{|\infty} t^{x-1} e^{-t} dt $$
+$$ \gamma(n) = (n-1)! $$
+$$ \gamma(\dfrac{1}{2}) = \dfrac{\sqrt{\pi}}{2} $$
+$$ \gamma(\dfrac{n}{2}) = \gamma(\dfrac{n-2}{2})\dfrac{n}{2} $$
+$$ \gamma n \gamma (1-n) = \dfrac{\pi}{sin n\pi} $$
+$$ \gamma(m)\gamma(m+\dfrac{1}{2}) = \dfrac{\sqrt(\pi)}{2^{2m-1}} \gamma(2m) $$
+$$ \gamma(\dfrac{1}{2}) = \sqrt(\pi) $$
+</p>
+ 
+ 
+ 
 
 ## Laplace Transform
 - The  Lарlасe  trаnsfоrm  рrоvides  а  useful  methоd  оf  sоlving  сertаin  tyрes  оf  differentiаl  equаtiоns  when  сertаin  initiаl  соnditiоns  аre  given,  esрeсiаlly  when  the  initiаl  vаlues  аre  zerо.
