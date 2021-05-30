@@ -378,6 +378,134 @@ $$ c*\log_b (x) + d*\log_b (y) = \log_b (x^c*y^d) $$
 
 ![mean](../public/images/general math/mean.png)
 
+# Pythagorean Triplets
+- Pythagorean triples are a2+b2 = c2 where a, b and c are the three positive integers. These triples are represented as (a,b,c). Here, a is the perpendicular, b is the base and c is the hypotenuse of the right-angled triangle. The most known and smallest triplets are (3,4,5).
+- The integer solutions to the Pythagorean Theorem, a2 + b2 = c2 are called Pythagorean Triples which contains three positive integers a, b, and c.
+  - Example: (3, 4, 5)
+  - By evaluating we get:
+  - 32 + 42 = 52
+  - 9+16 = 25
+  - Hence, 3,4 and 5 are the Pythagorean triples.
+
+
+
+![mean](../public/images/general math/pythagorean.png)
+
+
+# Hydrostatic Pressure Calculator
+- Hydrostatic pressure is defined as The pressure exerted by a fluid at equilibrium at any point of time due to the force of gravity.
+- Hydrostatic pressure is proportional to the depth measured from the surface as the weight of the fluid increases when a downward force is applied.
+- The fluid pressure can be caused by gravity, acceleration or forces when in a closed container. Consider a layer of water from the top of the bottle. 
+- There is a pressure exerted by the layer of water acting on the sides of the bottle. 
+- As we move down from the top of the bottle to the bottom, the pressure exerted by the top layer on the bottom adds up.  
+- This phenomenon is responsible for more pressure at the bottom of the container.
+
+
+![mean](../public/images/general math/hydro.png)
+
+
+# Logorithm Properties
+- Let m and n be arbitrary positive numbers ,a >0 , a!=1,b>0,b!=1 and $$ \alpha \beta $$ be any real numbers , then
+  
+<p>  
+
+$$ log_{a} (mn) = log_{a}m + log_{a}n $$
+$$ log_{a} \dfrac{m}{n} = log_{a}m - log_{a}n $$
+$$ log_{a} m^{\alpha} = \alpha log_{a}m  $$
+$$ log_{a} \beta m = \dfrac{1}{\beta} log_{a}m  $$
+$$ log_{b}  m = \dfrac{log_{\alpha}m}{log_{\alpha}b}   $$
+
+</p>  
+
+- Use this tool to find logorithmic value
+
+![mean](../public/images/general math/log.png)
+
+
+
+# Binomial Theorems
+- General Formula
+
+<p>
+
+$$ (x+y)^n = nC_{r} x^{n-r} . y^{r} + nC_{r} x^{n-r} . y^{r}  + ....... + nC_{n}-1 x.y^{n-1} + nC_{n} y^{n} $$
+$$ where \enspace nC_{r} = \dfrac{n!}{(n-r)! r!} $$
+
+</p>
+
+- Some Useful Expansions
+
+<p>
+
+$$ (x+y)^n + (x-y)^n = 2[nC_{0} x^n + nC_{2} x^{n-1} y^2 + nC_{4} x^{n-4} y^{4} + ......] $$
+$$ (x+y)^n - (x-y)^n = 2[nC_{1} x^n + nC_{3} x^{n-3} y^3 + nC_{5} x^{n-5} y^{5} + ......] $$
+$$ (1 + x)^n = [nC_{0} + nC_{1}x + nC_{2}x^2 + .....+ nC_{n} X^n] $$
+
+</p>
+
+- Properties of binomial coefficients
+
+<p>
+
+$$ c_{0} + c_{1} + C_{2} .... C_{n} = 2^n $$
+$$ c_{0} + c_{2} + C_{4} .... =  C_{1} + C_{3} + C_{5} = 2^{n-1} $$
+$$ C_{0} - C_{1} + C_{2} - C_{3} ..... + (-1)^n .nC_{n} = 0 $$
+
+</p>
+
+
+
+# Binomial Coefficient Calculator and Binomial Expression Multiplication
+
+![mean](../public/images/general math/binomial-1.png)
+
+![mean](../public/images/general math/binomial-2.png)
+
+
+# Foil Calculator
+- FOIL is a method for multiplying two binomials
+- FOIL is an acronym for the four terms appearing in the final result
+  - F -> First term of each binomial are multiplied
+  - O -> Outer terms are multiplied
+  - I -> Inner terms are multiplied
+  - L -> Last terms are multiplied
+
+![mean](../public/images/general math/foil.png)
+
+
+![mean](../public/images/general math/foil-1.png)
+
+
+
+
+# Golden ratio
+- The golden ration, is obtained when two segment lengths have the same proportion as the proportion of their sum to the larger of the two lengths
+- The golden ratio has a value of approximately 1.618
+- if 'a' is longer section and 'b' is shorter then
+
+<p>
+
+$$ \dfrac{a+b}{b} = \dfrac{a}{b} $$
+
+</p>
+
+![mean](../public/images/general math/golden-ratio.png)
+
+
+# Golden Rectangle
+- The golden rectangle is a rectangle whose sides are in the golden ratio
+- the golden ratio has a value of approximately 1.618
+- if 'a' is width and 'a+b' is length of golden rectangle then
+
+<p>
+
+$$ \dfrac{a+b}{b} = \dfrac{a}{b} $$
+
+</p>
+
+![mean](../public/images/general math/mgolden-rectangl.png)
+
+
 # Prime Numbers
 - A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.
 - This function checks whether the given input is prime or not. Additionally it provides the feature to output the prime number till the entered number.
