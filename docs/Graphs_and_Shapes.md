@@ -308,3 +308,337 @@ description: Plotting Graphs And 2D/3D Shapes
 - This tool can be used to find all the necessary values of any shape, below is a working demo.
 
 ![Shapes](../public/gifs/Shapes_cal.gif){:#graphs-edit}
+
+
+
+# 3D Geometry
+- 3D geometry involves the mathematics of shapes in 3D space and involving 3 coordinates which are x-coordinate, y-coordinate and z-coordinate. In a 3d space, three parameters are required to find the exact location of a point
+- In mathematics, we generally come across Cartesian geometry,where we basically deal with location of a point in x-y plane.This is called 2-D geometry. 
+- Hence,3-D Geometry is nothing but an extension of this 2-D geometry taking into consideration three orthogonal axes,viz., x,y and z axes in Cartesian geometry, for example.For a practical example,we can consider a circle,which can be drawn on a piece of paper,i.e.,plane but cannot be realized in practical world.
+- Likewise, we can have a ball in our hand,which is a sphere, the 3-D analogue of circle,but we can't draw it on paper.As many number of axes included,as many number of dimensions : this is the firsthand general rule that is followed.The 3-D geometry is sometimes also called Solid Geometry, since it deals with solid or 3-D objects that we encounter in our daily life.
+- Further extensions of this geometry lead to tensors and manifolds,which were included in Einstein's Theory of Relativity.
+
+
+## Some Usefull Formulas and Properties
+
+<p>
+
+
+$$  Distance \enspace of \enspace P(x,y,z) \enspace from \enspace origin (0,0,0) = \sqrt{(x^2+y^2+z^2)}  $$
+$$  Distance \enspace between \enspace two \enspace points \enspace P(x1,y1,z1) \enspace and \enspace Q(x2,y2,z2) = \sqrt{(x2-x1)^2 + (y2-y1)^2 + (z2-z1)^2}  $$
+$$  Let P (x1,y1,z1) and Q(x2,y2,z2) \enspace be two \enspace points \enspace R \enspace divides \enspace the \enspace line \enspace segment \enspace PQ \enspace in \enspace ration \enspace internally \enspace. Then \enspace R \enspace has \enspace coordinate: (\dfrac{mx2+nx1}{m+n} , \dfrac{my2+ny1}{m+n} , \dfrac{mz2+nz1}{m+n})  $$
+$$  Direction \enspace cosines \enspace and \enspace direction \enspace ratios \enspace of \enspace a \enspace line \enspace in \enspace cartesian \enspace plane \enspace cosines \enspace of \enspace the \enspace angles \enspace a \enspace line \enspace makes \enspace with \enspace the \enspace positive x,y and z \enspace axis \enspace respectively, \enspace are \enspace called \enspace cosines \enspace of \enspace that \enspace line    $$
+$$  so \enspace if \enspace those \enspace are \alpha, \beta, \gamma \enspace then cos\alpha , cos\beta, cos\gamma  are \enspace the \enspace direction \enspace cosines \enspace of \enspace the \enspace line \enspace they \enspace are \enspace denoted \enspace by \enspace l,m,n \enspace which is l^2 + m^2 + n^2 = 1      $$
+$$  Any \enspace 3 \enspace number a,b,c \enspace which \enspace are \enspace proportional \enspace to \enspace direction \enspace cosines \enspace are \enspace called \enspace direction \enspace ratios hence = \dfrac{l}{a} = \dfrac{m}{b} = \dfrac{n}{c} = \dfrac{\sqrt{l^2+m^2+n^2}}{\sqrt{a^2+b^2+c^2}} = \dfrac{1}{\sqrt{a^2+b^2+c^2}}      $$
+$$  Let \enspace P(x,y,z) and \enspace Q(x2,y2,z2) be 2 points \enspace then \enspace direction \enspace cosines \enspace will \enspace be \enspace l = \dfrac{x2-x1}{|PQ|} , m = \dfrac{y2-y1}{|PQ|}, n = \dfrac{z2-z1}{|PQ|}     $$
+$$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \enspace on a line \enspace whose \enspace direction \enspace cosines \enspace are l,m,n \enspace is l(x2-x1) + m(y2-y1) + n(z2-z1)  $$
+
+
+<p>
+
+
+
+## 3D Geometry Calcuator 
+### Equation Of a Plane
+- This tool can be used to find the equation of a plane based on the coordinates
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-1.png" >
+</div>
+</div>
+
+
+### Distance Between two points 
+- This tool can be used to find distance between two points along with solving steps
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-2.png" >
+</div>
+</div>
+
+
+### Distance from point to plane
+- this tool can be used to find distance of a point from  a plane along with solving steps
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-3.png" >
+</div>
+</div>
+
+
+
+### Distance between perpendicular line and plane and section formula
+- this tool calculates the distance between perpendicular lines and a plane and
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-4.png" >
+</div>
+</div>
+
+
+
+### Distance between two planes and angle between two planes
+- this tool calculates the distance between two planes and angle between two planes
+  
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-5.png" >
+</div>
+</div>
+
+
+### Centroid Of A tetrahedron
+- this tool calculates the centroid of a tetrahedron
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-6.png" >
+</div>
+</div>
+
+
+
+### 3-D Distance
+- this tool calculates 3d distane between two line
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-7.png" >
+</div>
+</div>
+
+
+
+# 4-D Shapes Calculator
+
+- This tool can find volumes, area, size, length etc of any 4-D Shape.
+- This tool have following shapes
+  - Glame
+  - Tesseract
+  - Hypersphere
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/4d-shape-1.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/4d-shape-2.png" >
+</div>
+</div>
+
+
+
+# 3D Shapes_cal
+- This tool can find volumes, area, size, length etc of any 3-D Shape.
+- This tool have following shapes
+  - Antipodal Diagon
+  - Barrel
+  - Cap
+  - Capsule
+  - Cone
+  - Cube
+  - Cuboid
+  - Cylinder
+  - Disphenoid
+  - Ellipsoid
+  - Hyperboloid
+  - Obelisk
+  - Oloid
+  - Parallelpiped
+  - Polyhedrons
+  - Prisms
+  - Pyramids
+  - Sphere
+  - Wedge
+  - Reuleaux triangle
+  - Shell
+  - Tourus
+  - Trapezoid
+  - Triquetra
+
+
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-shapes-1.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-shapes-2.png" >
+</div>
+</div>
+
+
+
+## 3-D SHapes Inscribed
+- In geometry, an inscribed planar shape or solid is one that is enclosed by and "fits snugly" inside another geometric shape or solid. To say that "figure F is inscribed in figure G" means precisely the same thing as "figure G is circumscribed about figure F". 
+- A circle or ellipse inscribed in a convex polygon (or a sphere or ellipsoid inscribed in a convex polyhedron) is tangent to every side or face of the outer figure (but see Inscribed sphere for semantic variants). A polygon inscribed in a circle, ellipse, or polygon (or a polyhedron inscribed in a sphere, ellipsoid, or polyhedron) has each vertex on the outer figure; if the outer figure is a polygon or polyhedron, there must be a vertex of the inscribed polygon or polyhedron on each side of the outer figure. 
+- An inscribed figure is not necessarily unique in orientation; this can easily be seen, for example, when the given outer figure is a circle, in which case a rotation of an inscribed figure gives another inscribed figure that is congruent to the original one.
+- Familiar examples of inscribed figures include circles inscribed in triangles or regular polygons, and triangles or regular polygons inscribed in circles. 
+- A circle inscribed in any polygon is called its incircle, in which case the polygon is said to be a tangential polygon. 
+- A polygon inscribed in a circle is said to be a cyclic polygon, and the circle is said to be its circumscribed circle or circumcircle.
+- The inradius or filling radius of a given outer figure is the radius of the inscribed circle or sphere, if it exists.
+- The definition given above assumes that the objects concerned are embedded in two- or three-dimensional Euclidean space, but can easily be generalized to higher dimensions and other metric spaces.
+- For an alternative usage of the term "inscribed", see the inscribed square problem, in which a square is considered to be inscribed in another figure (even a non-convex one) if all four of its vertices are on that figure.
+
+
+- this tool can be used to find shapes that can perfectly inscribe in another 3d shape
+- Following are some screen shots of this tool
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-inscribed-1.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-inscribed-2.png" >
+</div>
+</div>
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-inscribed-3.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-inscribed-4.png" >
+</div>
+</div>
+
+
+# 2D Shapes
+- This tool can find volumes, area, size, length etc of any 2-D Shape.
+- This tool have following shapes
+  - Annulus 
+  - Astroid
+  - Arbelos
+  - Bulge
+  - Cardiod
+  - Circle
+  - Cla
+  - Cross
+  - Cycloid
+  - Ellipse
+  - Half Yin-yang
+  - Heart
+  - H - Shape 
+  - Hypocycloid
+  - Interior Angle Calculator
+  - Kite
+  - Lemniscate
+  - Line
+  - Parabolic Arch
+  - Parallelogram
+  - Polygons
+  - Rectangle
+  - Rhombus
+  - Salinon
+  - Stadium
+  - Star polygon
+  - Squircle
+  - Triangle
+  - Tricorn
+  - Trapezium
+  - T - Shape
+  - Cyclic Quadrilateral
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-shapes-1.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-shapes-2.png" >
+</div>
+</div>
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-shapes-3.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-shapes-4.png" >
+</div>
+</div>
+
+
+
+
+
+
+## 2-D SHapes Inscribed
+- In geometry, an inscribed planar shape or solid is one that is enclosed by and "fits snugly" inside another geometric shape or solid. To say that "figure F is inscribed in figure G" means precisely the same thing as "figure G is circumscribed about figure F". 
+- A circle or ellipse inscribed in a convex polygon (or a sphere or ellipsoid inscribed in a convex polyhedron) is tangent to every side or face of the outer figure (but see Inscribed sphere for semantic variants). A polygon inscribed in a circle, ellipse, or polygon (or a polyhedron inscribed in a sphere, ellipsoid, or polyhedron) has each vertex on the outer figure; if the outer figure is a polygon or polyhedron, there must be a vertex of the inscribed polygon or polyhedron on each side of the outer figure. 
+- An inscribed figure is not necessarily unique in orientation; this can easily be seen, for example, when the given outer figure is a circle, in which case a rotation of an inscribed figure gives another inscribed figure that is congruent to the original one.
+- Familiar examples of inscribed figures include circles inscribed in triangles or regular polygons, and triangles or regular polygons inscribed in circles. 
+- A circle inscribed in any polygon is called its incircle, in which case the polygon is said to be a tangential polygon. 
+- A polygon inscribed in a circle is said to be a cyclic polygon, and the circle is said to be its circumscribed circle or circumcircle.
+- The inradius or filling radius of a given outer figure is the radius of the inscribed circle or sphere, if it exists.
+- The definition given above assumes that the objects concerned are embedded in two- or three-dimensional Euclidean space, but can easily be generalized to higher dimensions and other metric spaces.
+- For an alternative usage of the term "inscribed", see the inscribed square problem, in which a square is considered to be inscribed in another figure (even a non-convex one) if all four of its vertices are on that figure.
+
+
+- this tool can be used to find shapes that can perfectly inscribe in another 2d shape
+- Following are some screen shots of this tool
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-inscribed-1.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-inscribed-2.png" >
+</div>
+</div>
+
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-inscribed-3.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-inscribed-4.png" >
+</div>
+</div>
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-inscribed-5.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-inscribed-6.png" >
+</div>
+</div>
+
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-inscribed-7.png" >
+</div>
+
