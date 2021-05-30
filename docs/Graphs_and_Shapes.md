@@ -313,6 +313,23 @@ description: Plotting Graphs And 2D/3D Shapes
 
 
 
+
+# Platonic Solids
+- A platonic solid is 3D Shape where:
+  - Each Face is the same regular polygon
+  - The same number of polygons meet at each vertec(corner)
+
+- There are only 5 platonic solids
+  - Tetrahedron
+    - 3 Triangles
+    - 4 faces
+    - 4 vertices
+    - 6 edges
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/Hetrahedron.jpg" >
+
 # 3D Geometry
 - 3D geometry involves the mathematics of shapes in 3D space and involving 3 coordinates which are x-coordinate, y-coordinate and z-coordinate. In a 3d space, three parameters are required to find the exact location of a point
 - In mathematics, we generally come across Cartesian geometry,where we basically deal with location of a point in x-y plane.This is called 2-D geometry. 
@@ -348,6 +365,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-1.png" >
 
+
 # Percentage chaneg in volume calculator 
 ## Percentage Change In Volume Of A Sphere
 - This too can be used to calculate percentage change in the volume of a sphere
@@ -356,20 +374,42 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/pc-vol.png" >
+
 </div>
 </div>
 
+
+
+
+
+  - Cube 
+    - 3 squares meet at each vertex
+    - 6 faces
+    - 8 vertices
+    - 12 edges
 
 
 ## Percentage Change In Volume Of A Cube
 - This too can be used to calculate percentage change in the volume of a Cube
 
 
+
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/cube.jpg" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/pc-cube.png" >
+
 </div>
 </div>
+
+
+  - Octahedron
+    - 4 triangles meet at each vertex
+    - 8 faces
+    - 6 vertices
+    - 12 edges
 
 
 
@@ -377,8 +417,12 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 - This too can be used to calculate percentage change in the volume of a Cuboid
 
 
+
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/octahedron.jpg" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/pc-cuboid.png" >
 
 </div>
@@ -386,8 +430,16 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 
+  - Dodecahedron
+    - 3 pentagons meet at each vertex
+    - 12 faces
+    - 20 vertices
+    - 30 edges
+
+
 ### Distance Between two points 
 - This tool can be used to find distance between two points along with solving steps
+
 
 # Volumetric Weight Calculator
 - This tool can be used to calculate volumetric Weight
@@ -397,10 +449,32 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/dooechedron.jpg" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-2.png" >
+
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/vw-1.png" >
 
+</div>
+
+</div>
+
+
+
+
+  - Icosahedron
+    - 5 triangles meet at each vertex
+    - 20 faces
+    - 12 vertices
+    - 30 edges
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/icosahedron.jpg" >
 </div>
 </div>
 
@@ -415,6 +489,30 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-3.png" >
 
+
+
+# Area of crescent and lune
+## What is a crescent?
+- Geometrical regions consisting of two circular arcs separate into two groups:
+  - A convex-convex region, in which both arcs curve outwards, is called a lens; and
+  - A concave-convex region, in which one arc curves outwards and one arc is curved inwards, is called a lune. You can also understand this geometrical shape as one disk partly covering another disk.
+  - So, what is a crescent? A crescent is a lune which does not include the original disk's center. It means that the distance between the disk centers is smaller than the radius of the covering disk.
+
+## What is lune
+- In plane geometry, a lune is the concave-convex region bounded by two circular arcs. It has one boundary portion for which the connecting segment of any two nearby points moves outside the region and another boundary portion for which the connecting segment of any two nearby points lies entirely inside the region. 
+- A convex-convex region is termed a lens. 
+- The word lune derives from luna, the Latin word for "moon".
+- Formally, a lune is the relative complement of one disk in another (where they intersect but neither is a subset of the other). Alternatively, if {\displaystyle A}A and {\displaystyle B}B are disks, then it is a lune.
+
+- this tool calculates the area of crescent and lune regions along with solving steps
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/crescent-1.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/crescent-2.png" >
 
 
 
@@ -467,9 +565,28 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 
+
+
+# Arc Length Calculator
+- The length of an arc depends on the radius of a circle and the central angle $$ \theta $$
+  
+<p>
+
+$$  \dfrac{L}{\theata} = \dfrac{c}{2\pi} $$
+$$  as \enspace circumference C = 2\pi r $$
+$$  \dfrac{L}{\theata} = \dfrac{2\pi r}{2\pi} $$
+$$  \dfrac{L}{\theata} = r $$
+$$  We \enspace find \enspace out  \enspace the \enspace arc \enspace length \enspace formula \enspace when \enspace \enspace multiplying \enspace the \enspace equation \enspace by \enspace \theta $$
+$$  L = r * \theta $$
+
+</p>
+
+- This tool calculates the length of an arc
+
 ### Distance between two planes and angle between two planes
 - this tool calculates the distance between two planes and angle between two planes
   
+
 
 - AAS Property (Angle - Angle - Side) - If any two angles and a non included side of one triangle are equivalent to the corresponding two angles and the non included side of the second triangle, then the two triangles are said to be congruent by AAS rule.
 
@@ -498,7 +615,14 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/arc.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/arc-1.png" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-6.png" >
+
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-5.png" >
 
@@ -508,8 +632,31 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 
+
+# Area of Segment Calculator
+- A segment of a circle can be definded as a region bounded by a chord and a corresponding arc lying between the chord's endpoints 
+- Area of a segment in radians  :
+
+<p>
+
+$$ A = \dfrac{1}{2} * r * r * (\theta - sin \theta) $$
+
+</p>
+
+- Area of a segment in degrees : 
+  
+<p>
+
+$$ A = \dfrac{1}{2} * r * r * (\dfrac{\pi}{180} \theta - sin \theta) $$
+
+</p>
+
+
+- this tool calculates arc length along with soloving Steps
+
 ### 3-D Distance
 - this tool calculates 3d distane between two line
+
 
 
 ## Similarity of triangles with
@@ -547,10 +694,17 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/segment.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/segment-1.png" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/4d-shape-1.png" >
 </div>
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/4d-shape-2.png" >
+
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-7.png" >
 
@@ -609,6 +763,26 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 
+
+
+# Quadrilaterals
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/quadlateral.png" >
+</div>
+</div>
+
+- Every Quadrilateral has 4 vertices , 4 angles, and 4 sides.
+- the total of its interior angles  = 360 degrees
+- this tool provides properites of following quadlateral
+  - Parallelogram
+  - Rectangle
+  - Square
+  - Rhombus
+  - Kite
+  - Trapezium
+  - And all shapes concept table 
 
 ## 3-D SHapes Inscribed
 - In geometry, an inscribed planar shape or solid is one that is enclosed by and "fits snugly" inside another geometric shape or solid. To say that "figure F is inscribed in figure G" means precisely the same thing as "figure G is circumscribed about figure F". 
@@ -699,8 +873,18 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 - If a line parallel to one side of a triangle intersects the other two sides of the triangle in distinct points, the segments of the other side of the triangle in the same halfplane of the line are proportional to the corresponding sides of the triangle
 
 
+
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/quad-1.png" >
+</div>
+</div>
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/quad-3.png" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-10.png" >
 </div>
 </div>
@@ -725,6 +909,12 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 </div>
 </div>
 
+
+
+- Summary Tabel
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/quad-2.png" >
 
 
 
@@ -777,6 +967,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 </div>
 </div>
 
+
 # Faulhaber's Formula
 - Faulhabers formula is also called bernoulli's formula.
 - Faulhaber did not know the properites of the coefficients discovered by bernoulli.
@@ -824,5 +1015,4 @@ $$ \sum_{k=1}^{n} k^p  = \dfrac{n^{p+1}}{p+1} + \dfrac{1}{2} n^p + \sum_{k=2}^{p
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-inscribed-7.png" >
 </div>
-
 
