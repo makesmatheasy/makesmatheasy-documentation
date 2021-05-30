@@ -2,20 +2,20 @@
 layout: default
 title: Graphs and Shapes
 permalink: /graphs_shapes/
-description: Plotting Graphs And 2D/3D Shapes 
+description: Plotting Graphs And 2D/3D Shapes
 ---
 
 # Graph Plotting
 - This tool can be used to plot graphs for logorithmic functions, exponential functions, trignometric functions, inverse trignometric functions, hyperbolic functions and all algebric function containg only single variable x.
 - Below is a working demo,kindly try the following functions to understand better.
- <p> 
+ <p>
   $$ sinh (x) $$
   $$ log (x) $$
   $$ e^x (x) $$
   $$ -x^4+2x^2  $$
   $$ x^3  $$
   $$ x^3  $$
- </p> 
+ </p>
 > Note :  Don't use Capital X and use space between function and the variable.
 
 ![Plot Graph](../public/gifs/Plot_graph.gif){:#graphs-edit}
@@ -52,7 +52,7 @@ description: Plotting Graphs And 2D/3D Shapes
     <td>$$Scalene  \enspace Triangle$$</td>
     <td>$$ \sqrt{[s(s−a)(s−b)(s−c)]} $$</td>
     <td>$$ a+b+c $$</td>
-    
+
   </tr>
   <tr>
     <td>$$Isosceles  \enspace Triangle$$</td>
@@ -310,7 +310,7 @@ description: Plotting Graphs And 2D/3D Shapes
 
 ![Shapes](../public/gifs/Shapes_cal.gif){:#graphs-edit}
 
-# Percentage chaneg in volume calculator 
+# Percentage chaneg in volume calculator
 ## Percentage Change In Volume Of A Sphere
 - This too can be used to calculate percentage change in the volume of a sphere
 
@@ -367,7 +367,7 @@ description: Plotting Graphs And 2D/3D Shapes
 
 ## Congruence properties of triangle
 
-- SSS property  (Side- Side - Side) - when all the three corresponding sides of 2 triangles are of equal size then triangles are congruent 
+- SSS property  (Side- Side - Side) - when all the three corresponding sides of 2 triangles are of equal size then triangles are congruent
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
@@ -472,7 +472,7 @@ description: Plotting Graphs And 2D/3D Shapes
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-10.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-10.jpg" >
 </div>
 </div>
 
@@ -484,7 +484,7 @@ description: Plotting Graphs And 2D/3D Shapes
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-11.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-11.jpg" >
 </div>
 </div>
 
@@ -496,7 +496,7 @@ description: Plotting Graphs And 2D/3D Shapes
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-12.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-12.jpg" >
 </div>
 </div>
 
@@ -515,27 +515,3 @@ description: Plotting Graphs And 2D/3D Shapes
 $$ \sum_{k=1}^{n} k^p  = \dfrac{n^{p+1}}{p+1} + \dfrac{1}{2} n^p + \sum_{k=2}^{p} \dfrac{B_{k}}{k!} p^{k-1} - n^{p-k+1}$$
 
 <p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
