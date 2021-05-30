@@ -7,6 +7,85 @@ description:
 
 
 
+
+# Skewness Calculator
+- Skewness refers to a distortion or asymmetry that deviates from the symmetrical bell curve, or normal distribution, in a set of data. If the curve is shifted to the left or to the right, it is said to be skewed. 
+- Skewness can be quantified as a representation of the extent to which a given distribution varies from a normal distribution. 
+- A normal distribution has a skew of zero, while a lognormal distribution, for example, would exhibit some degree of right-skew.
+- Skewness, in statistics, is the degree of asymmetry observed in a probability distribution.
+- Distributions can exhibit right (positive) skewness or left (negative) skewness to varying degrees. 
+- A normal distribution (bell curve) exhibits zero skewness.
+- Investors note right-skewness when judging a return distribution because it, like excess kurtosis, better represents the extremes of the data set rather than focusing solely on the average.
+
+- How to calculate Skewness:
+  - calculate the mean and standard deviation 
+  - subtract the mean from each rraw score 
+  - raise each of thses deviations from the mean of the third power and sum
+  - calculate skewness , which is the sum of the deviations from the mean, raise to the third power, divided by numbers of cases minus 1, times the standard deviation raised to the third power.
+- this tool is used to find skewness
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/skewness.png" >
+</div>
+</div>
+
+
+# Odds Calculator
+- This calculator is used to convert odds to a probability of winning or losing
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/odds.png" >
+</div>
+</div>
+
+
+# Confidence Interval 
+- A confidence interval is how much uncertainty there is with any particular statistic. Confidence intervals are often used with a margin of error. 
+- It tells you how confident you can be that the results from a poll or survey reflect what you would expect to find if it were possible to survey the entire population. 
+- Confidence intervals are intrinsically connected to confidence levels.
+- this calculator calculets the confidence interval
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/confidence.png" >
+</div>
+</div>
+
+
+# NP Chart
+- NP charts are used to monitor the number of non conforming units of a process based on samples taken from the process at goiven times (hours, shofts, days, weeks , months, etc) . We plot a graph of No defective item vs Sample No. If All the points of the graph lie within the control limits, then the process is under statistical conrtol
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/np-1.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/np-2.png" >
+</div>
+</div>
+
+
+# P Chart
+- A p- chart is an attribute control chart used with data collected in subgroups of varying sizes.
+- Because the subgroups size can vary, it shows a proportion on non conforming items rather than the actual count of items
+- Control limits of p - chart determines whether the process is in control or not
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/p-1.png" >
+</div>
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/p-2.png" >
+</div>
+</div>
+
+
+
 ## AB Test
 - An AB test is a statistical significance test in which two populations are compared to see if they differ significantly on a single characteristic. A sample size of 30 or more is recommended
 
