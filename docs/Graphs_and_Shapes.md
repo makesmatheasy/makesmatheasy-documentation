@@ -52,6 +52,7 @@ description: Plotting Graphs And 2D/3D Shapes
     <td>$$Scalene  \enspace Triangle$$</td>
     <td>$$ \sqrt{[s(s−a)(s−b)(s−c)]} $$</td>
     <td>$$ a+b+c $$</td>
+    
   </tr>
   <tr>
     <td>$$Isosceles  \enspace Triangle$$</td>
@@ -311,6 +312,7 @@ description: Plotting Graphs And 2D/3D Shapes
 
 
 
+
 # 3D Geometry
 - 3D geometry involves the mathematics of shapes in 3D space and involving 3 coordinates which are x-coordinate, y-coordinate and z-coordinate. In a 3d space, three parameters are required to find the exact location of a point
 - In mathematics, we generally come across Cartesian geometry,where we basically deal with location of a point in x-y plane.This is called 2-D geometry. 
@@ -345,19 +347,63 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-1.png" >
+
+# Percentage chaneg in volume calculator 
+## Percentage Change In Volume Of A Sphere
+- This too can be used to calculate percentage change in the volume of a sphere
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/pc-vol.png" >
 </div>
 </div>
+
+
+
+## Percentage Change In Volume Of A Cube
+- This too can be used to calculate percentage change in the volume of a Cube
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/pc-cube.png" >
+</div>
+</div>
+
+
+
+## Percentage Change In Volume Of A Cuboid
+- This too can be used to calculate percentage change in the volume of a Cuboid
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/pc-cuboid.png" >
+
+</div>
+</div>
+
 
 
 ### Distance Between two points 
 - This tool can be used to find distance between two points along with solving steps
 
+# Volumetric Weight Calculator
+- This tool can be used to calculate volumetric Weight
+
+
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-2.png" >
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/vw-1.png" >
+
 </div>
 </div>
+
 
 
 ### Distance from point to plane
@@ -368,8 +414,26 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-3.png" >
+
+
+
+
+
+
+
+# Congruence and Similarity of Triangles
+
+## Congruence properties of triangle
+
+- SSS property  (Side- Side - Side) - when all the three corresponding sides of 2 triangles are of equal size then triangles are congruent 
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-1.png" >
+
 </div>
 </div>
+
 
 
 
@@ -381,8 +445,25 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-4.png" >
+
+- SAS Property (Side - Angle - Side) - if any two sides and angles included between the sides of one triangle are equivalent to the corresponding two sides and the angle between the sides of the second triangle , then the two triangles are said to be congruent by SAS rule.
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-2.png" >
 </div>
 </div>
+
+
+- ASA Property (Angle - Side - Angle ) - if any two angles and the side included between the angles of one triangle are equivalent to the corresponding two angles and side included between the angles of the second triangle, then the two triangles are said to be congruent by SAS rule
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-3.png" >
+
+</div>
+</div>
+
 
 
 
@@ -390,24 +471,40 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 - this tool calculates the distance between two planes and angle between two planes
   
 
+- AAS Property (Angle - Angle - Side) - If any two angles and a non included side of one triangle are equivalent to the corresponding two angles and the non included side of the second triangle, then the two triangles are said to be congruent by AAS rule.
+
+
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-5.png" >
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-4.png" >
+
 </div>
 </div>
+
 
 
 ### Centroid Of A tetrahedron
 - this tool calculates the centroid of a tetrahedron
 
 
+- RHS Property (Right - Angle - Hypotenuse - Side) - If the hypotenuse and a side of a right - angled triangle is equivalent to the hypotenuse and a side of the second right - angled triangle , then the two right triangles are said to be congruent by RHS rule.
+
+
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-6.png" >
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-5.png" >
+
 </div>
 </div>
+
 
 
 
@@ -415,12 +512,22 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 - this tool calculates 3d distane between two line
 
 
+## Similarity of triangles with
+
+- AA ( or AAA) Similarity - if any two angles of triangle are equal to any two angles of another triangle, then the two triangles are similar to each other.
+
+
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-7.png" >
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-6.png" >
+
 </div>
 </div>
+
 
 
 
@@ -432,15 +539,24 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
   - Tesseract
   - Hypersphere
 
+- SAS Similarity - If the two sides of a triangle are in the same proportion of the two sides of another triangle, and the angle inscribed by the two sides in the both triangle are equal, then two triangles are said to be similar.
+
+
+
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/4d-shape-1.png" >
 </div>
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/4d-shape-2.png" >
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-7.png" >
+
 </div>
 </div>
+
 
 
 
@@ -475,15 +591,22 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 
+- SSS Similarity - if all the three sides of triangle are in proportion to the three side of another triangle, then the two triangles are similar
+
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-shapes-1.png" >
 </div>
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-shapes-2.png" >
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-8.png" >
+
 </div>
 </div>
+
 
 
 
@@ -504,8 +627,15 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 
+## Fundamental Theorem of Proportionality
+
+- If a line parllel to one of the sides of a triangle intersects the other two sides in distinct points, then the segments of the other two sides in one halfplane are proportional to the segments in the other half plane.
+
+
+
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-inscribed-1.png" >
 </div>
 <div class="col-md-6 pb-2" >
@@ -559,16 +689,42 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
   - T - Shape
   - Cyclic Quadrilateral
 
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-9.png" >
+</div>
+</div>
+
+
+- Using the fundamentals theorem on proportionality, we can obtain some results:
+
+- If a line parallel to one side of a triangle intersects the other two sides of the triangle in distinct points, the segments of the other side of the triangle in the same halfplane of the line are proportional to the corresponding sides of the triangle
 
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-10.png" >
+</div>
+</div>
+
+
+
+- if three (or more than three ) parallel lines are intercepted by two transversals, the segmets cut off on the transversals between the same parallel lines are proportional
+
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-shapes-1.png" >
 </div>
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-shapes-2.png" >
+
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-11.png" >
+
 </div>
 </div>
+
 
 
 
@@ -578,8 +734,18 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 </div>
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-shapes-4.png" >
+
+- In a triangle the bisector of an angle divides the side opposite to the angle in the segments whose lengths are in the ratio of their corresponding sides.
+
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-12.png" >
+
 </div>
 </div>
+
 
 
 
@@ -611,6 +777,21 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 </div>
 </div>
 
+# Faulhaber's Formula
+- Faulhabers formula is also called bernoulli's formula.
+- Faulhaber did not know the properites of the coefficients discovered by bernoulli.
+- rather he knew at least the first 17 cases as well as the existence of the faulhaber polynomials for odd powers.
+- Formula :
+
+<p>
+
+$$ \sum_{k=1}^{n} k^p  = \dfrac{n^{p+1}}{p+1} + \dfrac{1}{2} n^p + \sum_{k=2}^{p} \dfrac{B_{k}}{k!} p^{k-1} - n^{p-k+1}$$
+
+<p>
+
+
+
+
 
 
 
@@ -637,8 +818,11 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 
+
+
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-inscribed-7.png" >
 </div>
+
 
