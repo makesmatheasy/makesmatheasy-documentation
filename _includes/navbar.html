@@ -1,6 +1,6 @@
 <!-- -  NavBar - -->
 
-<nav class="flex-row bg-white">
+<nav class="flex-row bg-white" id="navbar" >
     <div class="burger-menu flex-center">
         <div class="menu-btn flex-center">
             <div class="burger">
@@ -10,9 +10,9 @@
     <div class="media d-flex align-items-center">
         <div class="media-body">
             <div class="sidebar__logo">
-                <a href="https://sairish2001.github.io/makesmatheasy/"><img
+                <a href="https://makesmatheasy.github.io/makesmatheasy/"><img
                         src="../public/images/makesmatheasylogo.png" alt="Logo" /></a>
-                <a href="https://sairish2001.github.io/makesmatheasy-documentation/home"><h4 class="m-0">MakesMathEasy</h4></a>
+                <a href="https://makesmatheasy.github.io/makesmatheasy-documentation/home"><h4 class="m-0">MakesMathEasy</h4></a>
             </div>
         </div>
     </div>
@@ -41,7 +41,12 @@
             </svg>
         </button>
     </form>
-    <ul class="nav flex-row">
+    <ul class="nav flex-row" id="nav-bar">
+        <li class="nav-item mx-2 mt-2">
+            <div class="mode">             
+              <span class="change">OFF</span>
+            </div>
+          </li>
         <li class="nav-item mx-2">
             <a href="{{site.baseurl}}/home" class="nav-link px-4"> home </a>
         </li>

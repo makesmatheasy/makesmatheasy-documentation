@@ -10,7 +10,7 @@ description: Matrices
 ## What is a Matrix?
 
 A matrix is a rectangular array of elements, usually numbers,In general, an matrix looks like:
-<p>
+<p class="small">
 $$
 \begin{equation}
 A_{m,n} = 
@@ -30,7 +30,7 @@ matrix is enclosed by [ ] or ( ) or | | | | Compact form the above matrix is rep
 ## Why use Matrices?
 With Matrix we can represent data, we can use matrices to work on multiple linear equations and mathematical equations, In many time-sensitive engineering applications, we can add, subtract or even multipy to get good approximations of much more complicated calculations.
 We use matrices in mathematics because often we need to deal with several variables at once—eg the coordinates of a point in the plane are written (x, y) or in space as (x, y, z) and these are often written as column matrices in the following form:
-<p>
+<p class="small">
 $$
 \begin{equation} 
 \begin{pmatrix}
@@ -50,7 +50,7 @@ $$
 ## Types of matrix
 
 - Column Matrix: A Matrix with one column, where order is Mx1
-<p>
+<p class="small">
 $$
 \begin{equation}eg: 
 \begin{bmatrix}
@@ -62,7 +62,7 @@ $$
 $$
 </p>
 - Row Matrix: A Matrix with one row, where order is 1xN
-<p>
+<p class="small">
 $$
 \begin{equation}eg: 
 \begin{bmatrix}
@@ -72,7 +72,7 @@ $$
 $$
 </p>
 - Square Matrix: A Matrix with equal row and column, where order is NxN
-<p>
+<p class="small">
 $$
 \begin{equation}eg: 
 \begin{bmatrix}
@@ -84,7 +84,7 @@ $$
 $$
 </p>
 - Diagonal Matrix: A square matrix whose all the elements except the diagonal elements are zeroes, is called a diagonal matrix where  if aij = 0, when i ≠ j.
-<p>
+<p class="small">
 $$
 \begin{equation}eg: 
 \begin{bmatrix}
@@ -98,7 +98,7 @@ $$
 - Scalar Matrix: A diagonal matrix whose all diagonal elements are same (non-zero), is called a scalar matrix.
 
 > **Note**: A scalar matrix is a diagonal matrix but a diagonal matrix may or may not be a scalar matrix
-<p>
+<p class="small">
 $$
 \begin{equation}eg: 
 \begin{bmatrix}
@@ -111,7 +111,7 @@ $$
 </p>
 - Unit or Identity Matrix: A diagonal matrix in which all diagonal elements are ‘1’ and all non-diagonal elements are zero, is called an identity matrix. It is denoted by I, where aij = 1, when i = j and aij = 0, when i ≠ j.
 
-<p>
+<p class="small">
 $$
 \begin{equation}I = 
 \begin{bmatrix}
@@ -124,7 +124,7 @@ $$
 </p>
 - Zero or Null Matrix: A matrix is said to be a zero or null matrix, if its all elements are 0
 
-<p>
+<p class="small">
 $$
 \begin{equation}Eg 
 \begin{bmatrix}
@@ -139,7 +139,7 @@ $$
     - order of A and B are same.
     - corresponding elements of A and B are same i.e. aij = bij, ∀ i and j.
 
-<p>
+<p class="small-1">
 $$
 \begin{equation}eg: 
 \begin{bmatrix}
@@ -167,7 +167,7 @@ $$
 - Transpose of a matrix
   - The transpose of a matrix is a new matrix whose rows are the columns of the original matrix. Below is a matrix and its transpose:
   - The superscript "T" means "transpose".
-<p>
+<p class="small">
 $$
 \begin{equation}A = 
 \begin{bmatrix}
@@ -190,7 +190,7 @@ $$
   - To calculate the determinant first of all the matrix must be square (i.e. have the same number of rows as columns). Then it is just basic arithmetic.
   - The symbol for determinant is two vertical lines either side:
   - Formula to caluclate determinant is : |A| = a(ei − fh) − b(di − fg) + c(dh − eg)
-<p>
+<p class="small">
 $$
 \begin{equation}A = 
 \begin{vmatrix}
@@ -201,7 +201,7 @@ g & g & i
 \end{equation}
 $$
 </p>
-<p>
+<p class="small">
 $$
 \begin{equation}
 \begin{vmatrix}
@@ -222,7 +222,7 @@ g & h \\
 \end{equation}
 $$
 </p>
-<p>
+<p class="small">
 $$
 \begin{equation}Example = 
 \begin{vmatrix}
@@ -234,7 +234,7 @@ $$
 $$
 </p>
 
-<p>
+<p class="small-1">
 $$ |A|	= 6×(−2×7 − 5×8) − 1×(4×7 − 5×2) + 1×(4×8 − (−2×2)) $$
 $$  6×(−54) − 1×(18) + 1×(36) $$
 $$  −306 $$
@@ -245,7 +245,7 @@ $$  −306 $$
 ## How to use this tool for single matrix 
 - This tool can be used for any order of single matrix where we can perform different operations such as Transpose of a matrix, determinant of matrix, minors and co-factors of a matrix, plus this tool  gives you the step by step notes at the same time, below is a demo
   
-![Single Matrix](../public/gifs/Single_Matrix.gif)
+![Single Matrix](../public/gifs/Single_Matrix.gif){:#md-edit}
 
 
 ## Operations on multiple matrices
@@ -253,7 +253,7 @@ $$  −306 $$
   - Two matrices may be added or subtracted only if they have the same dimension; that is, they must have the same number of rows and columns.
   - Addition or subtraction is accomplished by adding or subtracting corresponding elements. For example, consider matrix A and matrix B.
 
-<p>
+<p class="small">
 $$
 \begin{equation}A = 
 \begin{bmatrix}
@@ -267,7 +267,7 @@ $$
 \end{equation}
 $$
 </p>
-<p>
+<p class="small">
 $$
 \begin{equation}A + B = 
 \begin{bmatrix}
@@ -291,6 +291,6 @@ $$
 ## How to use this tool for Multiple matrix 
 - This tool can only be used for two matrices for any order  where we can perform different operations such as addition, subtraction and multiplication, plus this tool  gives you the step by step notes at the same time, below is a demo
   
-![Single Matrix](../public/gifs/Multiple_Matrix.gif)
+![Single Matrix](../public/gifs/Multiple_Matrix.gif){:#md-edit}
 
 

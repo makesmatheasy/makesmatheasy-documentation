@@ -6,7 +6,7 @@ description: About MakesMathEasy
 ---
 
 
-<img src="../public/images/makesmatheasylogo.png" width="300" height="300" />
+<img src="../public/images/makesmatheasylogo.png" class="edit"/>
 
 Solves various Math Problems along with Steps
 
@@ -16,14 +16,30 @@ Solves various Math Problems along with Steps
 - Complex Calculations within a few ms(milliseconds)
 
 ### Tech Used
-<div class="container-fluid row" >
-<img class="col-md-4 img-fluid" src="../public/images/html.png" width="270" height="270" />
-<img class="col-md-4 img-fluid" src="../public/images/css.png" width="300" height="300" />
-<img class="col-md-4 img-fluid" src="../public/images/js.png" width="270" height="270" />
-</div>
-
-
-
+<div class="container-fluid row p-2" >
+<div class="col-4">
+    <a href="https://en.wikipedia.org/wiki/HTML" target="/blank"><img src="../public/images/html.png" class="e-block " width="90" height="85"></a> 
+    <div class="ti">
+        <P><b><font size="5">HTML</font></b></P>
+              See the technologies of websites you visit in your browser.
+            </div>
+</div>    
+<div class="col-4">
+    <a href="https://en.wikipedia.org/wiki/CSS" target="/blank"><img src="../public/images/css.png" class="f-block" width="130" height="85"></a> 
+    <div class="ti">
+        <P><b><font size="5">CSS</font></b></P>
+              See the technologies of websites you visit in your browser.
+            </div>
+</div>  
+    
+<div class="col-4">
+    <a href="https://en.wikipedia.org/wiki/JavaScript" target="/blank"><img src="../public/images/js.png" class="g-block" width="85" height="85"></a>
+    <div class="ti">
+        <P><b><font size="5">JS</font></b></P>
+              See the technologies of websites you visit in your browser.
+            </div>
+    </div>
+</div> 
 
 Other Tech/Libraries
 

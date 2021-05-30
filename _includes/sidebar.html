@@ -1,12 +1,39 @@
 <!-- sidebar -->
 <div class="vertical-nav active" id="sidebar">
-
-
-  <p class="text-gray font-weight-bold text-uppercase small pb-4 py-4 px-3 mb-4">
-    Dashboard
-  </p>
+  <div class="row">
+    <div class="col-6">
+      <p
+        class="text-gray font-weight-bold text-uppercase small pb-4 py-4 px-3 mb-4"
+      >
+        Dashboard
+      </p>
+    </div>
+    <div class="col-6 justify-content-center">
+      <div
+        class="mode"
+        style="float: none; margin-top: 1rem; margin-left: 3rem"
+      >
+        <span
+          class="change"
+          id="side-bar"
+          style="width: 43px; border: 2px solid #555"
+          >OFF</span
+        >
+      </div>
+    </div>
+  </div>
 
   <ul class="nav flex-column mb-2 active">
+    <li class="nav-item">
+      <a href="{{site.baseurl}}/home" class="nav-link px-3" id="side-bar">
+        home
+      </a>
+    </li>
+    <li class="nav-item">
+      <a href="{{site.baseurl}}/about" class="nav-link px-3" id="side-bar">
+        About
+      </a>
+    </li>
     <li class="nav-item">
       <a href="{{site.baseurl}}/linear_algebra" class="nav-link">
         Linear Algebra
@@ -14,6 +41,9 @@
     </li>
     <li class="nav-item">
       <a href="{{site.baseurl}}/calculus" class="nav-link"> Calculus </a>
+    </li>
+    <li class="nav-item">
+      <a href="{{site.baseurl}}/conic" class="nav-link"> Conic Sections </a>
     </li>
     <li class="nav-item">
       <a href="{{site.baseurl}}/trignometry" class="nav-link"> Trignometry </a>
@@ -27,18 +57,60 @@
       <a href="{{site.baseurl}}/equations" class="nav-link"> Equations </a>
     </li>
     <li class="nav-item">
-      <a href="{{site.baseurl}}/general_maths" class="nav-link"> General Maths </a>
+      <a href="{{site.baseurl}}/general_maths" class="nav-link">
+        General Maths
+      </a>
     </li>
     <li class="nav-item">
-      <a href="{{site.baseurl}}/conversion_tool" class="nav-link"> Conversion Tools </a>
+      <a href="{{site.baseurl}}/conversion_tool" class="nav-link">
+        Conversion Tools
+      </a>
     </li>
-  </ul>
+    <li class="nav-item">
 
-  <div class="my-5 d-flex flex-column justify-content-center sidebar__footer">
+      <a href="{{site.baseurl}}/complex-number" class="nav-link">
+        Complex Numbers
+
+      <a href="{{site.baseurl}}/binary_calculations" class="nav-link">
+        Binary Calculations
+
+      </a>
+
+    </li>
+    <li class="nav-item">
+      <a href="{{site.baseurl}}/probablity" class="nav-link"> Probablity </a>
+    </li>
+
+
+    <li class="nav-item">
+
+      
+
+      <a href="{{site.baseurl}}/statistics" class="nav-link"> Statistics </a>
+
+    </li>
+
+
+    
+  </ul>
+<div class="container mt-5" >
+  <ul class="d-flex mt-4" id="social-media-icons" >
+        <li><a href="https://www.instagram.com/makesmatheasy"><span></span></a></li>
+        <li><a href="https://discord.com/channels/811724426965811210/818825491065995264"><span></span></a></li>
+        <li><a href="mailto:makesmatheasy@gmail.com"><span></span></a></li>
+        <li><a href="https://www.linkedin.com/in/rajinderpalsingh2001/"><span></span></a></li>
+    </ul>
+</div>
+
+  <div
+    class="my-5 d-flex flex-column justify-content-center sidebar__footer"
+    id="footer-sb"
+  >
     <p>Copyright © 2021 Makes Math Easy. All Rights Reserved</p>
     <a href="https://github.com/sairish2001/Makes-Math-Easy-Documentation">
       <i class="fa fa-github-square" aria-hidden="true"></i>
     </a>
   </div>
+
+  <!-- end sidebar -->
 </div>
-<!-- end sidebar -->
