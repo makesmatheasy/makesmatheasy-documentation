@@ -2,20 +2,20 @@
 layout: default
 title: Graphs and Shapes
 permalink: /graphs_shapes/
-description: Plotting Graphs And 2D/3D Shapes 
+description: Plotting Graphs And 2D/3D Shapes
 ---
 
 # Graph Plotting
-- This tool can be used to plot graphs for logorithmic functions, exponential functions, trignometric functions, inverse trignometric functions, hyperbolic functions and all algebric function containg only single variable x.
-- Below is a working demo,kindly try the following functions to understand better.
- <p> 
+- This tool can be used to plot graphs for logarithmic functions, exponential functions, trigonometric functions, inverse trigonometric functions, hyperbolic functions and all algebraic function containing only single variable x.
+- Below is a working demo, kindly try the following functions to understand better.
+ <p>
   $$ sinh (x) $$
   $$ log (x) $$
   $$ e^x (x) $$
   $$ -x^4+2x^2  $$
   $$ x^3  $$
   $$ x^3  $$
- </p> 
+ </p>
 > Note :  Don't use Capital X and use space between function and the variable.
 
 ![Plot Graph](../public/gifs/Plot_graph.gif){:#graphs-edit}
@@ -52,7 +52,7 @@ description: Plotting Graphs And 2D/3D Shapes
     <td>$$Scalene  \enspace Triangle$$</td>
     <td>$$ \sqrt{[s(s−a)(s−b)(s−c)]} $$</td>
     <td>$$ a+b+c $$</td>
-    
+
   </tr>
   <tr>
     <td>$$Isosceles  \enspace Triangle$$</td>
@@ -315,13 +315,13 @@ description: Plotting Graphs And 2D/3D Shapes
 
 # 3D Geometry
 - 3D geometry involves the mathematics of shapes in 3D space and involving 3 coordinates which are x-coordinate, y-coordinate and z-coordinate. In a 3d space, three parameters are required to find the exact location of a point
-- In mathematics, we generally come across Cartesian geometry,where we basically deal with location of a point in x-y plane.This is called 2-D geometry. 
-- Hence,3-D Geometry is nothing but an extension of this 2-D geometry taking into consideration three orthogonal axes,viz., x,y and z axes in Cartesian geometry, for example.For a practical example,we can consider a circle,which can be drawn on a piece of paper,i.e.,plane but cannot be realized in practical world.
-- Likewise, we can have a ball in our hand,which is a sphere, the 3-D analogue of circle,but we can't draw it on paper.As many number of axes included,as many number of dimensions : this is the firsthand general rule that is followed.The 3-D geometry is sometimes also called Solid Geometry, since it deals with solid or 3-D objects that we encounter in our daily life.
-- Further extensions of this geometry lead to tensors and manifolds,which were included in Einstein's Theory of Relativity.
+- In mathematics, we generally come across Cartesian geometry, where we basically deal with location of a point in x-y plane. This is called 2-D geometry.
+- Hence,3-D Geometry is nothing but an extension of this 2-D geometry taking into consideration three orthogonal axes, viz., x, y and z axes in Cartesian geometry, for example. For a practical example, we can consider a circle, which can be drawn on a piece of paper, i.e., plane but cannot be realized in practical world.
+- Likewise, we can have a ball in our hand, which is a sphere, the 3-D analogue of circle, but we can't draw it on paper. As many number of axes included, as many number of dimensions : this is the firsthand general rule that is followed. The 3-D geometry is sometimes also called Solid Geometry, since it deals with solid or 3-D objects that we encounter in our daily life.
+- Further extensions of this geometry lead to tensors and manifolds, which were included in Einstein's Theory of Relativity.
 
 
-## Some Usefull Formulas and Properties
+## Some Useful Formulas and Properties
 
 <p>
 
@@ -336,19 +336,22 @@ $$  Let \enspace P(x,y,z) and \enspace Q(x2,y2,z2) be 2 points \enspace then \en
 $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \enspace on a line \enspace whose \enspace direction \enspace cosines \enspace are l,m,n \enspace is l(x2-x1) + m(y2-y1) + n(z2-z1)  $$
 
 
-<p>
+</p>
 
 
 
-## 3D Geometry Calcuator 
+## 3D Geometry Calculator
 ### Equation Of a Plane
 - This tool can be used to find the equation of a plane based on the coordinates
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-1.png" >
+</div>
+</div>
 
-# Percentage chaneg in volume calculator 
+# Percentage change in volume calculator
+<br>
 ## Percentage Change In Volume Of A Sphere
 - This too can be used to calculate percentage change in the volume of a sphere
 
@@ -386,7 +389,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 
-### Distance Between two points 
+### Distance Between two points
 - This tool can be used to find distance between two points along with solving steps
 
 # Volumetric Weight Calculator
@@ -398,7 +401,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="col-md-6 pb-2" >
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-2.png" >
-
+<br>
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/vw-1.png" >
 
 </div>
@@ -415,17 +418,15 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-3.png" >
 
-
-
-
-
+</div>
+</div>
 
 
 # Congruence and Similarity of Triangles
 
 ## Congruence properties of triangle
 
-- SSS property  (Side- Side - Side) - when all the three corresponding sides of 2 triangles are of equal size then triangles are congruent 
+- SSS property  (Side- Side - Side) - when all the three corresponding sides of 2 triangles are of equal size then triangles are congruent
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
@@ -445,6 +446,8 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-4.png" >
+</div>
+</div>
 
 - SAS Property (Side - Angle - Side) - if any two sides and angles included between the sides of one triangle are equivalent to the corresponding two sides and the angle between the sides of the second triangle , then the two triangles are said to be congruent by SAS rule.
 
@@ -469,7 +472,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 ### Distance between two planes and angle between two planes
 - this tool calculates the distance between two planes and angle between two planes
-  
+
 
 - AAS Property (Angle - Angle - Side) - If any two angles and a non included side of one triangle are equivalent to the corresponding two angles and the non included side of the second triangle, then the two triangles are said to be congruent by AAS rule.
 
@@ -479,7 +482,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="col-md-6 pb-2" >
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-5.png" >
-
+<br><br>
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-4.png" >
 
 </div>
@@ -499,7 +502,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="col-md-6 pb-2" >
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-6.png" >
-
+<br><br>
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-5.png" >
 
 </div>
@@ -509,7 +512,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 ### 3-D Distance
-- this tool calculates 3d distane between two line
+- this tool calculates 3d distance between two line
 
 
 ## Similarity of triangles with
@@ -522,7 +525,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="col-md-6 pb-2" >
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-7.png" >
-
+<br><br>
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-6.png" >
 
 </div>
@@ -533,9 +536,9 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 # 4-D Shapes Calculator
 
-- This tool can find volumes, area, size, length etc of any 4-D Shape.
+- This tool can find volumes, area, size, length etc. of any 4-D Shape.
 - This tool have following shapes
-  - Glame
+  - Glome
   - Tesseract
   - Hypersphere
 
@@ -545,13 +548,13 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 <div class="container my-3 row">
-<div class="col-md-6 pb-2" >
+<div class="col-md-12 pb-2" >
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/4d-shape-1.png" >
 </div>
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/4d-shape-2.png" >
-
+<br><br>
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-7.png" >
 
 </div>
@@ -561,7 +564,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 # 3D Shapes_cal
-- This tool can find volumes, area, size, length etc of any 3-D Shape.
+- This tool can find volumes, area, size, length etc. of any 3-D Shape.
 - This tool have following shapes
   - Antipodal Diagon
   - Barrel
@@ -576,7 +579,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
   - Hyperboloid
   - Obelisk
   - Oloid
-  - Parallelpiped
+  - Parallelopiped
   - Polyhedrons
   - Prisms
   - Pyramids
@@ -595,13 +598,13 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 <div class="container my-3 row">
-<div class="col-md-6 pb-2" >
+<div class="col-md-12 pb-2" >
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-shapes-1.png" >
 </div>
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-shapes-2.png" >
-
+<br><br>
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-8.png" >
 
 </div>
@@ -610,12 +613,12 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 
 
-## 3-D SHapes Inscribed
-- In geometry, an inscribed planar shape or solid is one that is enclosed by and "fits snugly" inside another geometric shape or solid. To say that "figure F is inscribed in figure G" means precisely the same thing as "figure G is circumscribed about figure F". 
-- A circle or ellipse inscribed in a convex polygon (or a sphere or ellipsoid inscribed in a convex polyhedron) is tangent to every side or face of the outer figure (but see Inscribed sphere for semantic variants). A polygon inscribed in a circle, ellipse, or polygon (or a polyhedron inscribed in a sphere, ellipsoid, or polyhedron) has each vertex on the outer figure; if the outer figure is a polygon or polyhedron, there must be a vertex of the inscribed polygon or polyhedron on each side of the outer figure. 
+## 3-D Shapes Inscribed
+- In geometry, an inscribed planar shape or solid is one that is enclosed by and "fits snugly" inside another geometric shape or solid. To say that "figure F is inscribed in figure G" means precisely the same thing as "figure G is circumscribed about figure F".
+- A circle or ellipse inscribed in a convex polygon (or a sphere or ellipsoid inscribed in a convex polyhedron) is tangent to every side or face of the outer figure (but see Inscribed sphere for semantic variants). A polygon inscribed in a circle, ellipse, or polygon (or a polyhedron inscribed in a sphere, ellipsoid, or polyhedron) has each vertex on the outer figure; if the outer figure is a polygon or polyhedron, there must be a vertex of the inscribed polygon or polyhedron on each side of the outer figure.
 - An inscribed figure is not necessarily unique in orientation; this can easily be seen, for example, when the given outer figure is a circle, in which case a rotation of an inscribed figure gives another inscribed figure that is congruent to the original one.
-- Familiar examples of inscribed figures include circles inscribed in triangles or regular polygons, and triangles or regular polygons inscribed in circles. 
-- A circle inscribed in any polygon is called its incircle, in which case the polygon is said to be a tangential polygon. 
+- Familiar examples of inscribed figures include circles inscribed in triangles or regular polygons, and triangles or regular polygons inscribed in circles.
+- A circle inscribed in any polygon is called its incircle, in which case the polygon is said to be a tangential polygon.
 - A polygon inscribed in a circle is said to be a cyclic polygon, and the circle is said to be its circumscribed circle or circumcircle.
 - The inradius or filling radius of a given outer figure is the radius of the inscribed circle or sphere, if it exists.
 - The definition given above assumes that the objects concerned are embedded in two- or three-dimensional Euclidean space, but can easily be generalized to higher dimensions and other metric spaces.
@@ -629,7 +632,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 ## Fundamental Theorem of Proportionality
 
-- If a line parllel to one of the sides of a triangle intersects the other two sides in distinct points, then the segments of the other two sides in one halfplane are proportional to the segments in the other half plane.
+- If a line parallel to one of the sides of a triangle intersects the other two sides in distinct points, then the segments of the other two sides in one halfplane are proportional to the segments in the other half plane.
 
 
 
@@ -656,7 +659,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 # 2D Shapes
 - This tool can find volumes, area, size, length etc of any 2-D Shape.
 - This tool have following shapes
-  - Annulus 
+  - Annulus
   - Astroid
   - Arbelos
   - Bulge
@@ -668,7 +671,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
   - Ellipse
   - Half Yin-yang
   - Heart
-  - H - Shape 
+  - H - Shape
   - Hypocycloid
   - Interior Angle Calculator
   - Kite
@@ -690,8 +693,6 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
   - Cyclic Quadrilateral
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-9.png" >
-</div>
-</div>
 
 
 - Using the fundamentals theorem on proportionality, we can obtain some results:
@@ -701,7 +702,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-10.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-10.jpg" >
 </div>
 </div>
 
@@ -719,8 +720,8 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 </div>
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-shapes-2.png" >
-
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-11.png" >
+<br><br>
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-11.jpg" >
 
 </div>
 </div>
@@ -734,30 +735,27 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 </div>
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-shapes-4.png" >
-
+</div>
+</div>
 - In a triangle the bisector of an angle divides the side opposite to the angle in the segments whose lengths are in the ratio of their corresponding sides.
 
 
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-12.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-12.jpg" >
 
 </div>
 </div>
 
 
 
-
-
-
-
-## 2-D SHapes Inscribed
-- In geometry, an inscribed planar shape or solid is one that is enclosed by and "fits snugly" inside another geometric shape or solid. To say that "figure F is inscribed in figure G" means precisely the same thing as "figure G is circumscribed about figure F". 
-- A circle or ellipse inscribed in a convex polygon (or a sphere or ellipsoid inscribed in a convex polyhedron) is tangent to every side or face of the outer figure (but see Inscribed sphere for semantic variants). A polygon inscribed in a circle, ellipse, or polygon (or a polyhedron inscribed in a sphere, ellipsoid, or polyhedron) has each vertex on the outer figure; if the outer figure is a polygon or polyhedron, there must be a vertex of the inscribed polygon or polyhedron on each side of the outer figure. 
+## 2-D Shapes Inscribed
+- In geometry, an inscribed planar shape or solid is one that is enclosed by and "fits snugly" inside another geometric shape or solid. To say that "figure F is inscribed in figure G" means precisely the same thing as "figure G is circumscribed about figure F".
+- A circle or ellipse inscribed in a convex polygon (or a sphere or ellipsoid inscribed in a convex polyhedron) is tangent to every side or face of the outer figure (but see Inscribed sphere for semantic variants). A polygon inscribed in a circle, ellipse, or polygon (or a polyhedron inscribed in a sphere, ellipsoid, or polyhedron) has each vertex on the outer figure; if the outer figure is a polygon or polyhedron, there must be a vertex of the inscribed polygon or polyhedron on each side of the outer figure.
 - An inscribed figure is not necessarily unique in orientation; this can easily be seen, for example, when the given outer figure is a circle, in which case a rotation of an inscribed figure gives another inscribed figure that is congruent to the original one.
-- Familiar examples of inscribed figures include circles inscribed in triangles or regular polygons, and triangles or regular polygons inscribed in circles. 
-- A circle inscribed in any polygon is called its incircle, in which case the polygon is said to be a tangential polygon. 
+- Familiar examples of inscribed figures include circles inscribed in triangles or regular polygons, and triangles or regular polygons inscribed in circles.
+- A circle inscribed in any polygon is called its incircle, in which case the polygon is said to be a tangential polygon.
 - A polygon inscribed in a circle is said to be a cyclic polygon, and the circle is said to be its circumscribed circle or circumcircle.
 - The inradius or filling radius of a given outer figure is the radius of the inscribed circle or sphere, if it exists.
 - The definition given above assumes that the objects concerned are embedded in two- or three-dimensional Euclidean space, but can easily be generalized to higher dimensions and other metric spaces.
@@ -790,11 +788,6 @@ $$ \sum_{k=1}^{n} k^p  = \dfrac{n^{p+1}}{p+1} + \dfrac{1}{2} n^p + \sum_{k=2}^{p
 <p>
 
 
-
-
-
-
-
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-inscribed-3.png" >
@@ -824,5 +817,3 @@ $$ \sum_{k=1}^{n} k^p  = \dfrac{n^{p+1}}{p+1} + \dfrac{1}{2} n^p + \sum_{k=2}^{p
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-inscribed-7.png" >
 </div>
-
-
