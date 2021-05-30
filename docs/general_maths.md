@@ -400,3 +400,86 @@ where $$p_1, p_2, ...., p_k$$ are the prime factors of $$n$$.
     </p>
 - This tool just takes the number and returns its sum of divisors.<br>
 ![sumDiv](../public/images/general math/sumDiv.png)
+
+# Drichlet's Theorem
+- In number theory, Dirichlet's theorem, also called the Dirichlet prime number theorem, states that for any two positive coprime integers a and d, there are infinitely many primes of the form a + nd, where n is also a positive integer. 
+- In other words, there are infinitely many primes that are congruent to a modulo d. The numbers of the form a + nd form an arithmetic progression
+
+<p>
+
+$$ a , a + d, a + 2d, a + 3d, .... $$
+
+</p>
+
+- and Dirichlet's theorem states that this sequence contains infinitely many prime numbers. The theorem, named after Peter Gustav Lejeune Dirichlet, extends Euclid's theorem that there are infinitely many prime numbers. 
+- Stronger forms of Dirichlet's theorem state that for any such arithmetic progression, the sum of the reciprocals of the prime numbers in the progression diverges and that different such arithmetic progressions with the same modulus have approximately the same proportions of primes. 
+- Equivalently, the primes are evenly distributed (asymptotically) among the congruence classes modulo d containing a's coprime to d.
+- Since the primes thin out, on average, in accordance with the prime number theorem, the same must be true for the primes in arithmetic progressions. 
+- It is natural to ask about the way the primes are shared between the various arithmetic progressions for a given value of d (there are d of those, essentially, if we do not distinguish two progressions sharing almost all their terms). 
+- The answer is given in this form: the number of feasible progressions modulo d — those where a and d do not have a common factor > 1 — is given by Euler's totient function
+- Further, the proportion of primes in each of those is
+- Dirichlet proved this theorem using Dirichlet L-series, but the proof is challenging enough that, in their classic text on number theory, the usually explicit Hardy and Wright (1979) report "this theorem is too difficult for insertion in this book."
+
+
+# Desargues Theorem
+- Denote the three vertices of one triangle by a, b and c, and those of the other by A, B and C. 
+- Axial perspectivity means that lines ab and AB meet in a point, lines ac and AC meet in a second point, and lines bc and BC meet in a third point, and that these three points all lie on a common line called the axis of perspectivity. 
+- Central perspectivity means that the three lines Aa, Bb and Cc are concurrent, at a point called the center of perspectivity.
+- This intersection theorem is true in the usual Euclidean plane but special care needs to be taken in exceptional cases, as when a pair of sides are parallel, so that their "point of intersection" recedes to infinity. 
+- Commonly, to remove these exceptions, mathematicians "complete" the Euclidean plane by adding points at infinity, following Jean-Victor Poncelet. This results in a projective plane.
+- Desargues's theorem is true for the real projective plane, for any projective space defined arithmetically from a field or division ring, for any projective space of dimension other than two, and for any projective space in which Pappus's theorem holds. However, there are many planes in which Desargues's theorem is false.
+- By definition, two triangles are perspective if and only if they are in perspective centrally (or, equivalently according to this theorem, in perspective axially). Note that perspective triangles need not be similar.
+            
+![desargues](../public/images/general math/desargues.png)            
+            
+
+# Catalan Number
+- The Catalan numbers are a sequence of positive integers that appear in many counting problems in combinatorics. 
+- They count certain types of lattice paths, permutations, binary trees, and many other combinatorial objects. 
+- They satisfy a fundamental recurrence relation, and have a closed-form formula in terms of binomial coefficients
+- Formula : 
+
+<p>
+
+$$ c_{n} = \dfrac{1}{n+1} \dfrac{2n}{n} $$
+
+<p>
+
+![catalan](../public/images/general math/catalan.png)    
+
+
+# Double factorial
+- Double factorial of a non-negative integer n, is the product of all the integers from 1 to n that have the same parity (odd or even) as n. 
+- It is also called as semifactorial of a number and is denoted by !!. 
+- For example, double factorial of 9 is 9*7*5*3*1 which is 945. 
+- Note that, a consequence of this definition is 0!! = 1
+
+![double](../public/images/general math/double.png)  
+
+
+# Sum Of Divisors
+- This tool calculates the sum of divisors of a number
+- For example
+  - 5
+  - Divisors of 5 is 1 and 5 
+  - sum of divisors of 5 is 60
+
+![divisor](../public/images/general math/divisor.png)  
+
+
+# Smallest Prime Number 
+- This tool calculates the smallest prime number of a numbers
+- for example
+  - Number is 10
+  - 10 is an even number
+  - hence smallest prime factor of 10 is 2
+
+
+![divisor](../public/images/general math/smallest_prime.png) 
+
+
+# Next Prime Number
+- This tool calculates the next prime number of a given number
+
+
+![divisor](../public/images/general math/next_prime.png) 
