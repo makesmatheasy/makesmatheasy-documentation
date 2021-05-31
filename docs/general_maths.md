@@ -378,11 +378,226 @@ $$ c*\log_b (x) + d*\log_b (y) = \log_b (x^c*y^d) $$
 
 ![mean](../public/images/general math/mean.png)
 
+# Pythagorean Triplets
+- Pythagorean triples are a2+b2 = c2 where a, b and c are the three positive integers. These triples are represented as (a,b,c). Here, a is the perpendicular, b is the base and c is the hypotenuse of the right-angled triangle. The most known and smallest triplets are (3,4,5).
+- The integer solutions to the Pythagorean Theorem, a2 + b2 = c2 are called Pythagorean Triples which contains three positive integers a, b, and c.
+  - Example: (3, 4, 5)
+  - By evaluating we get:
+  - 32 + 42 = 52
+  - 9+16 = 25
+  - Hence, 3,4 and 5 are the Pythagorean triples.
+
+
+
+![mean](../public/images/general math/pythagorean.png)
+
+
+# Hydrostatic Pressure Calculator
+- Hydrostatic pressure is defined as The pressure exerted by a fluid at equilibrium at any point of time due to the force of gravity.
+- Hydrostatic pressure is proportional to the depth measured from the surface as the weight of the fluid increases when a downward force is applied.
+- The fluid pressure can be caused by gravity, acceleration or forces when in a closed container. Consider a layer of water from the top of the bottle. 
+- There is a pressure exerted by the layer of water acting on the sides of the bottle. 
+- As we move down from the top of the bottle to the bottom, the pressure exerted by the top layer on the bottom adds up.  
+- This phenomenon is responsible for more pressure at the bottom of the container.
+
+
+![mean](../public/images/general math/hydro.png)
+
+
+# Logorithm Properties
+- Let m and n be arbitrary positive numbers ,a >0 , a!=1,b>0,b!=1 and $$ \alpha \beta $$ be any real numbers , then
+  
+<p>  
+
+$$ log_{a} (mn) = log_{a}m + log_{a}n $$
+$$ log_{a} \dfrac{m}{n} = log_{a}m - log_{a}n $$
+$$ log_{a} m^{\alpha} = \alpha log_{a}m  $$
+$$ log_{a} \beta m = \dfrac{1}{\beta} log_{a}m  $$
+$$ log_{b}  m = \dfrac{log_{\alpha}m}{log_{\alpha}b}   $$
+
+</p>  
+
+- Use this tool to find logorithmic value
+
+![mean](../public/images/general math/log.png)
+
+
+
+# Binomial Theorems
+- General Formula
+
+<p>
+
+$$ (x+y)^n = nC_{r} x^{n-r} . y^{r} + nC_{r} x^{n-r} . y^{r}  + ....... + nC_{n}-1 x.y^{n-1} + nC_{n} y^{n} $$
+$$ where \enspace nC_{r} = \dfrac{n!}{(n-r)! r!} $$
+
+</p>
+
+- Some Useful Expansions
+
+<p>
+
+$$ (x+y)^n + (x-y)^n = 2[nC_{0} x^n + nC_{2} x^{n-1} y^2 + nC_{4} x^{n-4} y^{4} + ......] $$
+$$ (x+y)^n - (x-y)^n = 2[nC_{1} x^n + nC_{3} x^{n-3} y^3 + nC_{5} x^{n-5} y^{5} + ......] $$
+$$ (1 + x)^n = [nC_{0} + nC_{1}x + nC_{2}x^2 + .....+ nC_{n} X^n] $$
+
+</p>
+
+- Properties of binomial coefficients
+
+<p>
+
+$$ c_{0} + c_{1} + C_{2} .... C_{n} = 2^n $$
+$$ c_{0} + c_{2} + C_{4} .... =  C_{1} + C_{3} + C_{5} = 2^{n-1} $$
+$$ C_{0} - C_{1} + C_{2} - C_{3} ..... + (-1)^n .nC_{n} = 0 $$
+
+</p>
+
+
+
+# Binomial Coefficient Calculator and Binomial Expression Multiplication
+
+![mean](../public/images/general math/binomial-1.png)
+
+![mean](../public/images/general math/binomial-2.png)
+
+
+# Foil Calculator
+- FOIL is a method for multiplying two binomials
+- FOIL is an acronym for the four terms appearing in the final result
+  - F -> First term of each binomial are multiplied
+  - O -> Outer terms are multiplied
+  - I -> Inner terms are multiplied
+  - L -> Last terms are multiplied
+
+![mean](../public/images/general math/foil.png)
+
+
+![mean](../public/images/general math/foil-1.png)
+
+
+
+
+# Golden ratio
+- The golden ration, is obtained when two segment lengths have the same proportion as the proportion of their sum to the larger of the two lengths
+- The golden ratio has a value of approximately 1.618
+- if 'a' is longer section and 'b' is shorter then
+
+<p>
+
+$$ \dfrac{a+b}{b} = \dfrac{a}{b} $$
+
+</p>
+
+![mean](../public/images/general math/golden-ratio.png)
+
+
+# Golden Rectangle
+- The golden rectangle is a rectangle whose sides are in the golden ratio
+- the golden ratio has a value of approximately 1.618
+- if 'a' is width and 'a+b' is length of golden rectangle then
+
+<p>
+
+$$ \dfrac{a+b}{b} = \dfrac{a}{b} $$
+
+</p>
+
+![mean](../public/images/general math/mgolden-rectangl.png)
+
+
 # Prime Numbers
 - A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.
 - This function checks whether the given input is prime or not. Additionally it provides the feature to output the prime number till the entered number.
 
 ![prime](../public/images/general math/prime.png)
+
+# Euler Totient 
+- Euler's totient function, also known as phi-function ϕ(n), counts the number of integers between 1 and n inclusive, which are coprime to n. 
+- Two numbers are coprime if their greatest common divisor equals 1 (1 is considered to be coprime to any number).
+- Use this tool to find 
+  - Euler Totient functions for all numbers smaller than or equal to n
+  - Perfect totient number
+  - Count of elements having euler totient value one less than itself
+  - count integers in a range which are divisiblel by their euler totient value and so on
+![prime](../public/images/general math/euler.png)
+
+![prime](../public/images/general math/euler-2.png)
+
+
+# Co-Primes Number theory
+- ‘Co’ refers to a ‘pair’. So, we can define a pair of integers, let's say a and b, as coprime or primes to each other or mutually prime or relatively prime if:
+  - the only positive integer that divides both of them to give a remainder zero is 1
+  - In other words, the HCF of the two numbers is 1
+  - Coprime numbers are denoted as gcd(a, b)=1 or (a, b)=1 or as “a is prime to b”
+- How to find Coprime numbers?
+  - Let's understand it with the help of an example:
+  - Let's consider two numbers 6 and 15.
+  - Now find out the factors of 6 and 15. We get the factors of 6 as 1, 2, 3, 6 and factors of 15 as 1, 3, 5, 15.
+  - On comparing the factors of these two numbers 6 and 15, we see that both these numbers have factors 1 and 3 in common. 
+  - The HCF for this pair is 3. Therefore the pair is not coprime.
+- Properties of Coprime numbers
+  - 1) Numbers that are coprime may not necessarily be prime numbers themselves. For eg: (10,21), the numbers are not prime numbers if taken individually but they are coprime if considered as a pair. This concludes that composite numbers can be coprime numbers too.
+  - 2) Prime numbers are coprime by default. For eg: (2,3), (5,11), (19,23) and so on. Every prime number has only two factors i.e. 1 and the number itself. Therefore, the only common factor of a pair of two prime numbers will be 1.
+  - 3) Unity is considered coprime with everything else.
+  - 4) The concept of coprime is meaningful only with natural numbers.
+  - 5) Two successive integers are always coprime. For eg: (2,3), (11,12), (99,100) and so on; they have 1 as their HCF.
+  - 6) The sum of any two coprime numbers is always coprime with the product of the same two coprime numbers. For eg: The sum of 2 and 3 is 5 and the product of 2 and 3 is 6. Hence, 5 and 6 are coprime numbers.
+  - 7) If p and q are coprime numbers then p2 and q2 are also coprime numbers. For example, the squares of 5 and 6 i.e. 25 and 36 are also coprime to each other.
+
+
+
+# Prime Numbers
+- Prime numbers are the positive integers having only two factors, 1 and the integer itself. 
+- For example, factors of 6 are 1,2,3 and 6, which are four factors in total. 
+- But factors of 7 are only 1 and 7, totally two. 
+- Hence, 7 is a prime number but 6 is not, instead it is a composite number. But always remember that 1 is neither prime nor composite.
+- We can also say that the prime numbers are the numbers, which are only divisible by 1 or the number itself. 
+- Another way of defining it is a positive number or integer, which is not a product of any other two positive integers. 
+- There is no defined formula to find if a number is prime or not (except to a certain range), apart from finding its factors. 
+- A prime number is a positive integer having exactly two factors. 
+- If p is a prime, then it’s only factors are necessarily 1 and p itself. Any number which does not follow this is termed as composite numbers, which means that they can be factored into other positive integers.
+- This tool can be used to check primility of any number and can be used to print n prime numbers
+
+
+![prime-number](../public/images/general math/prime-number.png)
+
+              
+# EMI Calculator
+- An equated monthly installment (EMI) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. 
+- Equated monthly installments are applied to both interest and principal each month so that over a specified number of years, the loan is paid off in full. 
+- In the most common types of loans—such as real estate mortgages, auto loans, and student loans—the borrower makes fixed periodic payments to the lender over the course of several years with the goal of retiring the loan.
+- An equated monthly installment (EMI) is a fixed payment made by a borrower to a lender on a specified date of each month.
+- EMIs are applied to both interest and principal each month so that over a specified time period, the loan is paid off in full.
+- EMIs can be calculated in two ways: the flat-rate method or the reducing-balance method.
+- The EMI reducing-balance method generally is more favorable for borrowers, as it results in lower interest payments overall.
+- EMIs allow borrowers the peace of mind of knowing exactly how much money they will need to pay each month toward their loan.
+- Formula : 
+
+<p>
+
+$$ \dfrac{(P X I) X ( (1 + r)n)}{(t X ((1 + r)n)-1)} $$
+$$ where \enspace P = Principal \enspace Amount \enspace Borrowed  $$
+$$ I = annual \enspace intrest \enspace rate $$
+$$ r = periodic \enspace monthly \enspace intrest \enspace rate $$
+$$ n = total \enspace number \enspace of \enspace monthly \enspace payments $$
+$$ t = number \enspace of \enspace months \enspace in \enspace a \enspace year $$
+
+</p>
+
+![emi](../public/images/general math/emi.png)
+
+
+# GST Calculator
+- The goods and services tax (GST) is a value-added tax levied on most goods and services sold for domestic consumption. 
+- The GST is paid by consumers, but it is remitted to the government by the businesses selling the goods and services.
+- The goods and services tax (GST) is a tax on goods and services sold domestically for consumption.
+- The tax is included in the final price and paid by consumers at point of sale and passed to the government by the seller.
+- The GST is a common tax used by the majority of countries globally.
+- The GST is usually taxed as a single rate across a nation.
+
+
+![gst](../public/images/general math/gst.png)
 
 # Sum of Divisors
 - The sum of divisors $$\sigma(n)$$ id given by :
@@ -400,6 +615,7 @@ where $$p_1, p_2, ...., p_k$$ are the prime factors of $$n$$.
     </p>
 - This tool just takes the number and returns its sum of divisors.<br>
 ![sumDiv](../public/images/general math/sumDiv.png)
+
 
 
 
@@ -491,3 +707,399 @@ where $$p_1, p_2, ...., p_k$$ are the prime factors of $$n$$.
 
 
 ![sumDiv](../public/images/general math/set-calc.png)
+
+
+
+# Exponential Growth 
+- Exponential growth is a pattern of data that shows greater increases with passing time, creating the curve of an exponential function. 
+- For example, suppose a population of mice rises exponentially every year starting with two in the first year, then four in the second year, 16 in the third year, 256 in the fourth year, and so on. 
+- The population is growing to the power of 2 each year in this case.
+- Exponential growth is a pattern of data that shows sharper increases over time.
+- In finance, compounding creates exponential returns.
+- Savings accounts with a compounding interest rate can show exponential growth.
+
+
+
+![sumDiv](../public/images/general math/expo-gro.png)
+
+
+# Percentile Rank
+
+<p>
+
+$$ PR = L/N * 100 $$
+
+<p>
+
+- PR is the percentile rank - it can take value from 0 to 100;
+- L is the number of values from the set A that are lower than or equal to your data value X , and N is the total number of values in the set A
+
+
+
+![sumDiv](../public/images/general math/percentile.png)
+
+
+
+# Half Life Calculator
+- In radioactivity, the interval of time required for one-half of the atomic nuclei of a radioactive sample to decay (change spontaneously into other nuclear species by emitting particles and energy), or, equivalently, the time interval required for the number of disintegrations per second of a radioactive material to decrease by one-half is called Half-life.
+
+
+![sumDiv](../public/images/general math/half-life.png)
+
+
+# Direct and Indirect
+- A direct and inverse proportion are used to show how the quantities and amount are related to each other. They are also mentioned as directly proportional or inversely proportional. 
+- The symbol used to denote the proportionality is’∝’.  
+- For example, if we say, a is proportional to b, then it is represented as ‘a∝b’ and if we say, a is inversely proportional to b, then it is denoted as ‘a∝1/b’. 
+- These relations are governed by some proportionality rules. 
+- Now in both cases, the value of ‘a’ changes in terms of ‘b’ or when the value of ‘b’ changes, the value of ‘a’ also get changed. 
+- The change in both values is equated with a constant of proportionality. 
+- Basically, a proportion states that two ratios like a/b and c/d are equal to each other, in such a way, a/b = c/d. 
+
+
+![sumDiv](../public/images/general math/direct-indirect.png)
+
+
+# Cross Multiplication
+
+<p>
+
+$$ \dfrac{A}{B} = \dfrac{C}{D}  $$
+
+</p>
+
+- In this tool if you have 3 values then you can find the 4th value
+
+
+![sumDiv](../public/images/general math/cross.png)
+
+
+# Diamond Problem
+
+
+![sumDiv](../public/images/general math/diamond-1.png)
+
+
+![sumDiv](../public/images/general math/diamond-2.png)
+
+
+# Additive Inverse
+- An additive inverse of a number is defined as the value, which on adding with the original number results in zero value. 
+- It is the value we add to a number to yield zero. Suppose, a is the original number, then its additive inverse will be minus of a i.e.,-a, such that;
+  - a+(-a) = a – a = 0
+  - Example:
+  - Additive inverse of 10 is -10, as 10 + (-10) = 0
+  - Additive inverse of -9 is 9, as (-9) + 9 = 0
+
+![sumDiv](../public/images/general math/additive.png)
+
+
+# Multiplicative Inverse
+- The multiplicative inverse of a number say, N is represented by 1/N or N-1. It is also called reciprocal, derived from a Latin word ‘reciprocus‘. 
+- The meaning of inverse is something which is opposite. The reciprocal of a number obtained is such that when it is multiplied with the original number the value equals to identity 1. 
+- In other words, it is a method of dividing a number by its own to generate identity 1, such as N/N = 1.
+- When a number is multiplied by its own multiplicative inverse the resultant value is equal to 1.
+- Consider the examples, the multiplicative inverse of 3 is 1/3, of -1/3 is -3, of 8 is 1/8 and of 4/7 is -7/4. 
+- But the multiplicative inverse of 0 is infinite, because of 1/0 = infinity. 
+- So, there is no reciprocal for a number ‘0’. Whereas the multiplication inverse of 1 is 1 only.
+
+
+
+![sumDiv](../public/images/general math/multiplicative.png)
+
+
+
+# Square Root Calculator
+
+
+![sumDiv](../public/images/general math/square-root.png)
+
+
+# Unit Calculator
+
+
+![sumDiv](../public/images/general math/unit-calc.png)
+
+
+# Order of Magnitude
+- An order of magnitude is an approximation of the logarithm of a value relative to some contextually understood reference value, usually ten, interpreted as the base of the logarithm and the representative of values of magnitude one
+
+
+
+![sumDiv](../public/images/general math/order-of-magnitude.png)
+
+# Ackremann Function
+- The ackermann function is multi-variable function from the natural nubers to the natural numbers with very fast rate of growth
+- In computability theory, the Ackermann function, named after Wilhelm Ackermann, is one of the simplest and earliest-discovered examples of a total computable function that is not primitive recursive. 
+- All primitive recursive functions are total and computable, but the Ackermann function illustrates that not all total computable functions are primitive recursive. 
+- It’s a function with two arguments each of which can be assigned any non-negative integer.
+
+
+
+![ackermann](../public/images/general math/ackermann.png)
+
+# Euclid GCD
+- The algorithm is based on the below 
+- If we subtract a smaller number from a larger (we reduce a larger number), GCD doesn't change
+- So if we keep subtrating repeatedly the larger of two , we end up with gcd
+- Now instead of subtraction , if we divide the smaller number, the algorithm stops when we find remainder 0
+  
+
+![euclid](../public/images/general math/euclid.png)
+
+
+# Antilog
+- An antilog is the result of raising the base being used to the logarithm given or calculated. 
+- Put another. way, it "undoes" what calculating the logarithm of a number does and simply returns that number. 
+- In an equation of the form logbx = y, it is the "x" term, called the argument of the log function.
+
+
+![antilog](../public/images/general math/antilog.png)
+
+# Doubline Time
+- The doubling time is time it takes for a population to double in size/value. 
+- It is applied to population growth, inflation, resource extraction, consumption of goods, compound interest, the volume of malignant tumours, and many other things that tend to grow over time doubling
+
+
+![antilog](../public/images/general math/doubling.png)
+
+
+# Percentage Change
+- This tool can be used to find change in percentage from initial value to final value along with steps
+
+![antilog](../public/images/general math/percentage-change.png)
+
+
+# percentage Change
+
+
+![percentage-off](../public/images/general math/percentage-off.png)
+
+
+# Modulo 
+- Modulo is a math operation that finds the remainder when one integer is divided by another. 
+- In writing, it is frequently abbreviated as mod, or represented by the symbol %.
+- For two integers a and b:
+- a mod b = r
+- Where a is the dividend, b is the divisor (or modulus), and r is the remainder.
+
+
+
+
+![modulo](../public/images/general math/modulof.png)
+
+# sieve of eratosthenes
+- In mathematics, the sieve of Eratosthenes is an ancient algorithm for finding all prime numbers up to any given limit.
+- It does so by iteratively marking as composite (i.e., not prime) the multiples of each prime, starting with the first prime number, 2. 
+- The multiples of a given prime are generated as a sequence of numbers starting from that prime,with constant difference between them that is equal to that prime.
+- This is the sieve's key distinction from using trial division to sequentially test each candidate number for divisibility by each prime.Once all the multiples of each discovered prime have been marked as composites, the remaining unmarked numbers are primes.
+            
+
+
+![modulo](https://media.geeksforgeeks.org/wp-content/uploads/SieveofEratosthenes5.jpg)
+
+
+# Adam Number
+- A number is called an Adam number if the square of a number and the square of its reverse are reverse to each other. Let's understand it through an example.
+  - Adam Number Example
+  - Consider a number (N) 12 and check it is an Adam number or not.
+  - Square of the number (N) = 144
+  - The reverse of the number (N) = 21
+  - Square of the reverse of the number (N) = 441
+  - We observe that the square of 12 and the square of its reverse i.e. 21 are reverse of each other. Hence, 12 is an Adam number.
+  - Some other Adam numbers are 0, 1, 2, 3, 11, 12, 13, 21, 22, 31, 101, 102, 103, 111, etc.
+
+
+![modulo](../public/images/general math/adam.png)
+
+
+# Greatest Integer Function and Fractional Part
+
+
+
+![modulo](../public/images/general math/greatest.png)
+
+
+# Quartile
+- A quartile is a statistical term that describes a division of observations into four defined intervals based on the values of the data and how they compare to the entire set of observations. 
+
+
+![modulo](../public/images/general math/quartiles.png)
+
+# Deciles
+- A decile is a quantitative method of splitting up a set of ranked data into 10 equally large subsections. 
+- This type of data ranking is performed as part of many academic and statistical studies in the finance and economics fields. The data may be ranked from largest to smallest values, or vice versa.
+- A decile, which has 10 categorical buckets may be contrasted with percentiles that have 100, quartiles that have four, or quintiles that have five.
+- A decile is a quantitative method of splitting up a set of ranked data into 10 equally large subsections.
+- A decile rank arranges the data in order from lowest to highest and is done on a scale of one to 10 where each successive number corresponds to an increase of 10 percentage points.
+- This type of data ranking is performed as part of many academic and statistical studies in the finance and economics fields.
+
+
+
+
+![modulo](../public/images/general math/decile.png)
+
+
+# Drichlet's Theorem
+- In number theory, Dirichlet's theorem, also called the Dirichlet prime number theorem, states that for any two positive coprime integers a and d, there are infinitely many primes of the form a + nd, where n is also a positive integer. 
+- In other words, there are infinitely many primes that are congruent to a modulo d. The numbers of the form a + nd form an arithmetic progression
+
+<p>
+
+$$ a , a + d, a + 2d, a + 3d, .... $$
+
+</p>
+
+- and Dirichlet's theorem states that this sequence contains infinitely many prime numbers. The theorem, named after Peter Gustav Lejeune Dirichlet, extends Euclid's theorem that there are infinitely many prime numbers. 
+- Stronger forms of Dirichlet's theorem state that for any such arithmetic progression, the sum of the reciprocals of the prime numbers in the progression diverges and that different such arithmetic progressions with the same modulus have approximately the same proportions of primes. 
+- Equivalently, the primes are evenly distributed (asymptotically) among the congruence classes modulo d containing a's coprime to d.
+- Since the primes thin out, on average, in accordance with the prime number theorem, the same must be true for the primes in arithmetic progressions. 
+- It is natural to ask about the way the primes are shared between the various arithmetic progressions for a given value of d (there are d of those, essentially, if we do not distinguish two progressions sharing almost all their terms). 
+- The answer is given in this form: the number of feasible progressions modulo d — those where a and d do not have a common factor > 1 — is given by Euler's totient function
+- Further, the proportion of primes in each of those is
+- Dirichlet proved this theorem using Dirichlet L-series, but the proof is challenging enough that, in their classic text on number theory, the usually explicit Hardy and Wright (1979) report "this theorem is too difficult for insertion in this book."
+
+
+# Desargues Theorem
+- Denote the three vertices of one triangle by a, b and c, and those of the other by A, B and C. 
+- Axial perspectivity means that lines ab and AB meet in a point, lines ac and AC meet in a second point, and lines bc and BC meet in a third point, and that these three points all lie on a common line called the axis of perspectivity. 
+- Central perspectivity means that the three lines Aa, Bb and Cc are concurrent, at a point called the center of perspectivity.
+- This intersection theorem is true in the usual Euclidean plane but special care needs to be taken in exceptional cases, as when a pair of sides are parallel, so that their "point of intersection" recedes to infinity. 
+- Commonly, to remove these exceptions, mathematicians "complete" the Euclidean plane by adding points at infinity, following Jean-Victor Poncelet. This results in a projective plane.
+- Desargues's theorem is true for the real projective plane, for any projective space defined arithmetically from a field or division ring, for any projective space of dimension other than two, and for any projective space in which Pappus's theorem holds. However, there are many planes in which Desargues's theorem is false.
+- By definition, two triangles are perspective if and only if they are in perspective centrally (or, equivalently according to this theorem, in perspective axially). Note that perspective triangles need not be similar.
+            
+![desargues](../public/images/general math/desargues.png)            
+            
+
+# Catalan Number
+- The Catalan numbers are a sequence of positive integers that appear in many counting problems in combinatorics. 
+- They count certain types of lattice paths, permutations, binary trees, and many other combinatorial objects. 
+- They satisfy a fundamental recurrence relation, and have a closed-form formula in terms of binomial coefficients
+- Formula : 
+
+<p>
+
+$$ c_{n} = \dfrac{1}{n+1} \dfrac{2n}{n} $$
+
+<p>
+
+![catalan](../public/images/general math/catalan.png)    
+
+
+# Double factorial
+- Double factorial of a non-negative integer n, is the product of all the integers from 1 to n that have the same parity (odd or even) as n. 
+- It is also called as semifactorial of a number and is denoted by !!. 
+- For example, double factorial of 9 is 9*7*5*3*1 which is 945. 
+- Note that, a consequence of this definition is 0!! = 1
+
+![double](../public/images/general math/double.png)  
+
+
+# Sum Of Divisors
+- This tool calculates the sum of divisors of a number
+- For example
+  - 5
+  - Divisors of 5 is 1 and 5 
+  - sum of divisors of 5 is 60
+
+![divisor](../public/images/general math/divisor.png)  
+
+
+# Smallest Prime Number 
+- This tool calculates the smallest prime number of a numbers
+- for example
+  - Number is 10
+  - 10 is an even number
+  - hence smallest prime factor of 10 is 2
+
+
+![divisor](../public/images/general math/smallest_prime.png) 
+
+
+# Next Prime Number
+- This tool calculates the next prime number of a given number
+
+
+![divisor](../public/images/general math/next_prime.png) 
+
+
+# Pronic Number
+- Any number which can be represented as the product of two consecutive numbers is termed as a Pronic Number.
+  - Example:
+    - 0 = 0*1
+    - 2 = 1*2
+    - 6 = 2*3
+    - 12 = 3*4
+    - 20 = 4*5
+- The general formula is: n * (n+1)
+- This tool checks wheather the entered number is pronic or not
+
+![pronic](../public/images/general math/pronic.png)
+
+
+# Automorphic Number
+- A number is called an automorphic number if and only if the square of the given number ends with the same number itself. For example, 25, 76 are automorphic numbers because their square is 625 and 5776, respectively and the last two digits of the square represent the number itself. 
+- Some other automorphic numbers are 5, 6, 36, 890625, etc.
+- This tool checks wheather the entered number is automorphic or not
+
+![automorphic](../public/images/general math/automorphic.png)
+
+
+# Disarium Number
+- A Disarium number is a number defined by the following process: Sum of its digits powered with their respective position is equal to the original number. 
+- Some other DISARIUM are 89, 175, 518 etc
+
+![disarium](../public/images/general math/disarium.png)
+
+
+# Armstrong number
+- Armstrong number is a number that is equal to the sum of cubes of its digits. 
+- For example 0, 1, 153, 370, 371 and 407 are the Armstrong numbers.
+- Let's try to understand why 153 is an Armstrong number.
+  - 153 = (1*1*1)+(5*5*5)+(3*3*3)  
+  - where:  
+  - (1*1*1)=1  
+  - (5*5*5)=125  
+  - (3*3*3)=27  
+  - So:  
+  - 1+125+27=153  
+
+- This tool checks wheather the entered number is armstrong or not
+
+
+![armstrong](../public/images/general math/armstrong.png)
+
+
+# Types of Number
+- This tool is used to print many types of number which include 
+  - Tetrahedral Number
+  - Pentatope Number
+  - Hardy - Ramanujan
+  - Amicable Pair
+  - Fibonacci Number
+  - Tribonacci Number
+  - Even Fibonacci Number
+  - Polygonal Number
+  - Hoax Numbers
+  - Sphenic Number
+
+![armstrong-1](../public/images/general math/types-1.png)
+![armstrong-2](../public/images/general math/types-2.png)
+![armstrong-3](../public/images/general math/types-3.png)
+
+
+# Lucas Series
+- Lucas numbers are similar to Fibonacci numbers. Lucas numbers are also defined as the sum of its two immediately previous terms. But here the first two terms are 2 and 1 whereas in Fibonacci numbers the first two terms are 0 and 1 respectively. 
+
+
+![lucas](../public/images/general math/lucas.png)
+
+
+# Smallest Number Divisible
+- As the name says this tool calculates the smallest number which is divisible by number that you provided
+
+![small](../public/images/general math/small.png)
+
+
+
