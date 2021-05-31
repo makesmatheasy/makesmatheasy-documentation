@@ -2,7 +2,7 @@
 layout: default
 title: Linear Algebra
 permalink: /linear_algebra/
-description: Matrices
+description: Matrices, mathematical Modeling, Euclid geometry, Sets, Realtions And Functions, Sigma, Cramers Rule, Cayley Hamilton Theorem, Arithmetic Progression, Geometric Progression, Harmonic Progression, Golden and Silver Ratio
 ---
 
 
@@ -410,13 +410,12 @@ A = PDP^{-1}
 - Sum of Nth terms of GP
   - consider the $$ GP 1,ar,ar^2 ,..., ar_{n-1} $$
   - let sn,a,r be the sum of n terms, first term and common ratio of GP, respectively
-  - then 
-  - $$ S_{n} = \dfrac{a(n^{n-1}-1)}{r-1} $$
+  - then $$ S_{n} = \dfrac{a(n^{n-1}-1)}{r-1} $$
 
 - Sum to infinity of GP
   - if the number of terms in a GP is not finite, then the GP is called infinite GP
-  - The formula to find the sum of infinity of the given GP is::
-  - $$ S_{\infty} = \sum_{n-1}^{infty} ar^{n-1} = \dfrac{a}{1-r}; -1<r<1 $$
+  - The formula to find the sum of infinity of the given GP is  $$ S_{\infty} = \sum_{n-1}^{infty} ar^{n-1} = \dfrac{a}{1-r}; -1< r < 1 $$
+ 
 
 
 
@@ -486,8 +485,6 @@ A = PDP^{-1}
 
 
 ![Single Matrix](../public/images/util/gs-2.png){:#md-edit}
-
-
 
 
 
@@ -716,7 +713,7 @@ $$ \sum_{r=1}^{n} aT_{r} = a \sum_{r=1}^{n} aT_{r} $$
 - Conditions to be a function
   
   - A relation from a set X to a set Y is called a function if each element of X is related to exactly one element in Y. That is, given an element x in X, thereis only one element in Y that x is related to. 
-  - 
+  
 ![sets](../public/images/linear/functions.png)
 
 - Operations on Sets
@@ -726,6 +723,7 @@ $$ \sum_{r=1}^{n} aT_{r} = a \sum_{r=1}^{n} aT_{r} $$
 - Intersection
   - The intersectionof two sets A and B, denoted by $$ A \cap B $$ consists of all elements that are both in A and B, for example $$ {1,2} \cap {2,3} = {2} $$
   
+
   ![sets](../public/images/linear/set-2.png)
 
   - the intersection of A and B is the middle part
@@ -745,6 +743,7 @@ $$ \sum_{r=1}^{n} aT_{r} = a \sum_{r=1}^{n} aT_{r} $$
 
 - Difference
   - The set A - B consists of elements that are in A but not in B, for example if $$ A = {1,2,3} and B = {3,5} then , A - B = {1,2} $$
+
 
   ![sets](../public/images/linear/set-6.png)
 

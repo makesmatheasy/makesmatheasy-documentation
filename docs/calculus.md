@@ -2,7 +2,7 @@
 layout: default
 title: Calculus
 permalink: /calculus/
-description: Integration, Differentiation, Partial Derivative, Laplace Transform, Inverse Laplace Transform
+description: Integration, Differentiation, Partial Derivative, Laplace Transform, Inverse Laplace Transform, Power Series, Maxima And Minima of Functions, Beta Gamma Functions, Limits, Tangents, Vector Calculus, Fourier Series, Convergence and Divergence Of Series
 ---
 
 
@@ -609,22 +609,26 @@ $$ Fourier \enspace series \enspace of \enspace of \enspace even \enspace functi
 - The fourier series expansion of an even function f(X) with the period o does not involve the terms with sines and has the form:
 
 <p>
+
 $$ f(x) = \dfrac{a_{0}}{2} +  \sum_{n=1}^{+\infty} a_{n} cos nx  $$
+
 $$ where \enspace the \enspace fourier \enspace coefficients \enspace are \enspace given \enspace by \ensp the \enspace formula $$
+
 $$ a_{0} = \dfrac{2}{\pi} \int_{0}^{\pi} f(x) dx, a_{n} = \dfrac{2}{\pi} \int_{0}^{\pi} f(x) cos nx dx  $$
-</p
+
+</p>
 
 #### Fourier Series of odd function
-- Accord
-
-
-
-ngly, the fourier series expansion of an odd 2pi-periodic function f(x) consists of sine terms only and has the form:
+- Accordngly, the fourier series expansion of an odd 2pi-periodic function f(x) consists of sine terms only and has the form:
 
 <p>
+
 $$  f(x) =  \sum_{n=1}^{+\infty} b_{n} sinx nx$$
+
 $$  where \enspace the coefficients \enspace are \enspace given \enspace by \enspace the \enspace formula $$
+
 $$  b_{n} = \dfrac{2}{\pi} \int_{0}^{\pi} f(x) sin nx dx $$
+
 </p>
 
 
