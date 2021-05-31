@@ -384,6 +384,93 @@ $$ c*\log_b (x) + d*\log_b (y) = \log_b (x^c*y^d) $$
 
 ![prime](../public/images/general math/prime.png)
 
+# Euler Totient 
+- Euler's totient function, also known as phi-function ϕ(n), counts the number of integers between 1 and n inclusive, which are coprime to n. 
+- Two numbers are coprime if their greatest common divisor equals 1 (1 is considered to be coprime to any number).
+- Use this tool to find 
+  - Euler Totient functions for all numbers smaller than or equal to n
+  - Perfect totient number
+  - Count of elements having euler totient value one less than itself
+  - count integers in a range which are divisiblel by their euler totient value and so on
+![prime](../public/images/general math/euler.png)
+
+![prime](../public/images/general math/euler-2.png)
+
+
+# Co-Primes Number theory
+- ‘Co’ refers to a ‘pair’. So, we can define a pair of integers, let's say a and b, as coprime or primes to each other or mutually prime or relatively prime if:
+  - the only positive integer that divides both of them to give a remainder zero is 1
+  - In other words, the HCF of the two numbers is 1
+  - Coprime numbers are denoted as gcd(a, b)=1 or (a, b)=1 or as “a is prime to b”
+- How to find Coprime numbers?
+  - Let's understand it with the help of an example:
+  - Let's consider two numbers 6 and 15.
+  - Now find out the factors of 6 and 15. We get the factors of 6 as 1, 2, 3, 6 and factors of 15 as 1, 3, 5, 15.
+  - On comparing the factors of these two numbers 6 and 15, we see that both these numbers have factors 1 and 3 in common. 
+  - The HCF for this pair is 3. Therefore the pair is not coprime.
+- Properties of Coprime numbers
+  - 1) Numbers that are coprime may not necessarily be prime numbers themselves. For eg: (10,21), the numbers are not prime numbers if taken individually but they are coprime if considered as a pair. This concludes that composite numbers can be coprime numbers too.
+  - 2) Prime numbers are coprime by default. For eg: (2,3), (5,11), (19,23) and so on. Every prime number has only two factors i.e. 1 and the number itself. Therefore, the only common factor of a pair of two prime numbers will be 1.
+  - 3) Unity is considered coprime with everything else.
+  - 4) The concept of coprime is meaningful only with natural numbers.
+  - 5) Two successive integers are always coprime. For eg: (2,3), (11,12), (99,100) and so on; they have 1 as their HCF.
+  - 6) The sum of any two coprime numbers is always coprime with the product of the same two coprime numbers. For eg: The sum of 2 and 3 is 5 and the product of 2 and 3 is 6. Hence, 5 and 6 are coprime numbers.
+  - 7) If p and q are coprime numbers then p2 and q2 are also coprime numbers. For example, the squares of 5 and 6 i.e. 25 and 36 are also coprime to each other.
+
+
+
+# Prime Numbers
+- Prime numbers are the positive integers having only two factors, 1 and the integer itself. 
+- For example, factors of 6 are 1,2,3 and 6, which are four factors in total. 
+- But factors of 7 are only 1 and 7, totally two. 
+- Hence, 7 is a prime number but 6 is not, instead it is a composite number. But always remember that 1 is neither prime nor composite.
+- We can also say that the prime numbers are the numbers, which are only divisible by 1 or the number itself. 
+- Another way of defining it is a positive number or integer, which is not a product of any other two positive integers. 
+- There is no defined formula to find if a number is prime or not (except to a certain range), apart from finding its factors. 
+- A prime number is a positive integer having exactly two factors. 
+- If p is a prime, then it’s only factors are necessarily 1 and p itself. Any number which does not follow this is termed as composite numbers, which means that they can be factored into other positive integers.
+- This tool can be used to check primility of any number and can be used to print n prime numbers
+
+
+![prime-number](../public/images/general math/prime-number.png)
+
+              
+# EMI Calculator
+- An equated monthly installment (EMI) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. 
+- Equated monthly installments are applied to both interest and principal each month so that over a specified number of years, the loan is paid off in full. 
+- In the most common types of loans—such as real estate mortgages, auto loans, and student loans—the borrower makes fixed periodic payments to the lender over the course of several years with the goal of retiring the loan.
+- An equated monthly installment (EMI) is a fixed payment made by a borrower to a lender on a specified date of each month.
+- EMIs are applied to both interest and principal each month so that over a specified time period, the loan is paid off in full.
+- EMIs can be calculated in two ways: the flat-rate method or the reducing-balance method.
+- The EMI reducing-balance method generally is more favorable for borrowers, as it results in lower interest payments overall.
+- EMIs allow borrowers the peace of mind of knowing exactly how much money they will need to pay each month toward their loan.
+- Formula : 
+
+<p>
+
+$$ \dfrac{(P X I) X ( (1 + r)n)}{(t X ((1 + r)n)-1)} $$
+$$ where \enspace P = Principal \enspace Amount \enspace Borrowed  $$
+$$ I = annual \enspace intrest \enspace rate $$
+$$ r = periodic \enspace monthly \enspace intrest \enspace rate $$
+$$ n = total \enspace number \enspace of \enspace monthly \enspace payments $$
+$$ t = number \enspace of \enspace months \enspace in \enspace a \enspace year $$
+
+</p>
+
+![emi](../public/images/general math/emi.png)
+
+
+# GST Calculator
+- The goods and services tax (GST) is a value-added tax levied on most goods and services sold for domestic consumption. 
+- The GST is paid by consumers, but it is remitted to the government by the businesses selling the goods and services.
+- The goods and services tax (GST) is a tax on goods and services sold domestically for consumption.
+- The tax is included in the final price and paid by consumers at point of sale and passed to the government by the seller.
+- The GST is a common tax used by the majority of countries globally.
+- The GST is usually taxed as a single rate across a nation.
+
+
+![gst](../public/images/general math/gst.png)
+
 # Sum of Divisors
 - The sum of divisors $$\sigma(n)$$ id given by :
     $$\sigma(n) = (1+p_1+p_1^2+...+p_1^{e_1})(1+p_2+p_2^2+...+p_2^{e_2})....(1+p_k+p_k^2+...+p_k^{e_k})$$
