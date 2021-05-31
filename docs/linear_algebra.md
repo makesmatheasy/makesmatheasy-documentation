@@ -294,6 +294,74 @@ $$
 ![Single Matrix](../public/gifs/Multiple_Matrix.gif){:#md-edit}
 
 
+# Types of Relations
+- Sets and relation are interconnected with each other. The relation defines the relation between two given sets. If there are two sets available, then to check if there is any connection between the two sets,we use relations For example, An empty relation denotes none of the elements in the two sets is same.
+- There are 8 main types of relations which include:
+  - Empty Relation
+    - An empty relation (or void relation) is one in which there is no relation between any elements of a set. For example, if set A = {1, 2, 3} then, one of the void relations can be R = {x, y} where, |x – y| = 8. For empty relation, R = φ ⊂ A × A
+  - Universal Relation
+    - A universal (or full relation) is a type of relation in which every element of a set is related to each other. Consider set A = {a, b, c}. Now one of the universal relations will be R = {x, y} where, |x – y| ≥ 0. For universal relation, R = A × A
+  - Identity Relation
+    - In an identity relation, every element of a set is related to itself only. For example,in a set A = {a, b, c}, the identity relation will be I = {a, a}, {b, b}, {c, c}. For identity relation,I = {(a, a), a ∈ A}
+  - Inverse Rwaltion
+    - Inverse relation is seen when a set has elements which are inverse pairs of another set. For example if set A = {(a, b), (c, d)}, then inverse relation will be R inverse  = {(b, a), (d, c)}. So, for an inverse relation,
+  - Reflexive Realtion
+    - In a reflexive relation, every element maps to itself. For example, consider a set A = {1, 2,}. Now an example of reflexive relation will be R = {(1, 1), (2, 2), (1, 2), (2, 1)}. The reflexive relation is given by- (a, a) ∈ R
+  - Symmetric Realtion
+    - In a symmetric relation, if a=b is true then b=a is also true. In other words,a relation R is symmetric only if (b, a) ∈ R is true when (a,b) ∈ R. An example of symmetric relation will be R = {(1, 2), (2, 1)} for a set A = {1, 2}. So, for a symmetric relation, aRb ⇒ bRa, ∀ a, b ∈ A
+  - Transitive Relation
+    - For transitive relation, if (x, y) ∈ R, (y, z) ∈ R, then (x, z) ∈ R. For a transitive relation, aRb and bRc ⇒ aRc ∀ a, b, c ∈ A
+  - Equivalence Relation
+    - If a relation is reflexive, symmetric and transitive at the same time it is known as an equivalence relation.
+
+
+# Sets Formulas
+
+<p>
+
+$$ if \enspace A \enspace and \enspace B \enspace are \enspace overlapping \enspace sets \enspace n(A\cup B) = n(A) + n(B) - n(A \cap B) $$
+$$ If A \enspace and \enspace B \enspace are \enspace disjoint \enspace sets \enspace n (A\cup B) = n(A) + n(B)   $$
+$$ n(A) = n(A\cup B) + n(A\cap B) - n(B)  $$
+$$ n(A\cap B) = n(A) + n(B) -n(A\cup B)  $$
+$$ n(B) = n(A\cup B) + n(A\cap B) -n(A)  $$
+$$ n(U) = n(A) + n(B) - n(A\cap B) + n((A\cup B)^c)   $$
+$$ n((A\cup B)^c) = n(U) + n(A\cap B) - n(A)- n(B)   $$
+$$ n(A\cup B) = n(A-B) + n(B-A) + n(A\cap B)   $$
+$$ n(A-B) = n(A \cup B) - n(B)   $$
+$$ n(A-B) = n(A) - n(A\cap B)   $$
+
+
+# Sigma Notaion
+- $$ \sum  $$ is a letter of greek alphabets and it is called sigma. the symbol sigma represents the sum of similar term.
+- properties of sigma notation
+  
+<p>
+
+$$ \sum_{r=1}^{n} T_{r} + T1 + T2 + T3 + ....+ Tn , where \enspace T_{n} \enspaceis \enspace the \enspace general \enspace term \enspace of \enspace the \enspace series $$
+$$ \sum_{r=1}^{n} T_{r} \plusmn T_{r}^' = \sum_{r=1}^{n} T_{r} T_{r} \plusmn \sum_{r=1}^{n} T_{r}^'  $$
+$$ \sum_{r=1}^{n} T_{r} T_{r}^'  = (\sum_{r=1}^{n} T_{r})(\sum_{r=1}^{n} T_{r}^')  $$
+$$ \sum_{r=1}^{n} \dfrac{T_{r}}{T_{r}^'} ! = \dfrac{\sum_{r=1}^{n} T_{r}}{\sum_{r=1}^{n} T_{r}^'}    $$
+$$ \sum_{r=1}^{n} aT_{r} = a \sum_{r=1}^{n} aT_{r} $$
+
+</p>
+
+</p>
+                        
+
+# Creamers Rule
+- In linear algebra, Cramer's rule is an explicit formula for the solution of a system of linear equations with as many equations as unknowns, valid whenever the system has a unique solution. 
+- It expresses the solution in terms of the determinants of the (square) coefficient matrix and of matrices obtained from it by replacing one column by the column vector of right-hand-sides of the equations.                        
+                    
+![Single Matrix](../public/images/cramer-1.png){:#md-edit}
+![Single Matrix](../public/images/cramer-2.png){:#md-edit}
+
+                    
+                    
+                    
+                    
+                    
+                    
+
 # Mathematical Reasoning
 - Difference between statement and sentence in logic
   - A statement is a sentence which is either true or false but not true and false simultaneously
@@ -504,14 +572,10 @@ $$
                 
                 
                 
+
                     
                     
                 
                     
                     
-                    
-                
-                    
-                
-                    
-                
+
