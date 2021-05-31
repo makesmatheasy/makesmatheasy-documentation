@@ -400,3 +400,81 @@ where $$p_1, p_2, ...., p_k$$ are the prime factors of $$n$$.
     </p>
 - This tool just takes the number and returns its sum of divisors.<br>
 ![sumDiv](../public/images/general math/sumDiv.png)
+
+
+# Pronic Number
+- Any number which can be represented as the product of two consecutive numbers is termed as a Pronic Number.
+  - Example:
+    - 0 = 0*1
+    - 2 = 1*2
+    - 6 = 2*3
+    - 12 = 3*4
+    - 20 = 4*5
+- The general formula is: n * (n+1)
+- This tool checks wheather the entered number is pronic or not
+
+![pronic](../public/images/general math/pronic.png)
+
+
+# Automorphic Number
+- A number is called an automorphic number if and only if the square of the given number ends with the same number itself. For example, 25, 76 are automorphic numbers because their square is 625 and 5776, respectively and the last two digits of the square represent the number itself. 
+- Some other automorphic numbers are 5, 6, 36, 890625, etc.
+- This tool checks wheather the entered number is automorphic or not
+
+![automorphic](../public/images/general math/automorphic.png)
+
+
+# Disarium Number
+- A Disarium number is a number defined by the following process: Sum of its digits powered with their respective position is equal to the original number. 
+- Some other DISARIUM are 89, 175, 518 etc
+
+![disarium](../public/images/general math/disarium.png)
+
+
+# Armstrong number
+- Armstrong number is a number that is equal to the sum of cubes of its digits. 
+- For example 0, 1, 153, 370, 371 and 407 are the Armstrong numbers.
+- Let's try to understand why 153 is an Armstrong number.
+  - 153 = (1*1*1)+(5*5*5)+(3*3*3)  
+  - where:  
+  - (1*1*1)=1  
+  - (5*5*5)=125  
+  - (3*3*3)=27  
+  - So:  
+  - 1+125+27=153  
+
+- This tool checks wheather the entered number is armstrong or not
+
+
+![armstrong](../public/images/general math/armstrong.png)
+
+
+# Types of Number
+- This tool is used to print many types of number which include 
+  - Tetrahedral Number
+  - Pentatope Number
+  - Hardy - Ramanujan
+  - Amicable Pair
+  - Fibonacci Number
+  - Tribonacci Number
+  - Even Fibonacci Number
+  - Polygonal Number
+  - Hoax Numbers
+  - Sphenic Number
+
+![armstrong-1](../public/images/general math/types-1.png)
+![armstrong-2](../public/images/general math/types-2.png)
+![armstrong-3](../public/images/general math/types-3.png)
+
+
+# Lucas Series
+- Lucas numbers are similar to Fibonacci numbers. Lucas numbers are also defined as the sum of its two immediately previous terms. But here the first two terms are 2 and 1 whereas in Fibonacci numbers the first two terms are 0 and 1 respectively. 
+
+
+![lucas](../public/images/general math/lucas.png)
+
+
+# Smallest Number Divisible
+- As the name says this tool calculates the smallest number which is divisible by number that you provided
+
+![small](../public/images/general math/small.png)
