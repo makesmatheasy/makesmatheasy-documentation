@@ -400,3 +400,94 @@ where $$p_1, p_2, ...., p_k$$ are the prime factors of $$n$$.
     </p>
 - This tool just takes the number and returns its sum of divisors.<br>
 ![sumDiv](../public/images/general math/sumDiv.png)
+
+
+
+# Squares and Cubes in a range
+- This tool finds perfect square and cubes in a specified range
+
+
+![sumDiv](../public/images/general math/perfect-square-1.png)
+
+
+![sumDiv](../public/images/general math/perfect-square-2.png)
+
+
+# Factorization
+- To the factor, a number means to break it up into numbers that can be multiplied to get the original number. For example,
+- 24 = 4 × 6	4 and 6 are the factors of 24
+- 9 = 3 × 3	3 is the factor of 9
+- Also, numbers can be factorized into different combinations. There are different ways to find the Factors of a Number.
+
+
+![sumDiv](../public/images/general math/factor-1.png)
+
+
+
+![sumDiv](../public/images/general math/factor-2.png)
+
+
+# Percentage
+- In mathematics, a percentage is a number or ratio that can be expressed as a fraction of 100. If we have to calculate percent of a number, divide the number by whole and multiply by 100. 
+- Hence, the percentage means, a part per hundred. The word per cent means per 100. 
+- It represented by the symbol “%”. 
+- Examples of percentages are:
+  - 10% is equal to 1/10 fraction
+  - 20% is equivalent to ⅕ fraction
+  - 25% is equivalent to ¼ fraction
+  - 50% is equivalent to ½ fraction
+  - 75% is equivalent to ¾ fraction
+  - 90% is equivalent to 9/10 fraction
+
+
+![sumDiv](../public/images/general math/percentage-1.png)
+
+
+
+![sumDiv](../public/images/general math/percentage-2.png)
+
+# Error Percentage
+- Percentage error is a measurement of the discrepancy between an observed and a true, or accepted value. 
+- When measuring data, the result often varies from the true value.
+- Error can arise due to many different reasons that are often related to human error, but can also be due to estimations and limitations of devices used in measurement.
+- Regardless, in cases such as these, it can be valuable to calculate the percentage error.
+- The computation of percentage error involves the use of the absolute error, which is simply the difference between the observed and the true value. 
+- The absolute error is then divided by the true value, resulting in the relative error, which is multiplied by 100 to obtain the percentage error.
+
+
+
+![sumDiv](../public/images/general math/percentage-3.png)
+
+
+
+# Cost And Selling price
+- Cost Price:
+  - The price, at which an article is purchased, is called its cost price, abbreviated as C.P.
+- Selling Price:
+  - The price, at which an article is sold, is called its selling prices, abbreviated as S.P.
+- Profit or Gain:
+  - If S.P. is greater than C.P., the seller is said to have a profit or gain.
+- Loss:
+  - If S.P. is less than C.P., the seller is said to have incurred a loss.
+
+
+![sumDiv](../public/images/general math/cost-selling.png)
+
+
+# Effective Intrest Calculator
+
+- The effective annual interest rate is the real return on a savings account or any interest-paying investment when the effects of compounding over time are taken into account.
+-  It also reveals the real percentage rate owed in interest on a loan, a credit card, or any other debt.
+-  It is also called the effective interest rate, the effective rate, or the annual equivalent rate.
+
+
+               
+![sumDiv](../public/images/general math/effective-intrest.png)
+
+
+# Set Calculator
+
+                
+
+
+![sumDiv](../public/images/general math/set-calc.png)
