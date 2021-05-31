@@ -2,6 +2,7 @@
 layout: default
 title: Trignometry
 permalink: /trignometry/
+description: Expansions of Functions, Trignometric ratios, Height And Distance Finder, Inverse Trignometry, Hyperbolic Trignometric, Invserse Hyperbolic Trignometric, 
 ---
 
 #### Trignometry
