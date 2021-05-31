@@ -242,6 +242,74 @@ $$ a^2 = b^2 + c^2 - 2bc cosA $$
 </p>
 
 
+![sumDiv](../public/images/trigo/sol-1.png)
+
+![sumDiv](../public/images/trigo/sol-2.png)
+
+![sumDiv](../public/images/trigo/sol-3.png)
+
+![sumDiv](../public/images/trigo/sol-4.png)
+
+
+# Sum and difference of Trignometric function
+- With the help of this tool you can easily calculate sum and difference of trignometric functions using sin, cos and tan along with solving steps
+
+![sumDiv](../public/images/trigo/sum-diff.png)
+
+
+
+# Unit Circle 
+- A unit circle is a circlewith a radius of 1 (unit radius).
+- This tool will help determine the coordinates of any point on the unit circle just by entering the angle in the unit circle calculator
+
+
+![sumDiv](../public/images/trigo/unit-circle.png)
+
+
+# Height and distance
+- In this section we have 5 calculators and they are following
+
+- To calculate height when angle of elevation and distance is given
+
+![sumDiv](../public/images/trigo/hd-1.png)
+
+
+- To calculate height when angle of depression and distance is given
+
+![sumDiv](../public/images/trigo/hd-2.png)
+
+- To calculate distance when angle of elevation and height is given
+
+![sumDiv](../public/images/trigo/hd-3.png)
+
+- To Calculate distance when angle of depression and height is given
+
+
+![sumDiv](../public/images/trigo/hd-4.png)
+
+
+- TO calculate angle of depression and elevation
+
+![sumDiv](../public/images/trigo/hd-5.png)
+
+
+# Expansion of Trignometric Functions
+
+<p>
+
+
+$$ sin  = x - \dfrac{x^3}{3!} + \dfrac{x^5}{5!} - \dfrac{x^7}{7!} + ....  $$
+$$ cosin  = 1 - \dfrac{x^2}{2!} + \dfrac{x^4}{4!} - \dfrac{x^6}{6!} + ....  $$
+$$ tan = x + \dfrac{x^3}{3} + \dfrac{2x^5}{15} + \dfrac{17x^7}{315} + ....  $$
+$$ cot = x^{-1} - \dfrac{1}{3x} - \dfrac{1 . x^3}{45} + \dfrac{2 . x^5}{945} + ....  $$
+$$ sec = 1 + \dfrac{1}{2x^2} 5 \dfrac{5 . x^4}{24} + \dfrac{61 . x^6}{720} + ....  $$
+$$ cosec = x^{-1} + \dfrac{1 . 360x^3}{6x + 7} + \dfrac{31 . x^5}{15120} + ....  $$
+
+
+
+</p>
+
+
 
 # Incenter, Excenter and Circumcenter
 - Incenter:
@@ -348,5 +416,6 @@ This tool shows the value of different trignometric functions angle values. Also
     
   </tr>
 </table>
+
 
 
