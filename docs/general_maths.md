@@ -2,7 +2,7 @@
 layout: default
 title: General Maths
 permalink: /general_maths/
-description: Various Basic Maths Tools
+description: Various Basic Maths Tools, Euclid, Ackermann, Antilogs, Logs,Doubling Time, Modulo, Adam Numbers, Quartiles, Deciles, Diamond Problems, Work and Time, Kaprekar, Wagstaff, Abundant, Woodall, Hyperperfect, Root Mean, Nth base, Factorization, Profit , Loss, Pythgorean Triplets. Binomial, Factorial, Prime Numbers, Euler Totient, Dirichlel Theorem, Lucas Series, Armstrong Number, Neon, Automorphic
 ---
 
 In This Section there are many tools which can be used to solve basic math problems and they are :

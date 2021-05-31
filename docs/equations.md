@@ -2,7 +2,7 @@
 layout: default
 title: Equations
 permalink: /equations/
-description: Quadratic Equations And Linear Equations
+description: Quadratic Equations, Linear Equations, Roots Of equation, Intercept Form Plane
 ---
 
 # Usefull Formulas
