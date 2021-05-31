@@ -2,7 +2,7 @@
 layout: default
 title: Probablity
 permalink: /probablity/
-description: Empirical Probability, Joint Probablity, Binomial Distribution Calculator, Bayes Probablity Theorem
+description: Empirical Probability, Joint Probablity, Binomial Distribution Calculator, Bayes Probablity Theorem, Geometric Probablity, Conditional Probablity, Mean And Variance, Joint Probablity, Binomial Distribution, Poisson Distribution , Hypergeometric, Bayes, Exponential, Distribution, Gamma Distribution
 
 ---
 
