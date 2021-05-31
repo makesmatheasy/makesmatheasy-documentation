@@ -2,7 +2,7 @@
 layout: default
 title: Graphs and Shapes
 permalink: /graphs_shapes/
-description: Plotting Graphs And 2D/3D Shapes 
+description: Plotting Graphs And 2D/3D Shapes, Supplimentry, Complementry Angles, SSS Triangles, Parallel Lines, Cartesian Coordinates, Cylinderical Coordinates, Polar Coordinates, Bilinear interpolation , Ceva and Thales Theorem, Circles, Triangles, 3D Shapes , 4D Shapes, Platonic Solids, CSA,TSA,Volumes, Faulhaber Formula
 ---
 
 # Supplementary Angle Calculator
@@ -211,7 +211,7 @@ $$ r = \sqrt{x^2  + y^2} and tan\theta = \dfrac{y}{x} $$
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/coordinate-system-5.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/coordinate-system-5.gif" >
 </div>
 </div>
 
@@ -632,7 +632,7 @@ $$ y = r sin \theta $$
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/Hetrahedron.jpg" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/tetrahedron.jpg" >
 
 # 3D Geometry
 - 3D geometry involves the mathematics of shapes in 3D space and involving 3 coordinates which are x-coordinate, y-coordinate and z-coordinate. In a 3d space, three parameters are required to find the exact location of a point
@@ -754,7 +754,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 <div class="col-md-6 pb-2" >
 
 
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/dooechedron.jpg" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/dodoechedron.jpg" >
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-2.png" >
 
@@ -831,7 +831,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-1.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-1.jpg" >
 
 </div>
 </div>
@@ -852,7 +852,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-2.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-2.jpg" >
 </div>
 </div>
 
@@ -861,7 +861,7 @@ $$ Projections \enspace of \enspace PQ \enspace , P(x1,y1,z1), Q(x2,y1,z1) \ensp
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-3.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-3.jpg" >
 
 </div>
 </div>
@@ -901,7 +901,7 @@ $$  L = r * \theta $$
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-5.png" >
 
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-4.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-4.jpg" >
 
 </div>
 </div>
@@ -928,7 +928,7 @@ $$  L = r * \theta $$
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-6.png" >
 
 
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-5.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-5.jpg" >
 
 </div>
 </div>
@@ -974,7 +974,7 @@ $$ A = \dfrac{1}{2} * r * r * (\dfrac{\pi}{180} \theta - sin \theta) $$
 
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-geometry-7.png" >
 
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-6.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-6.jpg" >
 
 </div>
 </div>
@@ -1010,7 +1010,7 @@ $$ A = \dfrac{1}{2} * r * r * (\dfrac{\pi}{180} \theta - sin \theta) $$
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/4d-shape-2.png" >
 
 
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-7.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-7.jpg" >
 
 </div>
 </div>
@@ -1060,7 +1060,7 @@ $$ A = \dfrac{1}{2} * r * r * (\dfrac{\pi}{180} \theta - sin \theta) $$
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/3d-shapes-2.png" >
 
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-8.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-8.jpg" >
 
 </div>
 </div>
@@ -1094,11 +1094,12 @@ $$ A = \dfrac{1}{2} * r * r * (\dfrac{\pi}{180} \theta - sin \theta) $$
 - An inscribed figure is not necessarily unique in orientation; this can easily be seen, for example, when the given outer figure is a circle, in which case a rotation of an inscribed figure gives another inscribed figure that is congruent to the original one.
 - Familiar examples of inscribed figures include circles inscribed in triangles or regular polygons, and triangles or regular polygons inscribed in circles. 
 - A circle inscribed in any polygon is called its incircle, in which case the polygon is said to be a tangential polygon. 
+- 
 - A polygon inscribed in a circle is said to be a cyclic polygon, and the circle is said to be its circumscribed circle or circumcircle.
 - The inradius or filling radius of a given outer figure is the radius of the inscribed circle or sphere, if it exists.
+- 
 - The definition given above assumes that the objects concerned are embedded in two- or three-dimensional Euclidean space, but can easily be generalized to higher dimensions and other metric spaces.
 - For an alternative usage of the term "inscribed", see the inscribed square problem, in which a square is considered to be inscribed in another figure (even a non-convex one) if all four of its vertices are on that figure.
-
 
 - this tool can be used to find shapes that can perfectly inscribe in another 3d shape
 - Following are some screen shots of this tool
@@ -1167,7 +1168,7 @@ $$ A = \dfrac{1}{2} * r * r * (\dfrac{\pi}{180} \theta - sin \theta) $$
   - T - Shape
   - Cyclic Quadrilateral
 
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-9.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-9.jpg" >
 </div>
 </div>
 
@@ -1189,7 +1190,7 @@ $$ A = \dfrac{1}{2} * r * r * (\dfrac{\pi}{180} \theta - sin \theta) $$
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/quad-3.png" >
 
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-10.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-10.jpg" >
 </div>
 </div>
 
@@ -1208,7 +1209,7 @@ $$ A = \dfrac{1}{2} * r * r * (\dfrac{\pi}{180} \theta - sin \theta) $$
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-shapes-2.png" >
 
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-11.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-11.jpg" >
 
 </div>
 </div>
@@ -1235,7 +1236,7 @@ $$ A = \dfrac{1}{2} * r * r * (\dfrac{\pi}{180} \theta - sin \theta) $$
 
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
-<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-12.png" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/cs-12.jpg" >
 
 </div>
 </div>
