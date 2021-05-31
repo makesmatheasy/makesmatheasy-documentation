@@ -135,6 +135,9 @@ $$
 \end{equation}
 $$
 </p>
+
+
+
 - Equality of Matrices: Two matrices A and B are said to be equal, if
     - order of A and B are same.
     - corresponding elements of A and B are same i.e. aij = bij, ∀ i and j.
@@ -186,10 +189,16 @@ $$
 
   
 - Determinant of a matrix
+- 
   - The determinant of a matrix is a special number that can be calculated from a square matrix which helps us find the inverse of a matrix, tells us things about the matrix that are useful in systems of linear equations, calculus and many more.
   - To calculate the determinant first of all the matrix must be square (i.e. have the same number of rows as columns). Then it is just basic arithmetic.
   - The symbol for determinant is two vertical lines either side:
   - Formula to caluclate determinant is : |A| = a(ei − fh) − b(di − fg) + c(dh − eg)
+
+
+
+
+
 <p class="small">
 $$
 \begin{equation}A = 
@@ -243,8 +252,12 @@ $$  −306 $$
 
 
 ## How to use this tool for single matrix 
+
+
 - This tool can be used for any order of single matrix where we can perform different operations such as Transpose of a matrix, determinant of matrix, minors and co-factors of a matrix, plus this tool  gives you the step by step notes at the same time, below is a demo
   
+
+
 ![Single Matrix](../public/gifs/Single_Matrix.gif){:#md-edit}
 
 
@@ -292,5 +305,81 @@ $$
 - This tool can only be used for two matrices for any order  where we can perform different operations such as addition, subtraction and multiplication, plus this tool  gives you the step by step notes at the same time, below is a demo
   
 ![Single Matrix](../public/gifs/Multiple_Matrix.gif){:#md-edit}
+
+
+
+# Sum of N terms of AP,GP and HP
+- This section of AP,GP and HP contains many calculators and they are
+  - Sum of N terms of an AP
+
+    - ![Single Matrix](../public/images/util/sn-1.png){:#md-edit}
+
+  - if first term,number of terms and last term is given
+  
+    - ![Single Matrix](../public/images/util/sn-2.png){:#md-edit}
+  
+  - Insert n-arithmetic mean between two numbers
+  
+    - ![Single Matrix](../public/images/util/sn-3.png){:#md-edit}
+
+  - If number of terms and the AP is given
+  
+    - ![Single Matrix](../public/images/util/sn-4.png){:#md-edit}
+
+  - Sum of p terms of an AP if mth and nth term are given
+
+    - ![Single Matrix](../public/images/util/sn-5.png){:#md-edit}
+
+  - Ratio of mth and nth terms of an AP
+  
+
+    - ![Single Matrix](../public/images/util/sn-6.png){:#md-edit}
+
+  - Constant/Increasing/Decreasing AP
+  - Three Consecutive Term (AP,GP or HP)
+  - Sum of N terms of a geometric progression
+  - Sum of infinite of a geometric progression with common ration less than 1
+  - Sum of P terms of an GP if mth and nth terms are giveb
+  - Sum of N terms of a harmonic progression
+  - harmonic progression
+  - Harmonic Progression nth term from end and etc many more
+
+
+# Aliquot Sum
+- In number theory, the aliquot sum s(n) of a positive integer n is the sum of all proper divisors of n, that is, all divisors of n other than n itself.
+- this tool includes various calculators and they are:
+  - Aliquot sum s(n) of a positive integer n is the sum of all peoper divisors of n, that is all divisors of n other than itself
+  - Primitive Abundant Number
+  - Check if a number can be expressed as sum of two abundant number
+  - Hosoya's Triangle
+  - Cassini's Identity
+  
+![Single Matrix](../public/images/util/al-1.png){:#md-edit}
+
+
+![Single Matrix](../public/images/util/al-2.png){:#md-edit}
+
+
+# Golden And Silver Ratio
+- Golden Ratio : In mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities.
+- Silver Ratio : In mathematics, two quantities are in the silver ratio if the ratio of the smaller of those two quantities to the larger quantity is the same as the ratio of the larger quantity to the sum of the smaller quantity and twice the larger quantity.
+- This tool includes various calculators
+  - Check wheter two numbers are in golden ratio
+  - Find nth fibonacci number using Golden ratio
+  - Check whether two numbers are in silver ratio
+
+
+
+![Single Matrix](../public/images/util/gs-1.png){:#md-edit}
+
+
+![Single Matrix](../public/images/util/gs-2.png){:#md-edit}
+
+
+
+
+
+
+
 
 
