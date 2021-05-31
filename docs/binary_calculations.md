@@ -2,6 +2,7 @@
 layout: default
 title: Binary Calculations
 permalink: /binary_calculations/
+description: Booloean Algebra, Number Systems, Binary Calculators, BCD, Excess-3 Code, R-1's Complement, R's Complement, Hamming Code, Hamming Distance
 ---
 
 # Boolean Algebra

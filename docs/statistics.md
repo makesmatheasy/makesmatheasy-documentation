@@ -2,7 +2,7 @@
 layout: default
 title: Statistics
 permalink: /statistics/
-description: 
+description: Statistics, Mean Median, Mode, Standard Deviation, T-Test,AB-Test, Linear Regression, Z- test, Z-Score, P-Value, Skweness , Covariance, Correlation, Chi-Square
 ---
 
 
@@ -35,6 +35,7 @@ description:
 - This calculator is used to convert odds to a probability of winning or losing
 
 
+
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/odds.png" >
@@ -46,6 +47,7 @@ description:
 - A confidence interval is how much uncertainty there is with any particular statistic. Confidence intervals are often used with a margin of error. 
 - It tells you how confident you can be that the results from a poll or survey reflect what you would expect to find if it were possible to survey the entire population. 
 - Confidence intervals are intrinsically connected to confidence levels.
+- 
 - this calculator calculets the confidence interval
 
 
@@ -57,6 +59,7 @@ description:
 
 
 # NP Chart
+
 - NP charts are used to monitor the number of non conforming units of a process based on samples taken from the process at goiven times (hours, shofts, days, weeks , months, etc) . We plot a graph of No defective item vs Sample No. If All the points of the graph lie within the control limits, then the process is under statistical conrtol
 
 <div class="container my-3 row">
@@ -70,6 +73,7 @@ description:
 
 
 # P Chart
+
 - A p- chart is an attribute control chart used with data collected in subgroups of varying sizes.
 - Because the subgroups size can vary, it shows a proportion on non conforming items rather than the actual count of items
 - Control limits of p - chart determines whether the process is in control or not
@@ -87,6 +91,7 @@ description:
 
 
 ## AB Test
+
 - An AB test is a statistical significance test in which two populations are compared to see if they differ significantly on a single characteristic. A sample size of 30 or more is recommended
 
 
@@ -95,6 +100,7 @@ description:
 <br>
 
 ## T Test
+
 - The t-test is any statistical hypothesis test in which th etest statistic foloows a students t-distribution under the null hyptothesis
 - it canbe used to determine if two sets of data are significantly different from each other , and is most commonly when the test statistic would follow a normal distribution if the value of a scaling term in the test statistic were known.
 - Also number of values in each set should not exceed 30.
@@ -107,6 +113,7 @@ $$ t = \dfrac{m - \mu}{\dfrac{s}{\sqrt n}} $$
 
 
 ## F test
+
 - A astatistical F test uses an F statistic to compare two variance s1, and s2 by dividing them.
 - the Result is always a positive number (becuase variances are always positive).
 - the equation for comparing two variances with the f-test is : $$ F = \dfrac{s1^2}{s2^2} $$ (if $$ s1^2 > s2^2  $$ )
@@ -122,6 +129,7 @@ $$ \dfrac{Larger \enspace Sample }{Smaller \enspace Sample \enspace Variance} $$
 
 
 ## Some Usefull Formulas
+
 
 <table style="width:100%" border="2"  bordercolor="white" class="small-2">
 
@@ -199,7 +207,8 @@ $$ \dfrac{Larger \enspace Sample }{Smaller \enspace Sample \enspace Variance} $$
 </table>
 
 <br>
-<br>
+
+
 
 ## Weighted Mean Calculator
 - Weighted Mean is an average computed by giving different weights to some of the individual values. If all the weights are equal, then the weighted mean is the same as the arithmetic mean.
@@ -256,6 +265,7 @@ $$ if n \enspace is \enspace odd, \enspace then \\ M = \dfrac{n+1}{2}term \\ if 
   - Variance is the numerical values that describe the variability of the observations from its arithmetic mean and denoted by sigma-squared(σ2 )
   - Variance measure how far individuals in the group are spread out, in the set of data from the mean.
 
+
 <p>
 
 $$ \sigma^2 = \dfrac{\sum(x-\bar x)^2}{n} $$
@@ -265,6 +275,7 @@ $$ \sigma^2 = \dfrac{\sum(x-\bar x)^2}{n} $$
 - Standar Deviation 
   - It is a measure of dispersion of observation within dataset relative to their mean.It is square root of the variance and denoted by Sigma (σ) .
   - Standard deviation is expressed in the same unit as the values in the dataset so it measure how much observations of the data set differs from its mean.
+
 
 <p>
 $$ S = \sigma = \sqrt \dfrac{\sum(x-\bar x)^2}{n} $$
@@ -283,12 +294,14 @@ $$ S = \sigma = \sqrt \dfrac{\sum(x-\bar x)^2}{n} $$
 
 ##  Sensitivity and Specificity
 
+
 - Sensitivity 
   - The sensitivity of a test is also called the true positive rate (TPR) and is the proportion of samples that are genuinely positive that give a positive result using the test in question. For example, a test that correctly identifies all positive samples in a panel is very sensitive. Another test that only detects 60 % of the positive samples in the panel would be deemed to have lower sensitivity as it is missing positives and giving higher a false negative rate (FNR). Also referred to as type II errors, false negatives are the failure to reject a false null hypothesis (the null hypothesis being that the sample is negative).
 - Specificity 
   -  The specificity of a test, also referred to as the true negative rate (TNR), is the proportion of samples that test negative using the test in question that are genuinely negative. For example, a test that identifies all healthy people as being negative for a particular illness is very specific. Another test that incorrectly identifies 30 % of healthy people as having the condition would be deemed to be less specific, having a higher false positive rate (FPR). Also referred to as type I errors, false positives are the rejection of a true null hypothesis (the null hypothesis being that the sample is negative).
 
 - use follwoing tool to find sensitivity and specificity
+
 
 
 
@@ -300,12 +313,15 @@ $$ S = \sigma = \sqrt \dfrac{\sum(x-\bar x)^2}{n} $$
 
 </br>
 
+
 # Standard Deviation
 - What Is Standard Deviation?
   - A standard deviation is a statistic that measures the dispersion of a dataset relative to its mean. The standard deviation is calculated as the square root of variance by determining each data point's deviation relative to the mean. If the data points are further from the mean, there is a higher deviation within the data set; thus, the more spread out the data, the higher the standard deviation.
   - Standard deviation is an especially useful tool in investing and trading strategies as it helps measure market and security volatility—and predict performance trends. As it relates to investing, for example, an index fund is likely to have a low standard deviation versus its benchmark index, as the fund's goal is to replicate the index.
 - S.D is given by
  
+
+
 <p>
 $$ S = \sigma = \sqrt \dfrac{\sum(x-\bar x)^2}{n} $$
 $$ x = observations \enspace given \\ \bar x = mean \\ n = total \enspace number \enspace of \enspace observations $$
@@ -313,6 +329,7 @@ $$ x = observations \enspace given \\ \bar x = mean \\ n = total \enspace number
 
 - Use following tool to calculate S.D
 <br> 
+
 
 
 
@@ -331,7 +348,7 @@ $$ x = observations \enspace given \\ \bar x = mean \\ n = total \enspace number
 - A z-statistic, or z-score, is a number representing the result from the z-test.
 - Z-tests are closely related to t-tests, but t-tests are best performed when an experiment has a small sample size.
 - Z-tests assume the standard deviation is known, while t-tests assume it is unknown.
-- 
+
 
 ## Z Score Calculator
 - A Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. 
@@ -348,6 +365,7 @@ $$ x = observations \enspace given \\ \bar x = mean \\ n = total \enspace number
 - A Z-score can reveal to a trader if a value is typical for a specified data set or if it is atypical.
 - In general, a Z-score below 1.8 suggests a company might be headed for bankruptcy, while a score closer to 3 suggests a company is in solid financial positioning.
 
+
 ## Negative Binomial Distribution 
 - A negative binomial distribution (also called the Pascal Distribution) is a discrete probability distribution for random variables in a negative binomial experiment.
 
@@ -358,6 +376,7 @@ $$ x = observations \enspace given \\ \bar x = mean \\ n = total \enspace number
 $$  P(Y=n) = C_{r-1}^{n-1}*pr*(1-p)(n-r) $$
 $$  Where \\ n \enspace is \enspace the \enspace total \enspace number \enspace of \enspace trials \\ r \enspace is \enspace the \enspace number \enspace of \enspace successes \\ p \enspace is \enspace the \enspace probablity \enspace of \enspace one \enspace success \\ C_{r-1}^{n-1} is \enspace the \enspace number  \enspace of \enspace combinations \\ P(Y = n) \enspace is \enspace the \enspace probablity \enspace of \enspace the \enspace exact  \enspace number \enspace of \enspace trials \enspace n \enspace needed \enspace to \enspace achieve \enspace r \enspace successes. $$
 <p>
+
 
 
 
@@ -388,6 +407,7 @@ $$  Where \\ n \enspace is \enspace the \enspace total \enspace number \enspace 
 - Formula for linear regression is given by $$ y = a + bx $$
 
 
+
 <p>
 
 $$ where \enspace a(intercept) = \dfrac{\sum y \sum x^2 - \sum x \sum xy}{(\sum x^2) - (\sum x )^2}  $$
@@ -402,11 +422,13 @@ $$ y = Values \enspace of \enspace the \enspace second \enspace data \enspace se
 
 
 
+
 <div class="container my-3 row">
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/linear.png" >
 </div>
 </div>
+
 
 
 # Chi- Square Test
@@ -426,6 +448,7 @@ $$ x_{c}^{2} = \sum \dfrac{(O_{i} - E_{i})^2}{E_{i}} $$
 </p>
 
 
+
 - Use following Tool to calculate the chi-square test
 
 <div class="container my-3 row">
@@ -433,6 +456,7 @@ $$ x_{c}^{2} = \sum \dfrac{(O_{i} - E_{i})^2}{E_{i}} $$
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/statistics/chi.png" >
 </div>
 </div>
+
 
 
 # Margin of Error
@@ -452,6 +476,8 @@ $$ Where \enspace MOE \enspace is \enspace the \enspace margin \enspace of \ensp
 $$ z \enspace is \enspace the \enspace score \enspace associated \enspace with \enspace a \enspace level \enspace of \enspace confidence $$
 $$ p \enspace is \enspace the \enspace proportion \enspace , \enspace expressed \enspace as \enspace a \enspace decimal $$
 $$ n \enspace is \enspace the \enspace sample \enspace size $$
+
+
 
 </p>
 
