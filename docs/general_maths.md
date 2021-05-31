@@ -400,3 +400,193 @@ where $$p_1, p_2, ...., p_k$$ are the prime factors of $$n$$.
     </p>
 - This tool just takes the number and returns its sum of divisors.<br>
 ![sumDiv](../public/images/general math/sumDiv.png)
+
+
+# Work & Time Calculator
+- Time and work deals with the time taken by an individual or a group of individuals to complete a piece of work and the efficiency of the work done by each of them.
+- Given below are the basic type of questions which may be asked in the exam with respect to the time and work topic:
+  - To find the efficiency of a person
+  - To find the time taken by an individual to do a piece of work
+  - To find the time taken by a group of individuals to complete a piece of work
+  - Work done by an individual in a certain time duration
+  - Work done by a group of individuals in a certain time duration
+- Knowing the formulas can completely link you to a solution as soon as you read the question. 
+- Thus, knowing the formula for any numerical ability topic make the solution and the related calculations simpler.
+- Given below are a few such important time and work formulas for your reference:
+  - Work Done = Time Taken × Rate of Work
+  - Rate of Work = 1 / Time Taken
+  - Time Taken = 1 / Rate of Work
+  - If a piece of work is done in x number of days, then the work done in one day = 1/x
+  - Total Wok Done = Number of Days × Efficiency
+  - Efficiency and Time are inversely proportional to each other
+  - X:y is the ratio of the number of men which are required to complete a piece of work, then the ratio of the time - taken by them to complete the work will be y:x
+  - If x number of people can do W1 work, in D1 days, working T1 hours each day and the number of people can do W2 work, in D2 days, working T2 hours each day, then the relation between them will be
+
+
+
+![sumDiv](../public/images/general math/work-time.png)
+
+
+
+# Kaprekar Number
+- In mathematics, a natural number in a given number base is a p-Kaprekar number if the representation of its square in that base can be split into two parts, where the second part has p digits, that add up to the original number.
+- Consider an n-digit number k. Square it and add the right n digits to the left n or n-1 digits. 
+- If the resultant sum is k, then k is called a Kaprekar number. For example, 9 is a Kaprekar number since
+
+<p>
+
+$$ 9^2=81    8+1=9,  $$
+$$ and \enspace 297 \enspace is \enspace a \enspace Kaprekar \enspace number \enspace since $$
+$$ 297^2=88209    88+209=297. $$ 
+$$ The \enspace first \enspace few \enspace are \enspace 1, 9, 45, 55, 99, 297, 703, $$
+
+</p>
+
+![sumDiv](../public/images/general math/kapreakar.png)
+
+
+# Wagstaff Number
+- A Wagstaff prime is a prime number of the form (2^p+1)/3 for p a prime number. 
+- The first few are given by p=3, 5, 7, 11, 13, 17, 19, 23, 31, 43, 61, 79, 101, 127, 167, 191, 199, 313, 347, 701, 1709, 2617, 3539, 5807, 10501, 10691, 11279, 12391, 14479, 42737, 83339, 95369, 117239, 127031, 138937, 141079, 267017, 269987, 374321, 986191, and 4031399 , with p=83339 and larger corresponding to probable primes. 
+- These values p correspond to the primes p_n with indices n=2, 3, 4, 5, 6, 7, 8, 9, 11, 14, 18, 22, 26.
+- The Wagstaff primes are featured in the new Mersenne prime conjecture.
+- There is no simple primality test analogous to the Lucas-Lehmer test for Wagstaff primes, so all recent primality proofs of Wagstaff primes have used elliptic curve primality proving.
+- A Wagstaff prime can also be interpreted as a repunit prime of base -2, as
+
+<p>
+
+$$ ((-2)^p-1)/(-2-1)=(2^p+1)/3 $$
+
+</p>
+
+
+- if p is odd, as it must be for the above number to be prime.
+
+![sumDiv](../public/images/general math/wagstaff.png)
+
+
+# Abuntant Number
+
+- An abundant number, sometimes also called an excessive number, is a positive integer n for which
+
+<p>
+
+$$ s(n)=\sigma(n)-n>n, $$ 	
+
+</p>
+
+- where sigma(n) is the divisor function and s(n) is the restricted divisor function. 
+- The quantity $$ \sigma(n)-2n $$ is sometimes called the abundance.
+- A number which is abundant but for which all its proper divisors are deficient is called a primitive abundant number 
+- The first few abundant numbers are 12, 18, 20, 24, 30, 36, ... ).
+- Every positive integer n with  ( |n| )60 is abundant. 
+- Any multiple of a perfect number or an abundant number is also abundant. 
+- Prime numbers are not abundant. Every number greater than 20161 can be expressed as a sum of two abundant numbers.
+- There are only 21 abundant numbers less than 100, and they are all even. The first odd abundant number is
+
+<p>
+
+$$  945=3^3·7·5 	$$
+
+<p>
+
+- That 945 is abundant can be seen by computing
+- s(945)=975>945. 
+
+
+
+![sumDiv](../public/images/general math/abundant.png)
+
+
+# Woodall Number
+
+- A Woodall number is a number of the form
+ 
+<p>
+
+ $$ W_n=2^nn-1. $$
+
+</p>
+
+- Woodall numbers are therefore similar to Mersenne numbers $$ 2^n-1 $$ but with an additional factor of n multiplying the power of 2, and to Cullen numbers 2^nn+1 but with the sign flipped.
+- For n=1, 2, ..., the first few Woodall numbers are 1, 7, 23, 63, 159, 383, ....
+- A Woodall number that is prime is known as a Woodall prime.
+
+![sumDiv](../public/images/general math/woodall.png)
+
+
+# Hyperperfect Number
+- A number n is called k-hyperperfect if
+  
+<p>
+
+$$ n	=	1+k \sum_{i} d_i	$$
+
+$$	=	1+k[\sigma(n)-n-1], $$	
+
+$$ k \sigma(n)=(k+1)n+k-1. $$ 	
+</p>
+
+- Taking k=1 gives the usual perfect numbers.
+- If k>1 is an odd integer, and p=(3k+1)/2 and q=3k+4=2p+3 are prime, then $$ p^2q  $$ is k-hyperperfect. 
+- McCranie (2000) conjectures that all k-hyperperfect numbers for odd k>1 are in fact of this form. 
+- Similarly, if p and q are distinct odd primes such that k(p+q)=pq-1 for some integer k, then n=pq is k-hyperperfect. - Finally, if k>0 and p=k+1 is prime, then if $$ q=p^i-p+1 $$ is prime for some i>1< then $$ n=p^(i-1)q $$ is k-hyperperfect (McCranie 2000).
+- The first few hyperperfect numbers (excluding perfect numbers) are 21, 301, 325, 697, 1333, .... 
+- If perfect numbers are included, the first few are 6, 21, 28, 301, 325, 496, ... , whose corresponding values of k are 1, 2, 1, 6, 3, 1, 12, .... 
+- The following table gives the first few k-hyperperfect numbers for small values of k. 
+- McCranie (2000) has tabulated all hyperperfect numbers less than 10^(11).
+
+
+![sumDiv](../public/images/general math/hyperperfect.png)
+
+
+# Solve for exponent
+
+
+![sumDiv](../public/images/general math/exponents_solve.png)
+
+# Sum of Square Calculator
+
+
+![sumDiv](../public/images/general math/square_sum.png)
+
+
+# Natural Numbers
+
+![sumDiv](../public/images/general math/nn-1.pn
+
+![sumDiv](../public/images/general math/nn-2.png)
+
+![sumDiv](../public/images/general math/nn-3.png)
+
+![sumDiv](../public/images/general math/nn-4.png)
+
+![sumDiv](../public/images/general math/nn-5.png)
+
+![sumDiv](../public/images/general math/nn-6.png)
+
+![sumDiv](../public/images/general math/nn-7.png)
+
+
+# Clock Angle
+
+![sumDiv](../public/images/general math/clock-angle-1.png)
+
+![sumDiv](../public/images/general math/clock-angle-2.png)
+
+
+# Root Mean Square
+- In Mathematics, the root mean square is also know as the quadratic mean
+- It is represented by RMS or rms
+- The root mean square is defined as the square root of the mean square
+- we can also say that it is a generalised mean with the exponent value as 2
+
+
+![sumDiv](../public/images/general math/clock-angle-2.png)
+
+
+# nth base root calculator
+- used to calculate nth base root of any number
+
+
+![sumDiv](../public/images/general math/nth-base-calc.png)
