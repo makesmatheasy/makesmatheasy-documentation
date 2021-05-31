@@ -241,6 +241,7 @@ $$ b^2 = a^2 + c^2 - 2ac cosB $$
 $$ a^2 = b^2 + c^2 - 2bc cosA $$
 </p>
 
+
 ![sumDiv](../public/images/trigo/sol-1.png)
 
 ![sumDiv](../public/images/trigo/sol-2.png)
@@ -307,3 +308,114 @@ $$ cosec = x^{-1} + \dfrac{1 . 360x^3}{6x + 7} + \dfrac{31 . x^5}{15120} + .... 
 
 
 </p>
+
+
+
+# Incenter, Excenter and Circumcenter
+- Incenter:
+  - In geometry, the incenter of a triangle is a triangle center, a point defined for any triangle in a way that is independent of the triangle's placement or scale.
+- Excenter:
+  - The excentral triangle, also called the tritangent triangle, of a triangle DeltaABC is the triangle J=DeltaJ_AJ_BJ_C with vertices corresponding to the excenters of DeltaABC.
+  - It is the anticevian triangle with respect to the incenter I (Kimberling 1998, p. 157), and also the antipedal triangle with respect to I.
+  - The circumcircle of the excentral triangle is the Bevan circle.
+- Circumcenter:
+  - The circumcenter of a triangle is defined as the point where the perpendicular bisectors of the sides of that particular triangle intersect. 
+  - In other words, the point of concurrency of the bisector of the sides of a triangle is called the circumcenter. 
+  - It is denoted by P(X, Y). 
+  - The circumcenter is also the centre of the circumcircle of that triangle and it can be either inside or outside the triangle.
+
+## Distance between Incenter and Excenter
+ - This tool can be used to find distance betweem incenter and excenter
+
+
+![sumDiv](../public/images/trigo/excenter-1.png)
+
+
+## Distance between circumcenter and excenter
+ - This tool can be used to find distance betweem circumcenter and excenter
+
+
+
+![sumDiv](../public/images/trigo/excenter-1.png)
+
+
+# Cirum Area and External Radius
+- This tool is usefull to find cirum area and external Radius
+
+
+
+![sumDiv](../public/images/trigo/circum-radius.png)
+
+
+
+## Trignometry Values
+
+This tool shows the value of different trignometric functions angle values. Also it has the values of some T-ratios for many angles. 
+
+<div class="col-md-6" >
+<img alt="unit converter" class="tools_screenshot img-fluid" src="../public/images/trigo_value.gif" >
+</div>
+<br>
+<table style="width:100%" border="2"  bordercolor="white">
+  <tr>
+    <th>$$Angles$$</th>
+    <th>$$0°$$</th>
+    <th>$$30°$$</th>
+    <th>$$45°$$</th>
+    <th>$$60°$$</th>
+    <th>$$90°$$</th>
+  </tr>
+  <tr>
+    <td>$$Sin θ$$</td>
+    <td>$$ 0 $$</td>
+    <td>$$ \dfrac{1}{2} $$</td>
+    <td>$$ \dfrac{1}{√2} $$</td>
+    <td>$$ \dfrac{√3}{2} $$</td>
+    <td>$$ 1 $$</td>
+   
+  </tr>
+  <tr>
+    <td>$$cos θ$$</td>
+    <td>$$ 1 $$</td>
+    <td>$$ \dfrac{√3}{2} $$</td>
+    <td>$$ \dfrac{1}{√2} $$</td>
+    <td>$$ \dfrac{1}{2} $$</td>
+    <td>$$ 0 $$</td>
+  </tr>
+  <tr>
+    <td>$$tan θ$$</td>
+    <td>$$ 0 $$</td>
+    <td>$$ \dfrac{1}{√3} $$</td>
+    <td>$$ 1 $$</td>
+    <td>$$ √3 $$</td>
+    <td>$$ \infty $$</td>
+  </tr>
+  <tr>
+    <td>$$cot θ$$</td>
+    <td>$$ \infty $$</td>
+    <td>$$ √3 $$</td>
+    <td>$$ 1 $$</td>
+    <td>$$ \dfrac{1}{√3} $$</td>
+    <td>$$ 0 $$</td>
+  </tr>
+  <tr>
+    <td>$$sec θ$$</td>
+    <td>$$ 1 $$</td>
+    <td>$$ \dfrac{2}{√3} $$</td>
+    <td>$$ √2 $$</td>
+    <td>$$ 2 $$</td>
+    <td>$$ \infty $$</td>
+  </tr>
+  <tr>
+    <td>$$cosec θ$$</td>
+    <td>$$ \infty $$</td>
+    <td>$$ 2 $$</td>
+    <td>$$ √2 $$</td>
+    <td>$$ \dfrac{2}{√3} $$</td>
+    <td>$$ 1 $$</td>
+    
+  </tr>
+</table>
+
+
+
