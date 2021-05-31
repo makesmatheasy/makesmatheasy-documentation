@@ -361,17 +361,221 @@ $$ \sum_{r=1}^{n} aT_{r} = a \sum_{r=1}^{n} aT_{r} $$
                     
                     
                     
+
+# Mathematical Reasoning
+- Difference between statement and sentence in logic
+  - A statement is a sentence which is either true or false but not true and false simultaneously
+  - A sentence will not be considered to be a statement if  : it is an exclamation, order, request, depicts time, places , pronouns
+
+- Simple Statement
+  - If a statement cannot be further broken down into various statements, or in simpler words if it is concrete by itself, it is called a simple statement
+
+- Compound Statement
+  - If a statement can further be broken down into simpler statements os that from a main statement, we can yeild more than one statement, then it is called a compound statement
+
+- Conjuction, Disjunction and Negation
+  - CONJUNCTION
+    - The statement $$ p^q $$ has the truth value T(true) if both p and q have the truth value T.
+    - similarly, the statement $$ p^q $$ has the truth value F(flase) if either p or q have the truth value F or both have the truth value F.
+  - DISJUNCTION
+    - The statement pvq has the truth value F(value) if bothh p and q have truth value F.
+    - Similarly, the statement pvq has the truth value T(true) if either p or q have the truth value T or both have the truth value T
+  - NEGATION
+    - p has truth value T whenever p has truth value F.
+    - p has truth value F whenever p has truth value T.
+
+
+- AND OPERATION:
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+  <tr>
+    <th>P</th>
+    <th>Q</th>
+    <th>P^Q</th>
+  </tr>
+  <tr>
+    <th>T</th>
+    <th>T</th>
+    <th>T</th>
+  </tr>
+  <tr>
+    <th>T</th>
+    <th>F</th>
+    <th>F</th>
+  </tr>
+  <tr>
+    <th>F</th>
+    <th>T</th>
+    <th>F</th>
+  </tr>
+  <tr>
+    <th>F</th>
+    <th>F</th>
+    <th>F</th>
+  </tr>
+ 
+</table>
+
+
+
+- OR OPERATION:
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+  <tr>
+    <th>P</th>
+    <th>Q</th>
+    <th>PvQ</th>
+  </tr>
+  <tr>
+    <th>T</th>
+    <th>T</th>
+    <th>T</th>
+  </tr>
+  <tr>
+    <th>T</th>
+    <th>F</th>
+    <th>T</th>
+  </tr>
+  <tr>
+    <th>F</th>
+    <th>T</th>
+    <th>T</th>
+  </tr>
+  <tr>
+    <th>F</th>
+    <th>F</th>
+    <th>F</th>
+  </tr>
+ 
+</table>
+
+
+- NEGATION:
+
+<table style="width:100%" border="2"  bordercolor="white" class="small-2">
+
+  <tr>
+    <th>P</th>
+    <th>~P</th>
+    
+  </tr>
+  <tr>
+    <th>T</th>
+    <th>F</th>
+
+  </tr>
+  <tr>
+    <th>F</th>
+    <th>T</th>
+
+  </tr>
+  
+ 
+</table>
+
+
+# Euclid Geometry
+- Euclid Axioms
+  - There are 7 axioms in euclid geometry
+    - thing which are equal to the same thing are equal to one another
+    - if equal are added to equals, the wholes are equal
+    - if equal are subtracted from equals, the remaiunde are equal
+    - things which coincide with one another are equal to one another
+    - the whole is than the part
+    - things which are double of the same things are equal to another
+    - Things which are halves of the same things are equal to one another
+  - Euclid's Postulates
+    1. A straight line can be drawn from anyone point to another point
+    2. A terminated line can e further produced inside finitely
+    3. A circle can be drawn with any center and any radius.
+    4. all right angles are equal to one another 
+    5. if a straight line falling on two other stright lines makes the interior angles on the same side of it taken together less than two right angles, then the two straight lines, if produced inde finitely, meet on the side on which the sum of angles is less that two right angles.
+
+
+# Sets , Relations and Functions
+
+## What are sets
+- A set is the representation of a collection of objects; distinct objects with one or more common properties.
+
+![sets](../public/images/linear/sets.png)
+
+- Types of sets
+  - Empty Set - A set with no elements. Empty sets are also called null sets or void sets and are denoted by { } or Φ.
+  - Singleton Set - A set with a single element. For example, {9}.
+  - Power Set - A set qualifies asthe subset of another set if all of its elements are also the elements of that another set. A collection of all the subsets of a given set is a power set.
+  - Super Set - A super-set can be thought of as the parent set that at least contains all the elements of the subset and may or may not contain some extra elements.
+- What are relations and functions
+  - Relations and functions are the set operations that help to trace the relationship between the elements of two or more distinct sets or between the elements of the same set.
+  - The relation is the subset of the Cartesian product which contains only some of the ordered pair based on the relationships defined between the first and second elements. The relation is usually denoted by R.
+  - If every element of a set A is related with one and only one element of another set then this kind of relation qualifies as a function. A function is a special case of relation where no two ordered pairs can have the same first element.
+- Conditions to be a function
+  
+  - A relation from a set X to a set Y is called a function if each element of X is related to exactly one element in Y. That is, given an element x in X, thereis only one element in Y that x is related to. 
+  - 
+![sets](../public/images/linear/functions.png)
+
+- Operations on Sets
+- Union
+  - The union of two sets is a set containing all the elements that are in A or in B (Possibly Both). For example $$  {1,2} \cup {2,3} = {1,2,3} $$
+![sets](../public/images/linear/set-1.png)
+- Intersection
+  - The intersectionof two sets A and B, denoted by $$ A \cap B $$ consists of all elements that are both in A and B, for example $$ {1,2} \cap {2,3} = {2} $$
+  
+  ![sets](../public/images/linear/set-2.png)
+
+  - the intersection of A and B is the middle part
+
+  ![sets](../public/images/linear/set-3.png)
+
+- Disjoint
+  - Set A and Set B are called disjoint sets if no elements is common to A and B i.e A and B are joint sets then $$ a \cap B = \theta $$
+  - $$ A = {1,3,5} , B = {2,4,6} and C = {a,b,c} , A \cap B \cap C = \theta $$
+
+  ![sets](../public/images/linear/set-4.png)
+
+- Complement
+  - The complement of set A , denoted by A is elements in universal Set which are not in A
+  
+  ![sets](../public/images/linear/set-5.png)
+
+- Difference
+  - The set A - B consists of elements that are in A but not in B, for example if $$ A = {1,2,3} and B = {3,5} then , A - B = {1,2} $$
+
+  ![sets](../public/images/linear/set-6.png)
+
+  - Types of Functions
+    - One to one function(Injective): For each element in the domain there is one and only one element in the  range.
+    - Many to one function: When two or more elements from the domain are mapped to the same single elements in the range.
+    - Onto function(Surjective): When every element of the range has been mapped to an element in the domain.
+    - One-one and onto function(Bijective): A function which is both one to one and onto function.
+
+
                     
                     
+                
                     
                 
                     
                     
                 
+                   
+                    
+                  
+                
+                
+            
+                
+                
+                
+                
+                
+                
+
                     
                     
-                        
-                         
-                        
-                        
-                        
+                
+                    
+                    
+
