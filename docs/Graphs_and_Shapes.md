@@ -339,7 +339,7 @@ $$ y = r sin \theta $$
   </tr>
   <tr>
     <td>$$Square$$</td>
-    <td>$$ a^2 $$</td>
+    <td>$$ a^2 $$</td>+
     <td>$$ 4a $$</td>
   </tr>
   <tr>
@@ -1319,4 +1319,204 @@ $$ \sum_{k=1}^{n} k^p  = \dfrac{n^{p+1}}{p+1} + \dfrac{1}{2} n^p + \sum_{k=2}^{p
 <div class="col-md-6 pb-2" >
 <img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/2d-inscribed-7.png" >
 </div>
+
+
+# Bilinear Interpolation 
+- In mathematics, bilinear interpolation is an extension of linear interpolation for interpolating functions of two variables (e.g., x and y) on a rectilinear 2D grid.
+- Bilinear interpolation is performed using linear interpolation first in one direction, and then again in the other direction. 
+- Although each step is linear in the sampled values and in the position, the interpolation as a whole is not linear but rather quadratic in the sample location.
+- Bilinear interpolation is one of the basic resampling techniques in computer vision and image processing, where it is also called bilinear filtering or bilinear texture mapping.
+
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="../public/images/shapes/bilinear-interpolation.png" >
+</div>
+
+
+# Coordinate Geometry
+- Distance Formula : To calculate distance between two points
+  - Let the two points be A and B, having coordinates to be (x1,y1) and (x2,y2) respectively
+  - thus the distance between two points is given as $$ d = \sqrt{(x2-x1)^2 + (y2-y1)^2} $$
+
+
+
+  
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/diss.png" >
+</div>
+
+- Mid Point Theorem : To find mid-point of a line connecting two points
+  - consider the same points A and B , having coordinates to be (x1,y1) and (x2,y2) respectively
+  - Let m(x,y) be the mid point of lying on the line connecting these two point A and B.
+  - The coordinates of the point M is given as 
+  - $$ M(x,y) = (\dfrac{x1+x2}{2},\dfrac{y1+y2}{2}) $$
+
+
+- Angle Formula : To find the angle between two lines
+  - consider two lines A and B,having their slopes to be m1 and 2m respectively
+  - let theta be the angle between these two lines , then the angle betwen them can be represented as 
+  - $$ tan \theta = \dfrac{m1-m2}{1+m1m2} $$
+
+- Section Formula : To find a point which divides a line into m:n ratio
+  - consider a Line A and B having coordinates (x1,y1) and (x2,y2) respectively
+  - let p be a point that which divides the line in the ratio m:n
+  - then the coordinates of the point P is given as
+  - when the ratio m:n is internal
+  - $$ \dfrac{mx2+nx1}{m+n}, \dfrac{my2+ny1}{m+n} $$
+  - when the ratio m:n is external
+  - $$ \dfrac{mx2-nx1}{m-n}, \dfrac{my2-ny1}{m-n} $$
+
+
+# Curve Tracing
+- For Cartesian curves
+  - Symmetry
+    - If even powers of x, then symmetrical about y axis
+    - if even power of y, then symmetrical about x axis
+    - if replacing y by x no change in curve, symmetrical about y = x
+
+  - Origin
+    - If curve has no constant term, equate to 0 the lowest degree term to get equation of tangent at origin
+
+  - Asymptotes
+    - for asymptotes parallel to x axis, equate highest degree's coefficient of x to 0
+    - for asympototes parallel to y axis, equate highest degrees coefficient y to 0
+
+  - Region
+    - Using logic find regions in which the corve will lie 
+    - Use wavy curve method to find the region 
+
+  - Point Of intersection
+    - Putrtain values of x to get corresponding values of y and plot them to get final answer
+- For Polar Curves
+  - Symmetry
+    - to check for any angle theta for symmetry for $$ (2\alpha-\theta) $$ , if curve remains same then symmetrical
+  - Pole
+    -   Put r = 0 to get equation of tangent at pole
+  - Asymptotes
+    - put r = infinity to get asyptotes
+  - Region
+    - Put xtreme values of cosine/sine to get region in which curve lie
+  - Point of intersection
+    - point of values of theta to get specific value of r, then plot
+
+
+# Civa and Thales Theorem
+## Civa's theorem
+- Ceva’s theorem, in geometry, theorem concerning the vertices and sides of a triangle. 
+- In particular, the theorem asserts that for a given triangle ABC and points L, M, and N that lie on the sides AB, BC, and CA, respectively, a necessary and sufficient condition for the three lines from vertex to point opposite (AM, BN, CL) to intersect at a common point (be concurrent) is that the following relation hold between the line segments formed on the triangle:
+BM∙CN∙AL = MC∙NA∙LB.
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="https://cdn.britannica.com/s:690x388,c:crop/54/128354-050-F329F77A/triangle-theorem-Ceva-ABC-N-MCNALB-lines.jpg" >
+</div>
+
+- Civa's theorem is a theorem about triangles in plane geometry
+- Another form of the theorem is that three concurrent lines from the polygon vertices of a triangle divide the opposite sides in such fashion that the product of three non adjacent segments equals the product of the other three
+  
+
+ ## Thales Theorem
+- If three points A, B, and C lie on the circumference of a circle, whereby the line AC is the diameter of the circle, then the angle ∠ABC is a right angle (90°).
+- The diameter of a circle always subtends a right angle to any point on the circle.
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="https://www.storyofmathematics.com/wp-content/uploads/2020/07/Thales-Theorem-definition.webp" >
+</div>
+
+
+- You noticed that the Thales theorem is a special case of the inscribed angle theorem (the central angle = twice the inscribed angle).
+
+- Thales theorem is attributed to Thales, a Greek mathematician and philosopher who was based in Miletus. Thales first initiated and formulated the Theoretical Study of Geometry to make astronomy a more exact science. 
+
+# Circles
+- The circle are said to be congruent if they have equal radii
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="tools_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/pr1.jpg" >
+</div>
+
+- The Diameter of a circle is the longest chord of a circle
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="toolgs_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/pr2.png" >
+</div>
+
+- Equal Chords subtend equal angles at the circumference
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="toolgs_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/pr3.png" >
+</div>
+
+- The radius drawn perpendicular to the chord bisects the chord
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="toolgs_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/pr4.png" >
+</div>
+
+
+- Circles having different radius are similar
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="toolgs_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/pr5.png" >
+</div>
+
+
+- A circle can circumscribe a rectangle, traperzium, triangle, square, kite
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="toolgs_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/pr6.png" >
+</div>
+
+- A circle can be inscribed inside a rectangle,triangle, square, kite
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="toolgs_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/pr7.png" >
+</div>
+
+- the chords that are equidistant from the center are equal in length
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="toolgs_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/pr8.png" >
+
+- the distance from the center of the circle to the longest chord (diameter) is zero
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="toolgs_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/pr9.png" >
+</div>
+
+
+- the perpendicular distance from the center of the circle decreases when the length of the chord increases
+
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="toolgs_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/pr10.png" >
+</div>
+
+
+- if the tangents are drawn at the end of the diameter they are parallel to each other
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="toolgs_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/pr11.png" >
+</div>
+
+- an isosceles triangle is formed when the radii joining the ends of a chord to the center of a circle
+<div class="container my-3 row">
+<div class="col-md-6 pb-2" >
+<img alt="Probablity" class="toolgs_screenshot img-fluid" src="https://makesmatheasy.github.io/makesmatheasy/images/pr12.png" >
+</div>
+
+
+
 
