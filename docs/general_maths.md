@@ -400,3 +400,124 @@ where $$p_1, p_2, ...., p_k$$ are the prime factors of $$n$$.
     </p>
 - This tool just takes the number and returns its sum of divisors.<br>
 ![sumDiv](../public/images/general math/sumDiv.png)
+
+
+
+# Exponential Growth 
+- Exponential growth is a pattern of data that shows greater increases with passing time, creating the curve of an exponential function. 
+- For example, suppose a population of mice rises exponentially every year starting with two in the first year, then four in the second year, 16 in the third year, 256 in the fourth year, and so on. 
+- The population is growing to the power of 2 each year in this case.
+- Exponential growth is a pattern of data that shows sharper increases over time.
+- In finance, compounding creates exponential returns.
+- Savings accounts with a compounding interest rate can show exponential growth.
+
+
+
+![sumDiv](../public/images/general math/expo-gro.png)
+
+
+# Percentile Rank
+
+<p>
+
+$$ PR = L/N * 100 $$
+
+<p>
+
+- PR is the percentile rank - it can take value from 0 to 100;
+- L is the number of values from the set A that are lower than or equal to your data value X , and N is the total number of values in the set A
+
+
+
+![sumDiv](../public/images/general math/percentile.png)
+
+
+
+# Half Life Calculator
+- In radioactivity, the interval of time required for one-half of the atomic nuclei of a radioactive sample to decay (change spontaneously into other nuclear species by emitting particles and energy), or, equivalently, the time interval required for the number of disintegrations per second of a radioactive material to decrease by one-half is called Half-life.
+
+
+![sumDiv](../public/images/general math/half-life.png)
+
+
+# Direct and Indirect
+- A direct and inverse proportion are used to show how the quantities and amount are related to each other. They are also mentioned as directly proportional or inversely proportional. 
+- The symbol used to denote the proportionality is’∝’.  
+- For example, if we say, a is proportional to b, then it is represented as ‘a∝b’ and if we say, a is inversely proportional to b, then it is denoted as ‘a∝1/b’. 
+- These relations are governed by some proportionality rules. 
+- Now in both cases, the value of ‘a’ changes in terms of ‘b’ or when the value of ‘b’ changes, the value of ‘a’ also get changed. 
+- The change in both values is equated with a constant of proportionality. 
+- Basically, a proportion states that two ratios like a/b and c/d are equal to each other, in such a way, a/b = c/d. 
+
+
+![sumDiv](../public/images/general math/direct-indirect.png)
+
+
+# Cross Multiplication
+
+<p>
+
+$$ \dfrac{A}{B} = \dfrac{C}{D}  $$
+
+</p>
+
+- In this tool if you have 3 values then you can find the 4th value
+
+
+![sumDiv](../public/images/general math/cross.png)
+
+
+# Diamond Problem
+
+
+![sumDiv](../public/images/general math/diamond-1.png)
+
+
+![sumDiv](../public/images/general math/diamond-2.png)
+
+
+# Additive Inverse
+- An additive inverse of a number is defined as the value, which on adding with the original number results in zero value. 
+- It is the value we add to a number to yield zero. Suppose, a is the original number, then its additive inverse will be minus of a i.e.,-a, such that;
+  - a+(-a) = a – a = 0
+  - Example:
+  - Additive inverse of 10 is -10, as 10 + (-10) = 0
+  - Additive inverse of -9 is 9, as (-9) + 9 = 0
+
+![sumDiv](../public/images/general math/additive.png)
+
+
+# Multiplicative Inverse
+- The multiplicative inverse of a number say, N is represented by 1/N or N-1. It is also called reciprocal, derived from a Latin word ‘reciprocus‘. 
+- The meaning of inverse is something which is opposite. The reciprocal of a number obtained is such that when it is multiplied with the original number the value equals to identity 1. 
+- In other words, it is a method of dividing a number by its own to generate identity 1, such as N/N = 1.
+- When a number is multiplied by its own multiplicative inverse the resultant value is equal to 1.
+- Consider the examples, the multiplicative inverse of 3 is 1/3, of -1/3 is -3, of 8 is 1/8 and of 4/7 is -7/4. 
+- But the multiplicative inverse of 0 is infinite, because of 1/0 = infinity. 
+- So, there is no reciprocal for a number ‘0’. Whereas the multiplication inverse of 1 is 1 only.
+
+
+
+![sumDiv](../public/images/general math/multiplicative.png)
+
+
+
+# Square Root Calculator
+
+
+![sumDiv](../public/images/general math/square-root.png)
+
+
+# Unit Calculator
+
+
+![sumDiv](../public/images/general math/unit-calc.png)
+
+
+# Order of Magnitude
+- An order of magnitude is an approximation of the logarithm of a value relative to some contextually understood reference value, usually ten, interpreted as the base of the logarithm and the representative of values of magnitude one
+
+
+
+![sumDiv](../public/images/general math/order-of-magnitude.png)
+
