@@ -400,3 +400,116 @@ where $$p_1, p_2, ...., p_k$$ are the prime factors of $$n$$.
     </p>
 - This tool just takes the number and returns its sum of divisors.<br>
 ![sumDiv](../public/images/general math/sumDiv.png)
+
+
+
+# Ackremann Function
+- The ackermann function is multi-variable function from the natural nubers to the natural numbers with very fast rate of growth
+- In computability theory, the Ackermann function, named after Wilhelm Ackermann, is one of the simplest and earliest-discovered examples of a total computable function that is not primitive recursive. 
+- All primitive recursive functions are total and computable, but the Ackermann function illustrates that not all total computable functions are primitive recursive. 
+- It’s a function with two arguments each of which can be assigned any non-negative integer.
+
+
+
+![ackermann](../public/images/general math/ackermann.png)
+
+# Euclid GCD
+- The algorithm is based on the below 
+- If we subtract a smaller number from a larger (we reduce a larger number), GCD doesn't change
+- So if we keep subtrating repeatedly the larger of two , we end up with gcd
+- Now instead of subtraction , if we divide the smaller number, the algorithm stops when we find remainder 0
+  
+
+![euclid](../public/images/general math/euclid.png)
+
+
+# Antilog
+- An antilog is the result of raising the base being used to the logarithm given or calculated. 
+- Put another. way, it "undoes" what calculating the logarithm of a number does and simply returns that number. 
+- In an equation of the form logbx = y, it is the "x" term, called the argument of the log function.
+
+
+![antilog](../public/images/general math/antilog.png)
+
+# Doubline Time
+- The doubling time is time it takes for a population to double in size/value. 
+- It is applied to population growth, inflation, resource extraction, consumption of goods, compound interest, the volume of malignant tumours, and many other things that tend to grow over time doubling
+
+
+![antilog](../public/images/general math/doubling.png)
+
+
+# Percentage Change
+- This tool can be used to find change in percentage from initial value to final value along with steps
+
+![antilog](../public/images/general math/percentage-change.png)
+
+
+# percentage Change
+
+
+![percentage-off](../public/images/general math/percentage-off.png)
+
+
+# Modulo 
+- Modulo is a math operation that finds the remainder when one integer is divided by another. 
+- In writing, it is frequently abbreviated as mod, or represented by the symbol %.
+- For two integers a and b:
+- a mod b = r
+- Where a is the dividend, b is the divisor (or modulus), and r is the remainder.
+
+
+
+
+![modulo](../public/images/general math/modulof.png)
+
+# sieve of eratosthenes
+- In mathematics, the sieve of Eratosthenes is an ancient algorithm for finding all prime numbers up to any given limit.
+- It does so by iteratively marking as composite (i.e., not prime) the multiples of each prime, starting with the first prime number, 2. 
+- The multiples of a given prime are generated as a sequence of numbers starting from that prime,with constant difference between them that is equal to that prime.
+- This is the sieve's key distinction from using trial division to sequentially test each candidate number for divisibility by each prime.Once all the multiples of each discovered prime have been marked as composites, the remaining unmarked numbers are primes.
+            
+
+
+![modulo](https://media.geeksforgeeks.org/wp-content/uploads/SieveofEratosthenes5.jpg)
+
+
+# Adam Number
+- A number is called an Adam number if the square of a number and the square of its reverse are reverse to each other. Let's understand it through an example.
+  - Adam Number Example
+  - Consider a number (N) 12 and check it is an Adam number or not.
+  - Square of the number (N) = 144
+  - The reverse of the number (N) = 21
+  - Square of the reverse of the number (N) = 441
+  - We observe that the square of 12 and the square of its reverse i.e. 21 are reverse of each other. Hence, 12 is an Adam number.
+  - Some other Adam numbers are 0, 1, 2, 3, 11, 12, 13, 21, 22, 31, 101, 102, 103, 111, etc.
+
+
+![modulo](../public/images/general math/adam.png)
+
+
+# Greatest Integer Function and Fractional Part
+
+
+
+![modulo](../public/images/general math/greatest.png)
+
+
+# Quartile
+- A quartile is a statistical term that describes a division of observations into four defined intervals based on the values of the data and how they compare to the entire set of observations. 
+
+
+![modulo](../public/images/general math/quartiles.png)
+
+# Deciles
+- A decile is a quantitative method of splitting up a set of ranked data into 10 equally large subsections. 
+- This type of data ranking is performed as part of many academic and statistical studies in the finance and economics fields. The data may be ranked from largest to smallest values, or vice versa.
+- A decile, which has 10 categorical buckets may be contrasted with percentiles that have 100, quartiles that have four, or quintiles that have five.
+- A decile is a quantitative method of splitting up a set of ranked data into 10 equally large subsections.
+- A decile rank arranges the data in order from lowest to highest and is done on a scale of one to 10 where each successive number corresponds to an increase of 10 percentage points.
+- This type of data ranking is performed as part of many academic and statistical studies in the finance and economics fields.
+
+
+
+
+![modulo](../public/images/general math/decile.png)
