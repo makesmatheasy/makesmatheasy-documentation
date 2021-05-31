@@ -378,11 +378,226 @@ $$ c*\log_b (x) + d*\log_b (y) = \log_b (x^c*y^d) $$
 
 ![mean](../public/images/general math/mean.png)
 
+# Pythagorean Triplets
+- Pythagorean triples are a2+b2 = c2 where a, b and c are the three positive integers. These triples are represented as (a,b,c). Here, a is the perpendicular, b is the base and c is the hypotenuse of the right-angled triangle. The most known and smallest triplets are (3,4,5).
+- The integer solutions to the Pythagorean Theorem, a2 + b2 = c2 are called Pythagorean Triples which contains three positive integers a, b, and c.
+  - Example: (3, 4, 5)
+  - By evaluating we get:
+  - 32 + 42 = 52
+  - 9+16 = 25
+  - Hence, 3,4 and 5 are the Pythagorean triples.
+
+
+
+![mean](../public/images/general math/pythagorean.png)
+
+
+# Hydrostatic Pressure Calculator
+- Hydrostatic pressure is defined as The pressure exerted by a fluid at equilibrium at any point of time due to the force of gravity.
+- Hydrostatic pressure is proportional to the depth measured from the surface as the weight of the fluid increases when a downward force is applied.
+- The fluid pressure can be caused by gravity, acceleration or forces when in a closed container. Consider a layer of water from the top of the bottle. 
+- There is a pressure exerted by the layer of water acting on the sides of the bottle. 
+- As we move down from the top of the bottle to the bottom, the pressure exerted by the top layer on the bottom adds up.  
+- This phenomenon is responsible for more pressure at the bottom of the container.
+
+
+![mean](../public/images/general math/hydro.png)
+
+
+# Logorithm Properties
+- Let m and n be arbitrary positive numbers ,a >0 , a!=1,b>0,b!=1 and $$ \alpha \beta $$ be any real numbers , then
+  
+<p>  
+
+$$ log_{a} (mn) = log_{a}m + log_{a}n $$
+$$ log_{a} \dfrac{m}{n} = log_{a}m - log_{a}n $$
+$$ log_{a} m^{\alpha} = \alpha log_{a}m  $$
+$$ log_{a} \beta m = \dfrac{1}{\beta} log_{a}m  $$
+$$ log_{b}  m = \dfrac{log_{\alpha}m}{log_{\alpha}b}   $$
+
+</p>  
+
+- Use this tool to find logorithmic value
+
+![mean](../public/images/general math/log.png)
+
+
+
+# Binomial Theorems
+- General Formula
+
+<p>
+
+$$ (x+y)^n = nC_{r} x^{n-r} . y^{r} + nC_{r} x^{n-r} . y^{r}  + ....... + nC_{n}-1 x.y^{n-1} + nC_{n} y^{n} $$
+$$ where \enspace nC_{r} = \dfrac{n!}{(n-r)! r!} $$
+
+</p>
+
+- Some Useful Expansions
+
+<p>
+
+$$ (x+y)^n + (x-y)^n = 2[nC_{0} x^n + nC_{2} x^{n-1} y^2 + nC_{4} x^{n-4} y^{4} + ......] $$
+$$ (x+y)^n - (x-y)^n = 2[nC_{1} x^n + nC_{3} x^{n-3} y^3 + nC_{5} x^{n-5} y^{5} + ......] $$
+$$ (1 + x)^n = [nC_{0} + nC_{1}x + nC_{2}x^2 + .....+ nC_{n} X^n] $$
+
+</p>
+
+- Properties of binomial coefficients
+
+<p>
+
+$$ c_{0} + c_{1} + C_{2} .... C_{n} = 2^n $$
+$$ c_{0} + c_{2} + C_{4} .... =  C_{1} + C_{3} + C_{5} = 2^{n-1} $$
+$$ C_{0} - C_{1} + C_{2} - C_{3} ..... + (-1)^n .nC_{n} = 0 $$
+
+</p>
+
+
+
+# Binomial Coefficient Calculator and Binomial Expression Multiplication
+
+![mean](../public/images/general math/binomial-1.png)
+
+![mean](../public/images/general math/binomial-2.png)
+
+
+# Foil Calculator
+- FOIL is a method for multiplying two binomials
+- FOIL is an acronym for the four terms appearing in the final result
+  - F -> First term of each binomial are multiplied
+  - O -> Outer terms are multiplied
+  - I -> Inner terms are multiplied
+  - L -> Last terms are multiplied
+
+![mean](../public/images/general math/foil.png)
+
+
+![mean](../public/images/general math/foil-1.png)
+
+
+
+
+# Golden ratio
+- The golden ration, is obtained when two segment lengths have the same proportion as the proportion of their sum to the larger of the two lengths
+- The golden ratio has a value of approximately 1.618
+- if 'a' is longer section and 'b' is shorter then
+
+<p>
+
+$$ \dfrac{a+b}{b} = \dfrac{a}{b} $$
+
+</p>
+
+![mean](../public/images/general math/golden-ratio.png)
+
+
+# Golden Rectangle
+- The golden rectangle is a rectangle whose sides are in the golden ratio
+- the golden ratio has a value of approximately 1.618
+- if 'a' is width and 'a+b' is length of golden rectangle then
+
+<p>
+
+$$ \dfrac{a+b}{b} = \dfrac{a}{b} $$
+
+</p>
+
+![mean](../public/images/general math/mgolden-rectangl.png)
+
+
 # Prime Numbers
 - A prime number is a natural number greater than 1 that is not a product of two smaller natural numbers.
 - This function checks whether the given input is prime or not. Additionally it provides the feature to output the prime number till the entered number.
 
 ![prime](../public/images/general math/prime.png)
+
+# Euler Totient 
+- Euler's totient function, also known as phi-function ϕ(n), counts the number of integers between 1 and n inclusive, which are coprime to n. 
+- Two numbers are coprime if their greatest common divisor equals 1 (1 is considered to be coprime to any number).
+- Use this tool to find 
+  - Euler Totient functions for all numbers smaller than or equal to n
+  - Perfect totient number
+  - Count of elements having euler totient value one less than itself
+  - count integers in a range which are divisiblel by their euler totient value and so on
+![prime](../public/images/general math/euler.png)
+
+![prime](../public/images/general math/euler-2.png)
+
+
+# Co-Primes Number theory
+- ‘Co’ refers to a ‘pair’. So, we can define a pair of integers, let's say a and b, as coprime or primes to each other or mutually prime or relatively prime if:
+  - the only positive integer that divides both of them to give a remainder zero is 1
+  - In other words, the HCF of the two numbers is 1
+  - Coprime numbers are denoted as gcd(a, b)=1 or (a, b)=1 or as “a is prime to b”
+- How to find Coprime numbers?
+  - Let's understand it with the help of an example:
+  - Let's consider two numbers 6 and 15.
+  - Now find out the factors of 6 and 15. We get the factors of 6 as 1, 2, 3, 6 and factors of 15 as 1, 3, 5, 15.
+  - On comparing the factors of these two numbers 6 and 15, we see that both these numbers have factors 1 and 3 in common. 
+  - The HCF for this pair is 3. Therefore the pair is not coprime.
+- Properties of Coprime numbers
+  - 1) Numbers that are coprime may not necessarily be prime numbers themselves. For eg: (10,21), the numbers are not prime numbers if taken individually but they are coprime if considered as a pair. This concludes that composite numbers can be coprime numbers too.
+  - 2) Prime numbers are coprime by default. For eg: (2,3), (5,11), (19,23) and so on. Every prime number has only two factors i.e. 1 and the number itself. Therefore, the only common factor of a pair of two prime numbers will be 1.
+  - 3) Unity is considered coprime with everything else.
+  - 4) The concept of coprime is meaningful only with natural numbers.
+  - 5) Two successive integers are always coprime. For eg: (2,3), (11,12), (99,100) and so on; they have 1 as their HCF.
+  - 6) The sum of any two coprime numbers is always coprime with the product of the same two coprime numbers. For eg: The sum of 2 and 3 is 5 and the product of 2 and 3 is 6. Hence, 5 and 6 are coprime numbers.
+  - 7) If p and q are coprime numbers then p2 and q2 are also coprime numbers. For example, the squares of 5 and 6 i.e. 25 and 36 are also coprime to each other.
+
+
+
+# Prime Numbers
+- Prime numbers are the positive integers having only two factors, 1 and the integer itself. 
+- For example, factors of 6 are 1,2,3 and 6, which are four factors in total. 
+- But factors of 7 are only 1 and 7, totally two. 
+- Hence, 7 is a prime number but 6 is not, instead it is a composite number. But always remember that 1 is neither prime nor composite.
+- We can also say that the prime numbers are the numbers, which are only divisible by 1 or the number itself. 
+- Another way of defining it is a positive number or integer, which is not a product of any other two positive integers. 
+- There is no defined formula to find if a number is prime or not (except to a certain range), apart from finding its factors. 
+- A prime number is a positive integer having exactly two factors. 
+- If p is a prime, then it’s only factors are necessarily 1 and p itself. Any number which does not follow this is termed as composite numbers, which means that they can be factored into other positive integers.
+- This tool can be used to check primility of any number and can be used to print n prime numbers
+
+
+![prime-number](../public/images/general math/prime-number.png)
+
+              
+# EMI Calculator
+- An equated monthly installment (EMI) is a fixed payment amount made by a borrower to a lender at a specified date each calendar month. 
+- Equated monthly installments are applied to both interest and principal each month so that over a specified number of years, the loan is paid off in full. 
+- In the most common types of loans—such as real estate mortgages, auto loans, and student loans—the borrower makes fixed periodic payments to the lender over the course of several years with the goal of retiring the loan.
+- An equated monthly installment (EMI) is a fixed payment made by a borrower to a lender on a specified date of each month.
+- EMIs are applied to both interest and principal each month so that over a specified time period, the loan is paid off in full.
+- EMIs can be calculated in two ways: the flat-rate method or the reducing-balance method.
+- The EMI reducing-balance method generally is more favorable for borrowers, as it results in lower interest payments overall.
+- EMIs allow borrowers the peace of mind of knowing exactly how much money they will need to pay each month toward their loan.
+- Formula : 
+
+<p>
+
+$$ \dfrac{(P X I) X ( (1 + r)n)}{(t X ((1 + r)n)-1)} $$
+$$ where \enspace P = Principal \enspace Amount \enspace Borrowed  $$
+$$ I = annual \enspace intrest \enspace rate $$
+$$ r = periodic \enspace monthly \enspace intrest \enspace rate $$
+$$ n = total \enspace number \enspace of \enspace monthly \enspace payments $$
+$$ t = number \enspace of \enspace months \enspace in \enspace a \enspace year $$
+
+</p>
+
+![emi](../public/images/general math/emi.png)
+
+
+# GST Calculator
+- The goods and services tax (GST) is a value-added tax levied on most goods and services sold for domestic consumption. 
+- The GST is paid by consumers, but it is remitted to the government by the businesses selling the goods and services.
+- The goods and services tax (GST) is a tax on goods and services sold domestically for consumption.
+- The tax is included in the final price and paid by consumers at point of sale and passed to the government by the seller.
+- The GST is a common tax used by the majority of countries globally.
+- The GST is usually taxed as a single rate across a nation.
+
+
+![gst](../public/images/general math/gst.png)
 
 # Sum of Divisors
 - The sum of divisors $$\sigma(n)$$ id given by :
@@ -400,6 +615,7 @@ where $$p_1, p_2, ...., p_k$$ are the prime factors of $$n$$.
     </p>
 - This tool just takes the number and returns its sum of divisors.<br>
 ![sumDiv](../public/images/general math/sumDiv.png)
+
 
 # Drichlet's Theorem
 - In number theory, Dirichlet's theorem, also called the Dirichlet prime number theorem, states that for any two positive coprime integers a and d, there are infinitely many primes of the form a + nd, where n is also a positive integer. 
@@ -483,3 +699,82 @@ $$ c_{n} = \dfrac{1}{n+1} \dfrac{2n}{n} $$
 
 
 ![divisor](../public/images/general math/next_prime.png) 
+
+
+# Pronic Number
+- Any number which can be represented as the product of two consecutive numbers is termed as a Pronic Number.
+  - Example:
+    - 0 = 0*1
+    - 2 = 1*2
+    - 6 = 2*3
+    - 12 = 3*4
+    - 20 = 4*5
+- The general formula is: n * (n+1)
+- This tool checks wheather the entered number is pronic or not
+
+![pronic](../public/images/general math/pronic.png)
+
+
+# Automorphic Number
+- A number is called an automorphic number if and only if the square of the given number ends with the same number itself. For example, 25, 76 are automorphic numbers because their square is 625 and 5776, respectively and the last two digits of the square represent the number itself. 
+- Some other automorphic numbers are 5, 6, 36, 890625, etc.
+- This tool checks wheather the entered number is automorphic or not
+
+![automorphic](../public/images/general math/automorphic.png)
+
+
+# Disarium Number
+- A Disarium number is a number defined by the following process: Sum of its digits powered with their respective position is equal to the original number. 
+- Some other DISARIUM are 89, 175, 518 etc
+
+![disarium](../public/images/general math/disarium.png)
+
+
+# Armstrong number
+- Armstrong number is a number that is equal to the sum of cubes of its digits. 
+- For example 0, 1, 153, 370, 371 and 407 are the Armstrong numbers.
+- Let's try to understand why 153 is an Armstrong number.
+  - 153 = (1*1*1)+(5*5*5)+(3*3*3)  
+  - where:  
+  - (1*1*1)=1  
+  - (5*5*5)=125  
+  - (3*3*3)=27  
+  - So:  
+  - 1+125+27=153  
+
+- This tool checks wheather the entered number is armstrong or not
+
+
+![armstrong](../public/images/general math/armstrong.png)
+
+
+# Types of Number
+- This tool is used to print many types of number which include 
+  - Tetrahedral Number
+  - Pentatope Number
+  - Hardy - Ramanujan
+  - Amicable Pair
+  - Fibonacci Number
+  - Tribonacci Number
+  - Even Fibonacci Number
+  - Polygonal Number
+  - Hoax Numbers
+  - Sphenic Number
+
+![armstrong-1](../public/images/general math/types-1.png)
+![armstrong-2](../public/images/general math/types-2.png)
+![armstrong-3](../public/images/general math/types-3.png)
+
+
+# Lucas Series
+- Lucas numbers are similar to Fibonacci numbers. Lucas numbers are also defined as the sum of its two immediately previous terms. But here the first two terms are 2 and 1 whereas in Fibonacci numbers the first two terms are 0 and 1 respectively. 
+
+
+![lucas](../public/images/general math/lucas.png)
+
+
+# Smallest Number Divisible
+- As the name says this tool calculates the smallest number which is divisible by number that you provided
+
+![small](../public/images/general math/small.png)
+
